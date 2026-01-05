@@ -184,7 +184,7 @@ public partial class Administration_User_Add : System.Web.UI.Page
                 ObjnewUser.UserName = CommonBindings.TextToBind(Txt_Name.Text.Trim());
                 ObjnewUser.Desg = CommonBindings.TextToBind(txtDesg.Text);
 
-                ObjnewUser.UserPassword = objSecurity.Encrypt(CommonBindings.TextToBind(txt_Password.Text.Trim()));
+                ObjnewUser.UserPassword = txt_Password.Text.Trim();
                 ObjnewUser.UserEmail = CommonBindings.TextToBind(txt_Email.Text.Trim());
                 ObjnewUser.UserActive = "Y";
                 ObjnewUser.Creatby = Session["USER_ID"].ToString();
