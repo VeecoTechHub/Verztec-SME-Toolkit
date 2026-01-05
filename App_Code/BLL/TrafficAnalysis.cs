@@ -89,8 +89,10 @@ public class TrafficAnalysis
         return obj_DAL.GET_TrafficAnalysis_Login_HitTimes(trafficAnalysis);
     }
 
-
-
+    public DataSet Get_TrafficAnalysis_Temp(int IndustryID)
+    {
+        return obj_DAL.Get_TrafficAnalysis_Temp(IndustryID);
+    }
 
     #region Ateeq
     public DataSet Get_ResLib_TemplateDownloaded(TrafficAnalysis trafficAnalysis)

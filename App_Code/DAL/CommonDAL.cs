@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -3684,6 +3684,20 @@ namespace ABSDAL
 
 
         }
+        public DataSet Get_TrafficAnalysis_Temp(int IndustryID)
+        {
+            try
+            {
+                DbCommand DBCmnd = sqlCon.GetStoredProcCommand("USP_GET_TRAFFICANALYSIS_TEMP");
+                sqlCon.AddInParameter(DBCmnd, "@IndustryId", SqlDbType.Int, IndustryID);
+                return sqlCon.ExecuteDataSet(DBCmnd);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
         #endregion
 
 
