@@ -38,7 +38,14 @@ public partial class Administration_AdminLibraryResources : System.Web.UI.Page
                 if (ViewState["ViewToken"] == null)
                     Response.Redirect("~/Administration/Default.aspx");
                 else
+                {
+                    if (Session["GROUP_ID"] == null || Session["GROUP_ID"].ToString().ToUpper() != "ADMIN")
+                    {
+                        Response.Redirect("~/Administration/Default.aspx");
+                        return;
+                    }
                     DG_ResourcesLibrary.Visible = true;
+                }
                 bindcategory();
 
                 Bind_Data("", "all");

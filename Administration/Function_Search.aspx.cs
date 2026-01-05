@@ -41,6 +41,11 @@ public partial class Administration_Function_Search : System.Web.UI.Page
                 Response.Redirect("~/Administration/Default.aspx");
             else
             {
+                if (Session["GROUP_ID"] == null || Session["GROUP_ID"].ToString().ToUpper() != "ADMIN")
+                {
+                    Response.Redirect("~/Administration/Default.aspx");
+                    return;
+                }
                 Bind_Data();
             }
             //           Button_delete.Attributes.Add("onClick", "return confirm('Are you sure you want to delete the selected items? Once deleted you will not be able to view it again. Click OK to delete. Otherwise, click Cancel.');");
@@ -234,7 +239,6 @@ public partial class Administration_Function_Search : System.Web.UI.Page
 
             string _redirectPath = ConfigurationManager.AppSettings["InternalUrl"] + Convert.ToString(ViewState["fidlink"]);
             this.Page.ClientScript.RegisterStartupScript(this.GetType(), "alertscript", "<Script language='javascript'> alert('User Details Saved Successfully.'); location='" + _redirectPath + "';</Script>");
-
 
 
 

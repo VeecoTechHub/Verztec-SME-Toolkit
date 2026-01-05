@@ -38,6 +38,11 @@ public partial class Administration_PublicUsersList_Search : System.Web.UI.Page
                 Response.Redirect("~/Administration/Default.aspx");
             else
             {
+                if (Session["GROUP_ID"] == null || Session["GROUP_ID"].ToString().ToUpper() != "ADMIN")
+                {
+                    Response.Redirect("~/Administration/Default.aspx");
+                    return;
+                }
                 FillDropDowns();
                 Bind_Data();
             }

@@ -49,6 +49,11 @@ public partial class Administration_FeedbackAnalysis : System.Web.UI.Page
 
             else
             {
+                if (Session["GROUP_ID"] == null || Session["GROUP_ID"].ToString().ToUpper() != "ADMIN")
+                {
+                    Response.Redirect("~/Administration/Default.aspx");
+                    return;
+                }
                 DateTime maxDate = DateTime.Today;
                 DatePicker_StartDate.MaxDate = maxDate;
                 DatePicker_EndDate.MaxDate = maxDate;

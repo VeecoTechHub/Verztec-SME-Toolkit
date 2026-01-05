@@ -42,6 +42,11 @@ public partial class Administration_CodeMaster_Search : System.Web.UI.Page
             }
             else
             {
+                if (Session["GROUP_ID"] == null || Session["GROUP_ID"].ToString().ToUpper() != "ADMIN")
+                {
+                    Response.Redirect("~/Administration/Default.aspx");
+                    return;
+                }
 
 
                 if (Session["USER_ID"] != null)

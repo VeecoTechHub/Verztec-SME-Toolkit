@@ -56,6 +56,15 @@ public partial class Administration_AdminBanner : System.Web.UI.Page
 
             if (token == null)
                 Response.Redirect("~/Administration/Default.aspx");
+            else
+            {
+                if (Session["GROUP_ID"] == null || Session["GROUP_ID"].ToString().ToUpper() != "ADMIN")
+                {
+                    Response.Redirect("~/Administration/Default.aspx");
+                    return;
+                }
+                Getdata();
+            }
         }
         //else
         //{

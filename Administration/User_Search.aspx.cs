@@ -27,6 +27,12 @@ public partial class Administration_User_Search : System.Web.UI.Page
         DG_User_List.Visible = true;
         if (!(Page.IsPostBack))
         {
+            // Check if user has Admin or Manager privileges
+            if (Session["GROUP_ID"] == null || (Session["GROUP_ID"].ToString().ToUpper() != "ADMIN" && Session["GROUP_ID"].ToString().ToUpper() != "MANAGER"))
+            {
+                Response.Redirect("~/Administration/Default.aspx");
+                return;
+            }
             ViewState["Links"] = chkAccess.initSystem();
             ViewState["t_url"] = "../" + ViewState["Links"].ToString().Split('|')[2];
             ViewState["t_urladd"] = "../" + ViewState["Links"].ToString().Split('|')[1];

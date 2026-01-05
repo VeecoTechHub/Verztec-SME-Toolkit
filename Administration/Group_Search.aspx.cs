@@ -44,6 +44,11 @@ public partial class Administration_Group_Search : System.Web.UI.Page
             }
             else
             {
+                if (Session["GROUP_ID"] == null || Session["GROUP_ID"].ToString().ToUpper() != "ADMIN")
+                {
+                    Response.Redirect("~/Administration/Default.aspx");
+                    return;
+                }
                 this.DG_Group_List.CurrentPageIndex = 0;
                 Bind_Data();
             }
