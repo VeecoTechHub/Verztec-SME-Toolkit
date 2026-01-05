@@ -73,18 +73,11 @@ public partial class Administration_Default : System.Web.UI.Page
                 if (dsLogins.Tables[0].Rows[0][0].ToString() == "1")
                 {
                     IsAdmin(dsLogins.Tables[0]);
-                    //Response.Redirect("Main_administration.aspx");
                     Response.Redirect("Main.aspx");
                 }
-                //else if (dsLogins.Tables[0].Rows[0][0].ToString() == "2")
-                //{
-                //    Lblerror.Text = "Invalid Password. Please try again.";
-                //    Lblerror.Visible = true;
-                //}
                 else
                 {
-                    //Lblerror.Text = "Invalid User name. Please try again.";
-					Lblerror.Text = "The username or password you entered is incorrect.";
+                    Lblerror.Text = "The username or password you entered is incorrect.";
                     Lblerror.Visible = true;
                 }
             }

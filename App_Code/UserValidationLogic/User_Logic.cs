@@ -387,7 +387,15 @@ public class User_Logic
             Desg = drTemp["Desg"].ToString();
             GroupID = drTemp["GROUP_ID"].ToString();
             UserEmail = drTemp["EMAIL_ID"].ToString();
-            UserPassword = CommonFunctions.EncryptText(drTemp["PSWD"].ToString());
+            try
+            {
+                UserPassword = CommonFunctions.Decrypt(drTemp["PSWD"].ToString());
+            }
+            catch (Exception ex)
+            {
+                System.Diagnostics.Debug.WriteLine("Password Decryption Error for USER_ID: " + USER_ID + " - " + ex.Message);
+                UserPassword = "";
+            }
             UserActive = drTemp["ACTIVE_IND"].ToString();
         }
     }
@@ -454,7 +462,8 @@ public class User_Logic
         parameter[3] = CommonFunctions.MakeParam("@pGroupId", SqlDbType.VarChar, 50, ParameterDirection.Input, GroupID);
         parameter[4] = CommonFunctions.MakeParam("@pEmailId", SqlDbType.VarChar, 50, ParameterDirection.Input, UserEmail);
         parameter[5] = CommonFunctions.MakeParam("@pTelephoneNo", SqlDbType.VarChar, 50, ParameterDirection.Input, Telephone);
-        parameter[6] = CommonFunctions.MakeParam("@pPassword", SqlDbType.VarChar, 50, ParameterDirection.Input, CommonFunctions.EncryptText(delQuote(UserPassword)));
+        ABSSecurity.Security objSecurity = new ABSSecurity.Security();
+        parameter[6] = CommonFunctions.MakeParam("@pPassword", SqlDbType.VarChar, 50, ParameterDirection.Input, objSecurity.Encrypt(delQuote(UserPassword)));
         parameter[7] = CommonFunctions.MakeParam("@pIsActive", SqlDbType.VarChar, 50, ParameterDirection.Input, UserActive);
         parameter[8] = CommonFunctions.MakeParam("@pCreated_by", SqlDbType.VarChar, 50, ParameterDirection.Input, CREAT_BY);
         parameter[9] = CommonFunctions.MakeParam("@pMaint_by", SqlDbType.VarChar, 50, ParameterDirection.Input, MAINT_BY);
@@ -475,7 +484,8 @@ public class User_Logic
         parameter[3] = CommonFunctions.MakeParam("@pGroupId", SqlDbType.VarChar, 50, ParameterDirection.Input, GroupID);
         parameter[4] = CommonFunctions.MakeParam("@pEmailId", SqlDbType.VarChar, 50, ParameterDirection.Input, UserEmail);
         parameter[5] = CommonFunctions.MakeParam("@pTelephoneNo", SqlDbType.VarChar, 50, ParameterDirection.Input, Telephone);
-        parameter[6] = CommonFunctions.MakeParam("@pPassword", SqlDbType.VarChar, 50, ParameterDirection.Input, UserPassword);
+        ABSSecurity.Security objSecurity = new ABSSecurity.Security();
+        parameter[6] = CommonFunctions.MakeParam("@pPassword", SqlDbType.VarChar, 50, ParameterDirection.Input, objSecurity.Encrypt(UserPassword));
         parameter[7] = CommonFunctions.MakeParam("@pIsActive", SqlDbType.VarChar, 50, ParameterDirection.Input, UserActive);
         parameter[8] = CommonFunctions.MakeParam("@pMaint_by", SqlDbType.VarChar, 50, ParameterDirection.Input, MAINT_BY);
         parameter[9] = CommonFunctions.MakeParam("@pOperation", SqlDbType.VarChar, 50, ParameterDirection.Input, "UpdateUser");
@@ -491,7 +501,8 @@ public class User_Logic
         DataSet dsTemp = new DataSet();
         SqlParameter[] parameter = new SqlParameter[4];
         parameter[0] = CommonFunctions.MakeParam("@pUserId", SqlDbType.VarChar, 50, ParameterDirection.Input, UserID);
-        parameter[1] = CommonFunctions.MakeParam("@pPassword", SqlDbType.VarChar, 50, ParameterDirection.Input, UserPassword);
+        ABSSecurity.Security objSecurity = new ABSSecurity.Security();
+        parameter[1] = CommonFunctions.MakeParam("@pPassword", SqlDbType.VarChar, 50, ParameterDirection.Input, objSecurity.Encrypt(UserPassword));
         parameter[2] = CommonFunctions.MakeParam("@pOperation", SqlDbType.VarChar, 50, ParameterDirection.Input, "CheckUserID");
         parameter[3] = CommonFunctions.MakeParam("@pOpStatus", SqlDbType.Int, 50, ParameterDirection.Output, "");
         dsTemp=DAL.GetListWithParam("[Usp_UserMgmt]", parameter);
@@ -522,8 +533,9 @@ public class User_Logic
     {
         SqlParameter[] parameter = new SqlParameter[5];
         parameter[0] = CommonFunctions.MakeParam("@pUserId", SqlDbType.VarChar, 50, ParameterDirection.Input, UserID);
-        parameter[1] = CommonFunctions.MakeParam("@pPassword", SqlDbType.VarChar, 50, ParameterDirection.Input, UserPassword);
-        parameter[2] = CommonFunctions.MakeParam("@pNewPassword", SqlDbType.VarChar, 50, ParameterDirection.Input, newPassword);
+        ABSSecurity.Security objSecurity = new ABSSecurity.Security();
+        parameter[1] = CommonFunctions.MakeParam("@pPassword", SqlDbType.VarChar, 50, ParameterDirection.Input, objSecurity.Encrypt(UserPassword));
+        parameter[2] = CommonFunctions.MakeParam("@pNewPassword", SqlDbType.VarChar, 50, ParameterDirection.Input, objSecurity.Encrypt(newPassword));
         parameter[3] = CommonFunctions.MakeParam("@pOperation", SqlDbType.VarChar, 50, ParameterDirection.Input, "ChangePassword");
         parameter[4] = CommonFunctions.MakeParam("@pOpStatus", SqlDbType.Int, 50, ParameterDirection.Output, "");
         DAL.DBExecNonQuery("[Usp_UserMgmt]", parameter);
@@ -550,7 +562,10 @@ public class User_Logic
     /// </summary>
     public static string sessionU_ID
     {
-        get { return HttpContext.Current.Session["USER_GUID"] == null ? string.Empty : HttpContext.Current.Session["USER_GUID"].ToString().ToUpper(); }
+        get {
+            if (HttpContext.Current == null || HttpContext.Current.Session == null) return string.Empty;
+            return HttpContext.Current.Session["USER_GUID"] == null ? string.Empty : HttpContext.Current.Session["USER_GUID"].ToString().ToUpper();
+        }
         set { HttpContext.Current.Session["USER_GUID"] = value; }
     }
 

@@ -44,25 +44,19 @@
 
     void Session_End(object sender, EventArgs e) 
     {
-        // Code that runs when a session ends. 
-        // Note: The Session_End event is raised only when the sessionstate mode
-        // is set to InProc in the Web.config file. If session mode is set to StateServer 
-        // or SQLServer, the event is not raised.
-
-        //Save logout time when a session End
         ABSDTO.LoginDTO objLoginDTO = (ABSDTO.LoginDTO)Session["LoginDTO"];
-        objLoginDTO.UserID = objLoginDTO.UserID;
+        
+        if (objLoginDTO == null)
+            return; // No logged-in user to track
+        
         objLoginDTO.Flag = "Update";
-        if (Session["LogId"] != "" && Session["LogId"] != null)
+        if (Session["LogId"] != null && Session["LogId"] != "")
         {
             objLoginDTO.LogId = Convert.ToInt32(Session["LogId"]);
         }
 
         ABSBLL.Registration objRegs = new ABSBLL.Registration();
         objRegs.InsertUserLogs(objLoginDTO);
-
-
-
     }
        
 </script>

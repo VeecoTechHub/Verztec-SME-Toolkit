@@ -23,42 +23,59 @@ public partial class Administration_User_Update : System.Web.UI.Page
 
     protected void Page_Load(object sender, EventArgs e)
     {
-
-        
-           
-
-        if (!(Page.IsPostBack))
+        try
         {
-            ViewState["Links"] = chkAccess.initSystem();
-            ViewState["t_url"] = "../" + ViewState["Links"].ToString().Split('|')[0];
-            ViewState["fidlink"] = Convert.ToString(Session["fidlink"]);
-             token = Request.Form["token"];
-           // ViewState["t_url"] = "AdminResourcesLibrary.aspx?RL_ID=00";
-
-             // ViewState["t_url"] = "../" + ViewState["Links"].ToString().Split('|')[0];
-            if (token == null)
+            if (!(Page.IsPostBack))
             {
-                Response.Redirect("default.aspx");
-            }
+                ViewState["Links"] = chkAccess.initSystem();
+                ViewState["t_url"] = "../" + ViewState["Links"].ToString().Split('|')[0];
+                ViewState["fidlink"] = Convert.ToString(Session["fidlink"]);
+                token = Request["token"];
 
-            else
-            {
-               //changes ViewState["t_url"] = "../" + ViewState["Links"].ToString().Split('|')[2];
-                if (Request["IDforEdit"].ToString() == ""  )
-                { Uid = Request["IDforEdit"].ToString();
-                //ddlGroupName.DataSource = ObjUser.GetAllGroups(Session["group_id"].ToString());
-                //ddlGroupName.DataTextField = "GROUP_DESCR";
-                //ddlGroupName.DataValueField = "GROUP_ID";
-                //ddlGroupName.DataBind();
+                if (token == null)
+                {
+                    Response.Redirect("~/Administration/Default.aspx");
                 }
                 else
                 {
-                    Uid = CommonFunctions.Decrypt(Request["IDforEdit"].ToString());
-                    Bind_Data();
+                    if (Request["IDforEdit"] == null || Request["IDforEdit"].ToString() == "")
+                    {
+                        Uid = "";
+                    }
+                    else
+                    {
+                        try
+                        {
+                            string encryptedId = HttpUtility.UrlDecode(Request["IDforEdit"].ToString());
+                            Uid = CommonFunctions.Decrypt(encryptedId);
+                            
+                            // Validate that Uid is not empty before binding data
+                            if (!string.IsNullOrEmpty(Uid))
+                            {
+                                Bind_Data();
+                            }
+                            else
+                            {
+                                throw new Exception("Decrypted USER_ID is empty");
+                            }
+                        }
+                        catch (Exception ex)
+                        {
+                            System.Diagnostics.Debug.WriteLine("Error in Page_Load: " + ex.Message);
+                            System.Diagnostics.Debug.WriteLine("Stack Trace: " + ex.StackTrace);
+                            Response.Redirect("~/Administration/Default.aspx");
+                            return;
+                        }
+                    }
+                    ViewState["IDforEdit"] = Uid;
                 }
-                ViewState["IDforEdit"] = Uid;
-               
             }
+        }
+        catch (Exception ex)
+        {
+            System.Diagnostics.Debug.WriteLine("Outer Page_Load Error: " + ex.Message);
+            System.Diagnostics.Debug.WriteLine("Stack Trace: " + ex.StackTrace);
+            Response.Redirect("~/Administration/Default.aspx");
         }
     }
 
@@ -72,42 +89,48 @@ public partial class Administration_User_Update : System.Web.UI.Page
 
     private void Bind_Data()
     {
-
-        if (Uid != "")
+        try
         {
-           ObjUser.GetUsers( Uid);
-           // ObjUser.GetUsers(CommonFunctions.Decrypt (CommonFunctions.Encrypt ( Uid)));
+            if (Uid != "")
+            {
+                ObjUser.GetUsers(Uid);
+                
+                // Check if user data was actually loaded
+                if (string.IsNullOrEmpty(ObjUser.UserName))
+                {
+                    throw new Exception("User data not found for ID: " + Uid);
+                }
+            }
 
+            DataSet groupsDS = ObjUser.GetAllGroups(Session["GROUP_ID"].ToString());
+            if (groupsDS != null && groupsDS.Tables.Count > 0 && groupsDS.Tables[0].Rows.Count > 0)
+            {
+                ddlGroupName.DataSource = groupsDS;
+                ddlGroupName.DataTextField = "GROUP_DESCR";
+                ddlGroupName.DataValueField = "GROUP_ID";
+                ddlGroupName.DataBind();
+                
+                if (!string.IsNullOrEmpty(ObjUser.GroupID) && ddlGroupName.Items.FindByValue(ObjUser.GroupID) != null)
+                    ddlGroupName.Items.FindByValue(ObjUser.GroupID).Selected = true;
+            }
+            
+            if (Session["GROUP_ID"] != null && Session["GROUP_ID"].ToString() == "ADUST01")
+                ddlGroupName.Enabled = false;
 
-
+            Txt_Userid.Text = CommonBindings.TextToBind(ObjUser.USER_ID);
+            txtDesg.Text = CommonBindings.TextToBind(ObjUser.Desg);
+            txt_Tel.Text = CommonBindings.TextToBind(ObjUser.Telephone);
+            txt_Password.Text = CommonBindings.TextToBind(ObjUser.UserPassword);
+            txt_ConPassword.Text = CommonBindings.TextToBind(ObjUser.UserPassword);
+            txt_Email.Text = CommonBindings.TextToBind(ObjUser.UserEmail);
+            Txt_Name.Text = CommonBindings.TextToBind(ObjUser.UserName);
         }
-
-        ddlGroupName.DataSource = ObjUser.GetAllGroups(Session["group_id"].ToString());
-        ddlGroupName.DataTextField = "GROUP_DESCR";
-        ddlGroupName.DataValueField = "GROUP_ID";
-        ddlGroupName.DataBind();
-        ddlGroupName.Items.FindByValue(ObjUser.GroupID).Selected = true;
-        if (Session["GROUP_ID"].ToString() == "ADUST01")
-            ddlGroupName.Enabled = false;
-        /****************************************************/
-
-        //ddlDept.DataSource = ObjUser.GetAllDepartments();
-        //ddlDept.DataTextField = "Description";
-        //ddlDept.DataValueField = "DeptID";
-        //ddlDept.DataBind();
-        //if (ddlDept.Items.FindByValue(ObjUser.DeptID) != null)
-        //ddlDept.Items.FindByValue(ObjUser.DeptID).Selected = true;
-        /****************************************************/
-
-
-        Txt_Userid.Text = CommonBindings.TextToBind(ObjUser.USER_ID);
-        txtDesg.Text = CommonBindings.TextToBind(ObjUser.Desg);
-        txt_Tel.Text = CommonBindings.TextToBind(ObjUser.Telephone);
-        txt_Password.Text = CommonBindings.TextToBind(ObjUser.UserPassword);
-        txt_ConPassword.Text = CommonBindings.TextToBind(ObjUser.UserPassword);
-        txt_Email.Text = CommonBindings.TextToBind(ObjUser.UserEmail);
-        Txt_Name.Text = CommonBindings.TextToBind(ObjUser.UserName);
-
+        catch (Exception ex)
+        {
+            System.Diagnostics.Debug.WriteLine("Bind_Data Error: " + ex.Message);
+            System.Diagnostics.Debug.WriteLine("Stack Trace: " + ex.StackTrace);
+            throw;
+        }
     }
 
 

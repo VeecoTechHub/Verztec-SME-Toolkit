@@ -97,40 +97,52 @@ public class CommonFunctions
 
     public string Decrypt(string stringToDecrypt)//Decrypt the content
     {
-
         byte[] key;
         byte[] IV;
-
         byte[] inputByteArray;
+        
         try
         {
+            if (string.IsNullOrEmpty(stringToDecrypt))
+            {
+                throw new ArgumentException("Input string to decrypt cannot be null or empty");
+            }
 
             key = Convert2ByteArray(DESKey);
-
             IV = Convert2ByteArray(DESIV);
 
             int len = stringToDecrypt.Length;
             
-            inputByteArray = Convert.FromBase64String(stringToDecrypt);
-
+            try
+            {
+                inputByteArray = Convert.FromBase64String(stringToDecrypt);
+            }
+            catch (FormatException ex)
+            {
+                System.Diagnostics.Debug.WriteLine("Base64 Decode Error. Input length: " + stringToDecrypt.Length + ", Input: " + stringToDecrypt);
+                throw new FormatException("Invalid Base64 format. Ensure the input string is properly URL-decoded. Input length: " + stringToDecrypt.Length, ex);
+            }
 
             DESCryptoServiceProvider des = new DESCryptoServiceProvider();
-
             MemoryStream ms = new MemoryStream();
-
             CryptoStream cs = new CryptoStream(ms, des.CreateDecryptor(key, IV), CryptoStreamMode.Write);
+            
             cs.Write(inputByteArray, 0, inputByteArray.Length);
-
             cs.FlushFinalBlock();
 
-            Encoding encoding = Encoding.UTF8; return encoding.GetString(ms.ToArray());
+            Encoding encoding = Encoding.UTF8;
+            string result = encoding.GetString(ms.ToArray());
+            
+            ms.Close();
+            cs.Close();
+            
+            return result;
         }
-
         catch (System.Exception ex)
         {
-            throw ex;
+            System.Diagnostics.Debug.WriteLine("Decrypt Error: " + ex.Message);
+            throw;
         }
-
     }
 
     public string Encrypt(string stringToEncrypt)// Encrypt the content

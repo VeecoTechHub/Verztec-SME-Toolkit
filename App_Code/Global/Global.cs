@@ -440,40 +440,47 @@ namespace Global
             string UserDetails = string.Empty;
             User_Logic objSession = new User_Logic();
 
-            if (User_Logic.sessionU_ID != null)
-                UserDetails = UserDetails + "\n\n User ID: " + User_Logic.sessionU_ID + "\n  ";
+            // Check if HttpContext is available before accessing session
+            if (HttpContext.Current != null && HttpContext.Current.Session != null)
+            {
+                if (User_Logic.sessionU_ID != null)
+                    UserDetails = UserDetails + "\n\n User ID: " + User_Logic.sessionU_ID + "\n  ";
 
-            //if (User_Logic.sessionUserId != null)
-            //    UserDetails = UserDetails + "USER ID: " + User_Logic.sessionUserId + "\n";
-
-            //if (User_Logic.sessionGROUPID != null)
-            //    UserDetails = UserDetails + "Group ID: " + User_Logic.sessionGROUPID + "\n";
-
-            if (User_Logic.sessionUSERName != null)
-                UserDetails = UserDetails + "User Name: " + User_Logic.sessionUSERName + "\n  ";
+                if (User_Logic.sessionUSERName != null)
+                    UserDetails = UserDetails + "User Name: " + User_Logic.sessionUSERName + "\n  ";
+            }
 
             //Create object
             error_handler EH = new error_handler();
             //Set MessageType
             EH.MsgType = MessageType.TextFile;
 
-            HttpContext ctx = HttpContext.Current;
-            //Exception exception = ctx.Server.GetLastError();
+            string errorInfo;
+            if (HttpContext.Current != null)
+            {
+                HttpContext ctx = HttpContext.Current;
+                string InnerException = string.Empty;
 
-            string InnerException = string.Empty;
+                if (exception.InnerException != null)
+                    InnerException = "Inner exception: " + exception.InnerException.ToString();
 
-            if (exception.InnerException != null)
-                InnerException = "Inner exception: " + exception.InnerException.ToString();
-
-            string errorInfo =
-           "\n\n Offending URL: " + ctx.Request.Url.ToString() +
-           "\n Source: " + exception.Source +
-           "\n Message: " + exception.Message +
-           "\n " + InnerException +
-           "\n Stack trace: " + exception.StackTrace;
+                errorInfo =
+               "\n\n Offending URL: " + ctx.Request.Url.ToString() +
+               "\n Source: " + exception.Source +
+               "\n Message: " + exception.Message +
+               "\n " + InnerException +
+               "\n Stack trace: " + exception.StackTrace;
+            }
+            else
+            {
+                // Fallback when HttpContext is not available
+                errorInfo = "\n\n HttpContext not available during error handling." +
+               "\n Source: " + exception.Source +
+               "\n Message: " + exception.Message +
+               "\n Stack trace: " + exception.StackTrace;
+            }
 
             EH.RaiseError(UserDetails + errorInfo);
-
         }
 
         #region ReadTextFile
