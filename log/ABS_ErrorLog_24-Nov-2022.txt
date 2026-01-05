@@ -1,0 +1,59 @@
+Logged On: 11/24/2022 5:09:26 PM
+
+
+Error Description: 
+
+ User ID: A57AB490-DBDC-4117-B79D-B702FDB71C20
+  User Name: THAIN LIN
+  
+
+ Offending URL: http://smetoolkit.abs.org.sg/FinancialModeling/SciStatement.aspx
+ Source: System.Web
+ Message: Exception of type 'System.Web.HttpUnhandledException' was thrown.
+ Inner exception: System.Data.SqlClient.SqlException (0x80131904): Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at FinancialModeling_SciStatement.SaveData()
+   at FinancialModeling_SciStatement.imgbtnHome_Click(Object sender, ImageClickEventArgs e)
+   at System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   at System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:42c70fc7-b57b-4f49-90aa-56d5b572f3ad
+Error Number:-2,State:0,Class:11
+ Stack trace:    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)Browser Capabilities
+IP Address = 10.188.3.6
+Type = Chrome107
+Name = Chrome
+Version = 107.0
+Major Version = 107
+Minor Version = 0
+Platform = WinNT
+Is Beta = False
+Is Crawler = False
+Is AOL = False
+Is Win16 = False
+Is Win32 = True
+Supports Frames = True
+Supports Tables = True
+Supports Cookies = True
+Supports VBScript = False
+Supports JavaScript = True
+Supports Java Applets = True
+Supports BackgroundSounds = False
+Supports ActiveX Controls = False
+Browser = Chrome
+CDF = False
+CLR Version = 0.0
+ECMA Script version = 3.0
+MSDOM version = 0.0
+Supports tables = True
+W3C DOM version = 1.0
+
+
+
+----------------------------

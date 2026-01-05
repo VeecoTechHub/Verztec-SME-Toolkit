@@ -1,0 +1,2971 @@
+Logged On: 12/25/2023 12:00:00 AM
+
+
+Error Description: 
+
+ User ID: 
+  User Name: 
+  
+
+ Offending URL: http://smetoolkit.abs.org.sg/Error_Page.aspx
+ Source: System.Web
+ Message: A potentially dangerous Request.Form value was detected from the client (ctl00$ContentPlaceHolder1$ddlIndustry="0'"()&%<zzz><ScRiPt >n9a3(9...").
+ 
+ Stack trace:    at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateHttpValueCollection(HttpValueCollection collection, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)Browser Capabilities
+IP Address = 10.188.3.6
+Type = Chrome120
+Name = Chrome
+Version = 120.0
+Major Version = 120
+Minor Version = 0
+Platform = WinNT
+Is Beta = False
+Is Crawler = False
+Is AOL = False
+Is Win16 = False
+Is Win32 = True
+Supports Frames = True
+Supports Tables = True
+Supports Cookies = True
+Supports VBScript = False
+Supports JavaScript = True
+Supports Java Applets = True
+Supports BackgroundSounds = False
+Supports ActiveX Controls = False
+Browser = Chrome
+CDF = False
+CLR Version = 0.0
+ECMA Script version = 3.0
+MSDOM version = 0.0
+Supports tables = True
+W3C DOM version = 1.0
+
+
+
+----------------------------
+Logged On: 12/25/2023 12:00:37 AM
+
+
+Error Description: 
+
+ User ID: 
+  User Name: 
+  
+
+ Offending URL: http://smetoolkit.abs.org.sg/Error_Page.aspx
+ Source: System.Web
+ Message: A potentially dangerous Request.Form value was detected from the client (ctl00$ContentPlaceHolder1$txtName="...xqFm'"()&%<zzz><ScRiPt >zVQa(9...").
+ 
+ Stack trace:    at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateHttpValueCollection(HttpValueCollection collection, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)Browser Capabilities
+IP Address = 10.188.3.6
+Type = Chrome120
+Name = Chrome
+Version = 120.0
+Major Version = 120
+Minor Version = 0
+Platform = WinNT
+Is Beta = False
+Is Crawler = False
+Is AOL = False
+Is Win16 = False
+Is Win32 = True
+Supports Frames = True
+Supports Tables = True
+Supports Cookies = True
+Supports VBScript = False
+Supports JavaScript = True
+Supports Java Applets = True
+Supports BackgroundSounds = False
+Supports ActiveX Controls = False
+Browser = Chrome
+CDF = False
+CLR Version = 0.0
+ECMA Script version = 3.0
+MSDOM version = 0.0
+Supports tables = True
+W3C DOM version = 1.0
+
+
+
+----------------------------
+Logged On: 12/25/2023 12:01:23 AM
+
+
+Error Description: 
+
+ User ID: 
+  User Name: 
+  
+
+ Offending URL: http://smetoolkit.abs.org.sg/Error_Page.aspx
+ Source: System.Web
+ Message: A potentially dangerous Request.Form value was detected from the client (ctl00$ContentPlaceHolder1$txtEmail="'"()&%<zzz><ScRiPt >7gbQ(9...").
+ 
+ Stack trace:    at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateHttpValueCollection(HttpValueCollection collection, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)Browser Capabilities
+IP Address = 10.188.3.6
+Type = Chrome120
+Name = Chrome
+Version = 120.0
+Major Version = 120
+Minor Version = 0
+Platform = WinNT
+Is Beta = False
+Is Crawler = False
+Is AOL = False
+Is Win16 = False
+Is Win32 = True
+Supports Frames = True
+Supports Tables = True
+Supports Cookies = True
+Supports VBScript = False
+Supports JavaScript = True
+Supports Java Applets = True
+Supports BackgroundSounds = False
+Supports ActiveX Controls = False
+Browser = Chrome
+CDF = False
+CLR Version = 0.0
+ECMA Script version = 3.0
+MSDOM version = 0.0
+Supports tables = True
+W3C DOM version = 1.0
+
+
+
+----------------------------
+Logged On: 12/25/2023 12:02:05 AM
+
+
+Error Description: 
+
+ User ID: 
+  User Name: 
+  
+
+ Offending URL: http://smetoolkit.abs.org.sg/Error_Page.aspx
+ Source: System.Web
+ Message: A potentially dangerous Request.Form value was detected from the client (ctl00$ContentPlaceHolder1$txtPassword="....x-F'"()&%<zzz><ScRiPt >PNDy(9...").
+ 
+ Stack trace:    at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateHttpValueCollection(HttpValueCollection collection, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)Browser Capabilities
+IP Address = 10.188.3.6
+Type = Chrome120
+Name = Chrome
+Version = 120.0
+Major Version = 120
+Minor Version = 0
+Platform = WinNT
+Is Beta = False
+Is Crawler = False
+Is AOL = False
+Is Win16 = False
+Is Win32 = True
+Supports Frames = True
+Supports Tables = True
+Supports Cookies = True
+Supports VBScript = False
+Supports JavaScript = True
+Supports Java Applets = True
+Supports BackgroundSounds = False
+Supports ActiveX Controls = False
+Browser = Chrome
+CDF = False
+CLR Version = 0.0
+ECMA Script version = 3.0
+MSDOM version = 0.0
+Supports tables = True
+W3C DOM version = 1.0
+
+
+
+----------------------------
+Logged On: 12/25/2023 12:02:33 AM
+
+
+Error Description: 
+
+ User ID: 
+  User Name: 
+  
+
+ Offending URL: http://smetoolkit.abs.org.sg/Error_Page.aspx
+ Source: System.Web
+ Message: A potentially dangerous Request.Form value was detected from the client (ctl00$ContentPlaceHolder1$txtPassword="'"()&%<zzz><ScRiPt >PNDy(9...").
+ 
+ Stack trace:    at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateHttpValueCollection(HttpValueCollection collection, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)Browser Capabilities
+IP Address = 10.188.3.6
+Type = Chrome120
+Name = Chrome
+Version = 120.0
+Major Version = 120
+Minor Version = 0
+Platform = WinNT
+Is Beta = False
+Is Crawler = False
+Is AOL = False
+Is Win16 = False
+Is Win32 = True
+Supports Frames = True
+Supports Tables = True
+Supports Cookies = True
+Supports VBScript = False
+Supports JavaScript = True
+Supports Java Applets = True
+Supports BackgroundSounds = False
+Supports ActiveX Controls = False
+Browser = Chrome
+CDF = False
+CLR Version = 0.0
+ECMA Script version = 3.0
+MSDOM version = 0.0
+Supports tables = True
+W3C DOM version = 1.0
+
+
+
+----------------------------
+Logged On: 12/25/2023 12:02:59 AM
+
+
+Error Description: 
+
+ User ID: 
+  User Name: 
+  
+
+ Offending URL: http://smetoolkit.abs.org.sg/Public/Registration.aspx
+ Source: System.Web
+ Message: Exception of type 'System.Web.HttpUnhandledException' was thrown.
+ Inner exception: System.ArgumentException: Invalid postback or callback argument.  Event validation is enabled using <pages enableEventValidation="true"/> in configuration or <%@ Page EnableEventValidation="true" %> in a page.  For security purposes, this feature verifies that arguments to postback or callback events originate from the server control that originally rendered them.  If the data is valid and expected, use the ClientScriptManager.RegisterForEventValidation method in order to register the postback or callback data for validation.
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.WebControls.DropDownList.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   at System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ Stack trace:    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)Browser Capabilities
+IP Address = 10.188.3.6
+Type = Chrome120
+Name = Chrome
+Version = 120.0
+Major Version = 120
+Minor Version = 0
+Platform = WinNT
+Is Beta = False
+Is Crawler = False
+Is AOL = False
+Is Win16 = False
+Is Win32 = True
+Supports Frames = True
+Supports Tables = True
+Supports Cookies = True
+Supports VBScript = False
+Supports JavaScript = True
+Supports Java Applets = True
+Supports BackgroundSounds = False
+Supports ActiveX Controls = False
+Browser = Chrome
+CDF = False
+CLR Version = 0.0
+ECMA Script version = 3.0
+MSDOM version = 0.0
+Supports tables = True
+W3C DOM version = 1.0
+
+
+
+----------------------------
+Logged On: 12/25/2023 12:03:29 AM
+
+
+Error Description: 
+
+ User ID: 
+  User Name: 
+  
+
+ Offending URL: http://smetoolkit.abs.org.sg/Error_Page.aspx
+ Source: System.Web
+ Message: A potentially dangerous Request.Form value was detected from the client (ctl00$ContentPlaceHolder1$txtPassword="....x-F'"()&%<zzz><ScRiPt >EUHa(9...").
+ 
+ Stack trace:    at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateHttpValueCollection(HttpValueCollection collection, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)Browser Capabilities
+IP Address = 10.188.3.6
+Type = Chrome120
+Name = Chrome
+Version = 120.0
+Major Version = 120
+Minor Version = 0
+Platform = WinNT
+Is Beta = False
+Is Crawler = False
+Is AOL = False
+Is Win16 = False
+Is Win32 = True
+Supports Frames = True
+Supports Tables = True
+Supports Cookies = True
+Supports VBScript = False
+Supports JavaScript = True
+Supports Java Applets = True
+Supports BackgroundSounds = False
+Supports ActiveX Controls = False
+Browser = Chrome
+CDF = False
+CLR Version = 0.0
+ECMA Script version = 3.0
+MSDOM version = 0.0
+Supports tables = True
+W3C DOM version = 1.0
+
+
+
+----------------------------
+Logged On: 12/25/2023 12:04:00 AM
+
+
+Error Description: 
+
+ User ID: 
+  User Name: 
+  
+
+ Offending URL: http://smetoolkit.abs.org.sg/Public/Registration.aspx
+ Source: System.Web
+ Message: A potentially dangerous Request.Form value was detected from the client (ctl00$ContentPlaceHolder1$txtNoofEmps="<!--").
+ 
+ Stack trace:    at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateHttpValueCollection(HttpValueCollection collection, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)Browser Capabilities
+IP Address = 10.188.3.6
+Type = Chrome120
+Name = Chrome
+Version = 120.0
+Major Version = 120
+Minor Version = 0
+Platform = WinNT
+Is Beta = False
+Is Crawler = False
+Is AOL = False
+Is Win16 = False
+Is Win32 = True
+Supports Frames = True
+Supports Tables = True
+Supports Cookies = True
+Supports VBScript = False
+Supports JavaScript = True
+Supports Java Applets = True
+Supports BackgroundSounds = False
+Supports ActiveX Controls = False
+Browser = Chrome
+CDF = False
+CLR Version = 0.0
+ECMA Script version = 3.0
+MSDOM version = 0.0
+Supports tables = True
+W3C DOM version = 1.0
+
+
+
+----------------------------
+Logged On: 12/25/2023 12:04:38 AM
+
+
+Error Description: 
+
+ User ID: 
+  User Name: 
+  
+
+ Offending URL: http://smetoolkit.abs.org.sg/Error_Page.aspx
+ Source: System.Web
+ Message: A potentially dangerous Request.Form value was detected from the client (ctl00$ContentPlaceHolder1$txtRePassword="'"()&%<zzz><ScRiPt >EUHa(9...").
+ 
+ Stack trace:    at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateHttpValueCollection(HttpValueCollection collection, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)Browser Capabilities
+IP Address = 10.188.3.6
+Type = Chrome120
+Name = Chrome
+Version = 120.0
+Major Version = 120
+Minor Version = 0
+Platform = WinNT
+Is Beta = False
+Is Crawler = False
+Is AOL = False
+Is Win16 = False
+Is Win32 = True
+Supports Frames = True
+Supports Tables = True
+Supports Cookies = True
+Supports VBScript = False
+Supports JavaScript = True
+Supports Java Applets = True
+Supports BackgroundSounds = False
+Supports ActiveX Controls = False
+Browser = Chrome
+CDF = False
+CLR Version = 0.0
+ECMA Script version = 3.0
+MSDOM version = 0.0
+Supports tables = True
+W3C DOM version = 1.0
+
+
+
+----------------------------
+Logged On: 12/25/2023 12:05:31 AM
+
+
+Error Description: 
+
+ User ID: 
+  User Name: 
+  
+
+ Offending URL: http://smetoolkit.abs.org.sg/Error_Page.aspx
+ Source: System.Web
+ Message: A potentially dangerous Request.Form value was detected from the client (ToolkitScriptManager1_HiddenField="'"()&%<zzz><ScRiPt >yUIZ(9...").
+ 
+ Stack trace:    at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateHttpValueCollection(HttpValueCollection collection, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)Browser Capabilities
+IP Address = 10.188.3.6
+Type = Chrome120
+Name = Chrome
+Version = 120.0
+Major Version = 120
+Minor Version = 0
+Platform = WinNT
+Is Beta = False
+Is Crawler = False
+Is AOL = False
+Is Win16 = False
+Is Win32 = True
+Supports Frames = True
+Supports Tables = True
+Supports Cookies = True
+Supports VBScript = False
+Supports JavaScript = True
+Supports Java Applets = True
+Supports BackgroundSounds = False
+Supports ActiveX Controls = False
+Browser = Chrome
+CDF = False
+CLR Version = 0.0
+ECMA Script version = 3.0
+MSDOM version = 0.0
+Supports tables = True
+W3C DOM version = 1.0
+
+
+
+----------------------------
+Logged On: 12/25/2023 12:06:15 AM
+
+
+Error Description: 
+
+ User ID: 
+  User Name: 
+  
+
+ Offending URL: http://smetoolkit.abs.org.sg/Error_Page.aspx
+ Source: System.Web
+ Message: A potentially dangerous Request.Form value was detected from the client (ctl00$ContentPlaceHolder1$txtEmail="'"()&%<zzz><ScRiPt >yUIZ(9...").
+ 
+ Stack trace:    at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateHttpValueCollection(HttpValueCollection collection, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)Browser Capabilities
+IP Address = 10.188.3.6
+Type = Chrome120
+Name = Chrome
+Version = 120.0
+Major Version = 120
+Minor Version = 0
+Platform = WinNT
+Is Beta = False
+Is Crawler = False
+Is AOL = False
+Is Win16 = False
+Is Win32 = True
+Supports Frames = True
+Supports Tables = True
+Supports Cookies = True
+Supports VBScript = False
+Supports JavaScript = True
+Supports Java Applets = True
+Supports BackgroundSounds = False
+Supports ActiveX Controls = False
+Browser = Chrome
+CDF = False
+CLR Version = 0.0
+ECMA Script version = 3.0
+MSDOM version = 0.0
+Supports tables = True
+W3C DOM version = 1.0
+
+
+
+----------------------------
+Logged On: 12/25/2023 12:06:49 AM
+
+
+Error Description: 
+
+ User ID: 
+  User Name: 
+  
+
+ Offending URL: http://smetoolkit.abs.org.sg/Error_Page.aspx
+ Source: System.Web
+ Message: A potentially dangerous Request.Form value was detected from the client (ctl00$ContentPlaceHolder1$txtEmail="<th:t="${dfb}#foreac...").
+ 
+ Stack trace:    at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateHttpValueCollection(HttpValueCollection collection, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)Browser Capabilities
+IP Address = 10.188.3.6
+Type = Chrome120
+Name = Chrome
+Version = 120.0
+Major Version = 120
+Minor Version = 0
+Platform = WinNT
+Is Beta = False
+Is Crawler = False
+Is AOL = False
+Is Win16 = False
+Is Win32 = True
+Supports Frames = True
+Supports Tables = True
+Supports Cookies = True
+Supports VBScript = False
+Supports JavaScript = True
+Supports Java Applets = True
+Supports BackgroundSounds = False
+Supports ActiveX Controls = False
+Browser = Chrome
+CDF = False
+CLR Version = 0.0
+ECMA Script version = 3.0
+MSDOM version = 0.0
+Supports tables = True
+W3C DOM version = 1.0
+
+
+
+----------------------------
+Logged On: 12/25/2023 12:07:15 AM
+
+
+Error Description: 
+
+ User ID: 
+  User Name: 
+  
+
+ Offending URL: http://smetoolkit.abs.org.sg/Error_Page.aspx
+ Source: System.Web
+ Message: A potentially dangerous Request.Form value was detected from the client (ctl00$ContentPlaceHolder1$txtRePassword="'"()&%<zzz><ScRiPt >n9a3(9...").
+ 
+ Stack trace:    at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateHttpValueCollection(HttpValueCollection collection, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)Browser Capabilities
+IP Address = 10.188.3.6
+Type = Chrome120
+Name = Chrome
+Version = 120.0
+Major Version = 120
+Minor Version = 0
+Platform = WinNT
+Is Beta = False
+Is Crawler = False
+Is AOL = False
+Is Win16 = False
+Is Win32 = True
+Supports Frames = True
+Supports Tables = True
+Supports Cookies = True
+Supports VBScript = False
+Supports JavaScript = True
+Supports Java Applets = True
+Supports BackgroundSounds = False
+Supports ActiveX Controls = False
+Browser = Chrome
+CDF = False
+CLR Version = 0.0
+ECMA Script version = 3.0
+MSDOM version = 0.0
+Supports tables = True
+W3C DOM version = 1.0
+
+
+
+----------------------------
+Logged On: 12/25/2023 12:07:33 AM
+
+
+Error Description: 
+
+ User ID: 
+  User Name: 
+  
+
+ Offending URL: http://smetoolkit.abs.org.sg/Error_Page.aspx
+ Source: System.Web
+ Message: A potentially dangerous Request.Form value was detected from the client (ToolkitScriptManager1_HiddenField="20'"()&%<zzz><ScRiPt >76fq(9...").
+ 
+ Stack trace:    at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateHttpValueCollection(HttpValueCollection collection, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)Browser Capabilities
+IP Address = 10.188.3.6
+Type = Chrome120
+Name = Chrome
+Version = 120.0
+Major Version = 120
+Minor Version = 0
+Platform = WinNT
+Is Beta = False
+Is Crawler = False
+Is AOL = False
+Is Win16 = False
+Is Win32 = True
+Supports Frames = True
+Supports Tables = True
+Supports Cookies = True
+Supports VBScript = False
+Supports JavaScript = True
+Supports Java Applets = True
+Supports BackgroundSounds = False
+Supports ActiveX Controls = False
+Browser = Chrome
+CDF = False
+CLR Version = 0.0
+ECMA Script version = 3.0
+MSDOM version = 0.0
+Supports tables = True
+W3C DOM version = 1.0
+
+
+
+----------------------------
+Logged On: 12/25/2023 12:08:02 AM
+
+
+Error Description: 
+
+ User ID: 
+  User Name: 
+  
+
+ Offending URL: http://smetoolkit.abs.org.sg/Error_Page.aspx
+ Source: System.Web
+ Message: A potentially dangerous Request.Form value was detected from the client (ToolkitScriptManager1_HiddenField="'"()&%<zzz><ScRiPt >76fq(9...").
+ 
+ Stack trace:    at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateHttpValueCollection(HttpValueCollection collection, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)Browser Capabilities
+IP Address = 10.188.3.6
+Type = Chrome120
+Name = Chrome
+Version = 120.0
+Major Version = 120
+Minor Version = 0
+Platform = WinNT
+Is Beta = False
+Is Crawler = False
+Is AOL = False
+Is Win16 = False
+Is Win32 = True
+Supports Frames = True
+Supports Tables = True
+Supports Cookies = True
+Supports VBScript = False
+Supports JavaScript = True
+Supports Java Applets = True
+Supports BackgroundSounds = False
+Supports ActiveX Controls = False
+Browser = Chrome
+CDF = False
+CLR Version = 0.0
+ECMA Script version = 3.0
+MSDOM version = 0.0
+Supports tables = True
+W3C DOM version = 1.0
+
+
+
+----------------------------
+Logged On: 12/25/2023 12:08:31 AM
+
+
+Error Description: 
+
+ User ID: 
+  User Name: 
+  
+
+ Offending URL: http://smetoolkit.abs.org.sg/Error_Page.aspx
+ Source: System.Web
+ Message: A potentially dangerous Request.Form value was detected from the client (ctl00$ContentPlaceHolder1$ddlIndustry="'"()&%<zzz><ScRiPt >76fq(9...").
+ 
+ Stack trace:    at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateHttpValueCollection(HttpValueCollection collection, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)Browser Capabilities
+IP Address = 10.188.3.6
+Type = Chrome120
+Name = Chrome
+Version = 120.0
+Major Version = 120
+Minor Version = 0
+Platform = WinNT
+Is Beta = False
+Is Crawler = False
+Is AOL = False
+Is Win16 = False
+Is Win32 = True
+Supports Frames = True
+Supports Tables = True
+Supports Cookies = True
+Supports VBScript = False
+Supports JavaScript = True
+Supports Java Applets = True
+Supports BackgroundSounds = False
+Supports ActiveX Controls = False
+Browser = Chrome
+CDF = False
+CLR Version = 0.0
+ECMA Script version = 3.0
+MSDOM version = 0.0
+Supports tables = True
+W3C DOM version = 1.0
+
+
+
+----------------------------
+Logged On: 12/25/2023 12:08:57 AM
+
+
+Error Description: 
+
+ User ID: 
+  User Name: 
+  
+
+ Offending URL: http://smetoolkit.abs.org.sg/Public/Registration.aspx
+ Source: System.Web
+ Message: Exception of type 'System.Web.HttpUnhandledException' was thrown.
+ Inner exception: System.ArgumentException: Invalid postback or callback argument.  Event validation is enabled using <pages enableEventValidation="true"/> in configuration or <%@ Page EnableEventValidation="true" %> in a page.  For security purposes, this feature verifies that arguments to postback or callback events originate from the server control that originally rendered them.  If the data is valid and expected, use the ClientScriptManager.RegisterForEventValidation method in order to register the postback or callback data for validation.
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.WebControls.DropDownList.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   at System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ Stack trace:    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)Browser Capabilities
+IP Address = 10.188.3.6
+Type = Chrome120
+Name = Chrome
+Version = 120.0
+Major Version = 120
+Minor Version = 0
+Platform = WinNT
+Is Beta = False
+Is Crawler = False
+Is AOL = False
+Is Win16 = False
+Is Win32 = True
+Supports Frames = True
+Supports Tables = True
+Supports Cookies = True
+Supports VBScript = False
+Supports JavaScript = True
+Supports Java Applets = True
+Supports BackgroundSounds = False
+Supports ActiveX Controls = False
+Browser = Chrome
+CDF = False
+CLR Version = 0.0
+ECMA Script version = 3.0
+MSDOM version = 0.0
+Supports tables = True
+W3C DOM version = 1.0
+
+
+
+----------------------------
+Logged On: 12/25/2023 12:09:16 AM
+
+
+Error Description: 
+
+ User ID: 
+  User Name: 
+  
+
+ Offending URL: http://smetoolkit.abs.org.sg/Error_Page.aspx
+ Source: System.Web
+ Message: A potentially dangerous Request.Form value was detected from the client (ctl00$ContentPlaceHolder1$ddlYear="'"()&%<zzz><ScRiPt >76fq(9...").
+ 
+ Stack trace:    at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateHttpValueCollection(HttpValueCollection collection, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)Browser Capabilities
+IP Address = 10.188.3.6
+Type = Chrome120
+Name = Chrome
+Version = 120.0
+Major Version = 120
+Minor Version = 0
+Platform = WinNT
+Is Beta = False
+Is Crawler = False
+Is AOL = False
+Is Win16 = False
+Is Win32 = True
+Supports Frames = True
+Supports Tables = True
+Supports Cookies = True
+Supports VBScript = False
+Supports JavaScript = True
+Supports Java Applets = True
+Supports BackgroundSounds = False
+Supports ActiveX Controls = False
+Browser = Chrome
+CDF = False
+CLR Version = 0.0
+ECMA Script version = 3.0
+MSDOM version = 0.0
+Supports tables = True
+W3C DOM version = 1.0
+
+
+
+----------------------------
+Logged On: 12/25/2023 12:09:36 AM
+
+
+Error Description: 
+
+ User ID: 
+  User Name: 
+  
+
+ Offending URL: http://smetoolkit.abs.org.sg/Error_Page.aspx
+ Source: System.Web
+ Message: A potentially dangerous Request.Form value was detected from the client (ctl00$ContentPlaceHolder1$txtEmail="....com'"()&%<zzz><ScRiPt >hAhL(9...").
+ 
+ Stack trace:    at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateHttpValueCollection(HttpValueCollection collection, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)Browser Capabilities
+IP Address = 10.188.3.6
+Type = Chrome120
+Name = Chrome
+Version = 120.0
+Major Version = 120
+Minor Version = 0
+Platform = WinNT
+Is Beta = False
+Is Crawler = False
+Is AOL = False
+Is Win16 = False
+Is Win32 = True
+Supports Frames = True
+Supports Tables = True
+Supports Cookies = True
+Supports VBScript = False
+Supports JavaScript = True
+Supports Java Applets = True
+Supports BackgroundSounds = False
+Supports ActiveX Controls = False
+Browser = Chrome
+CDF = False
+CLR Version = 0.0
+ECMA Script version = 3.0
+MSDOM version = 0.0
+Supports tables = True
+W3C DOM version = 1.0
+
+
+
+----------------------------
+Logged On: 12/25/2023 12:10:29 AM
+
+
+Error Description: 
+
+ User ID: 
+  User Name: 
+  
+
+ Offending URL: http://smetoolkit.abs.org.sg/Error_Page.aspx
+ Source: System.Web
+ Message: A potentially dangerous Request.Form value was detected from the client (ctl00$ContentPlaceHolder1$txtCaptcha="<th:t="${dfb}#foreac...").
+ 
+ Stack trace:    at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateHttpValueCollection(HttpValueCollection collection, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)Browser Capabilities
+IP Address = 10.188.3.6
+Type = Chrome120
+Name = Chrome
+Version = 120.0
+Major Version = 120
+Minor Version = 0
+Platform = WinNT
+Is Beta = False
+Is Crawler = False
+Is AOL = False
+Is Win16 = False
+Is Win32 = True
+Supports Frames = True
+Supports Tables = True
+Supports Cookies = True
+Supports VBScript = False
+Supports JavaScript = True
+Supports Java Applets = True
+Supports BackgroundSounds = False
+Supports ActiveX Controls = False
+Browser = Chrome
+CDF = False
+CLR Version = 0.0
+ECMA Script version = 3.0
+MSDOM version = 0.0
+Supports tables = True
+W3C DOM version = 1.0
+
+
+
+----------------------------
+Logged On: 12/25/2023 12:11:06 AM
+
+
+Error Description: 
+
+ User ID: 
+  User Name: 
+  
+
+ Offending URL: http://smetoolkit.abs.org.sg/Error_Page.aspx
+ Source: System.Web
+ Message: A potentially dangerous Request.Form value was detected from the client (ctl00$ContentPlaceHolder1$txtCompanyNm="...ting'"()&%<zzz><ScRiPt >76fq(9...").
+ 
+ Stack trace:    at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateHttpValueCollection(HttpValueCollection collection, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)Browser Capabilities
+IP Address = 10.188.3.6
+Type = Chrome120
+Name = Chrome
+Version = 120.0
+Major Version = 120
+Minor Version = 0
+Platform = WinNT
+Is Beta = False
+Is Crawler = False
+Is AOL = False
+Is Win16 = False
+Is Win32 = True
+Supports Frames = True
+Supports Tables = True
+Supports Cookies = True
+Supports VBScript = False
+Supports JavaScript = True
+Supports Java Applets = True
+Supports BackgroundSounds = False
+Supports ActiveX Controls = False
+Browser = Chrome
+CDF = False
+CLR Version = 0.0
+ECMA Script version = 3.0
+MSDOM version = 0.0
+Supports tables = True
+W3C DOM version = 1.0
+
+
+
+----------------------------
+Logged On: 12/25/2023 12:11:46 AM
+
+
+Error Description: 
+
+ User ID: 
+  User Name: 
+  
+
+ Offending URL: http://smetoolkit.abs.org.sg/Error_Page.aspx
+ Source: System.Web
+ Message: A potentially dangerous Request.Form value was detected from the client (ctl00$ContentPlaceHolder1$txtName="<th:t="${dfb}#foreac...").
+ 
+ Stack trace:    at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateHttpValueCollection(HttpValueCollection collection, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)Browser Capabilities
+IP Address = 10.188.3.6
+Type = Chrome120
+Name = Chrome
+Version = 120.0
+Major Version = 120
+Minor Version = 0
+Platform = WinNT
+Is Beta = False
+Is Crawler = False
+Is AOL = False
+Is Win16 = False
+Is Win32 = True
+Supports Frames = True
+Supports Tables = True
+Supports Cookies = True
+Supports VBScript = False
+Supports JavaScript = True
+Supports Java Applets = True
+Supports BackgroundSounds = False
+Supports ActiveX Controls = False
+Browser = Chrome
+CDF = False
+CLR Version = 0.0
+ECMA Script version = 3.0
+MSDOM version = 0.0
+Supports tables = True
+W3C DOM version = 1.0
+
+
+
+----------------------------
+Logged On: 12/25/2023 12:12:16 AM
+
+
+Error Description: 
+
+ User ID: 
+  User Name: 
+  
+
+ Offending URL: http://smetoolkit.abs.org.sg/Error_Page.aspx
+ Source: System.Web
+ Message: A potentially dangerous Request.Form value was detected from the client (ctl00$ContentPlaceHolder1$txtCaptcha="'"()&%<zzz><ScRiPt >9Udr(9...").
+ 
+ Stack trace:    at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateHttpValueCollection(HttpValueCollection collection, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)Browser Capabilities
+IP Address = 10.188.3.6
+Type = Chrome120
+Name = Chrome
+Version = 120.0
+Major Version = 120
+Minor Version = 0
+Platform = WinNT
+Is Beta = False
+Is Crawler = False
+Is AOL = False
+Is Win16 = False
+Is Win32 = True
+Supports Frames = True
+Supports Tables = True
+Supports Cookies = True
+Supports VBScript = False
+Supports JavaScript = True
+Supports Java Applets = True
+Supports BackgroundSounds = False
+Supports ActiveX Controls = False
+Browser = Chrome
+CDF = False
+CLR Version = 0.0
+ECMA Script version = 3.0
+MSDOM version = 0.0
+Supports tables = True
+W3C DOM version = 1.0
+
+
+
+----------------------------
+Logged On: 12/25/2023 12:12:43 AM
+
+
+Error Description: 
+
+ User ID: 
+  User Name: 
+  
+
+ Offending URL: http://smetoolkit.abs.org.sg/Error_Page.aspx
+ Source: System.Web
+ Message: A potentially dangerous Request.Form value was detected from the client (ctl00$ContentPlaceHolder1$txtCaptcha="<th:t="${dfb}#foreac...").
+ 
+ Stack trace:    at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateHttpValueCollection(HttpValueCollection collection, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)Browser Capabilities
+IP Address = 10.188.3.6
+Type = Chrome120
+Name = Chrome
+Version = 120.0
+Major Version = 120
+Minor Version = 0
+Platform = WinNT
+Is Beta = False
+Is Crawler = False
+Is AOL = False
+Is Win16 = False
+Is Win32 = True
+Supports Frames = True
+Supports Tables = True
+Supports Cookies = True
+Supports VBScript = False
+Supports JavaScript = True
+Supports Java Applets = True
+Supports BackgroundSounds = False
+Supports ActiveX Controls = False
+Browser = Chrome
+CDF = False
+CLR Version = 0.0
+ECMA Script version = 3.0
+MSDOM version = 0.0
+Supports tables = True
+W3C DOM version = 1.0
+
+
+
+----------------------------
+Logged On: 12/25/2023 12:13:04 AM
+
+
+Error Description: 
+
+ User ID: 
+  User Name: 
+  
+
+ Offending URL: http://smetoolkit.abs.org.sg/Error_Page.aspx
+ Source: System.Web
+ Message: A potentially dangerous Request.Form value was detected from the client (ctl00$ContentPlaceHolder1$txtEmail="....com'"()&%<zzz><ScRiPt >76fq(9...").
+ 
+ Stack trace:    at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateHttpValueCollection(HttpValueCollection collection, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)Browser Capabilities
+IP Address = 10.188.3.6
+Type = Chrome120
+Name = Chrome
+Version = 120.0
+Major Version = 120
+Minor Version = 0
+Platform = WinNT
+Is Beta = False
+Is Crawler = False
+Is AOL = False
+Is Win16 = False
+Is Win32 = True
+Supports Frames = True
+Supports Tables = True
+Supports Cookies = True
+Supports VBScript = False
+Supports JavaScript = True
+Supports Java Applets = True
+Supports BackgroundSounds = False
+Supports ActiveX Controls = False
+Browser = Chrome
+CDF = False
+CLR Version = 0.0
+ECMA Script version = 3.0
+MSDOM version = 0.0
+Supports tables = True
+W3C DOM version = 1.0
+
+
+
+----------------------------
+Logged On: 12/25/2023 12:13:42 AM
+
+
+Error Description: 
+
+ User ID: 
+  User Name: 
+  
+
+ Offending URL: http://smetoolkit.abs.org.sg/Public/Registration.aspx
+ Source: System.Web
+ Message: Exception of type 'System.Web.HttpUnhandledException' was thrown.
+ Inner exception: System.ArgumentException: Invalid postback or callback argument.  Event validation is enabled using <pages enableEventValidation="true"/> in configuration or <%@ Page EnableEventValidation="true" %> in a page.  For security purposes, this feature verifies that arguments to postback or callback events originate from the server control that originally rendered them.  If the data is valid and expected, use the ClientScriptManager.RegisterForEventValidation method in order to register the postback or callback data for validation.
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.WebControls.DropDownList.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   at System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ Stack trace:    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)Browser Capabilities
+IP Address = 10.188.3.6
+Type = Chrome120
+Name = Chrome
+Version = 120.0
+Major Version = 120
+Minor Version = 0
+Platform = WinNT
+Is Beta = False
+Is Crawler = False
+Is AOL = False
+Is Win16 = False
+Is Win32 = True
+Supports Frames = True
+Supports Tables = True
+Supports Cookies = True
+Supports VBScript = False
+Supports JavaScript = True
+Supports Java Applets = True
+Supports BackgroundSounds = False
+Supports ActiveX Controls = False
+Browser = Chrome
+CDF = False
+CLR Version = 0.0
+ECMA Script version = 3.0
+MSDOM version = 0.0
+Supports tables = True
+W3C DOM version = 1.0
+
+
+
+----------------------------
+Logged On: 12/25/2023 12:14:38 AM
+
+
+Error Description: 
+
+ User ID: 
+  User Name: 
+  
+
+ Offending URL: http://smetoolkit.abs.org.sg/Public/ForgotPassword.aspx
+ Source: System.Web
+ Message: A potentially dangerous Request.Form value was detected from the client (ctl00$ContentPlaceHolder1$txtEmail="....com'"()&%<zzz><ScRiPt >uacG(9...").
+ 
+ Stack trace:    at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateHttpValueCollection(HttpValueCollection collection, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)Browser Capabilities
+IP Address = 10.188.3.6
+Type = Chrome120
+Name = Chrome
+Version = 120.0
+Major Version = 120
+Minor Version = 0
+Platform = WinNT
+Is Beta = False
+Is Crawler = False
+Is AOL = False
+Is Win16 = False
+Is Win32 = True
+Supports Frames = True
+Supports Tables = True
+Supports Cookies = True
+Supports VBScript = False
+Supports JavaScript = True
+Supports Java Applets = True
+Supports BackgroundSounds = False
+Supports ActiveX Controls = False
+Browser = Chrome
+CDF = False
+CLR Version = 0.0
+ECMA Script version = 3.0
+MSDOM version = 0.0
+Supports tables = True
+W3C DOM version = 1.0
+
+
+
+----------------------------
+Logged On: 12/25/2023 12:15:53 AM
+
+
+Error Description: 
+
+ User ID: 
+  User Name: 
+  
+
+ Offending URL: http://smetoolkit.abs.org.sg/Error_Page.aspx
+ Source: System.Web
+ Message: A potentially dangerous Request.Form value was detected from the client (ctl00$ContentPlaceHolder1$txtCaptcha="'"()&%<zzz><ScRiPt >A3rw(9...").
+ 
+ Stack trace:    at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateHttpValueCollection(HttpValueCollection collection, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)Browser Capabilities
+IP Address = 10.188.3.6
+Type = Chrome120
+Name = Chrome
+Version = 120.0
+Major Version = 120
+Minor Version = 0
+Platform = WinNT
+Is Beta = False
+Is Crawler = False
+Is AOL = False
+Is Win16 = False
+Is Win32 = True
+Supports Frames = True
+Supports Tables = True
+Supports Cookies = True
+Supports VBScript = False
+Supports JavaScript = True
+Supports Java Applets = True
+Supports BackgroundSounds = False
+Supports ActiveX Controls = False
+Browser = Chrome
+CDF = False
+CLR Version = 0.0
+ECMA Script version = 3.0
+MSDOM version = 0.0
+Supports tables = True
+W3C DOM version = 1.0
+
+
+
+----------------------------
+Logged On: 12/25/2023 12:16:33 AM
+
+
+Error Description: 
+
+ User ID: 
+  User Name: 
+  
+
+ Offending URL: http://smetoolkit.abs.org.sg/Error_Page.aspx
+ Source: System.Web
+ Message: A potentially dangerous Request.Form value was detected from the client (ctl00$ContentPlaceHolder1$txtEmail="...mple.com"><script>9Udr(9880)</...").
+ 
+ Stack trace:    at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateHttpValueCollection(HttpValueCollection collection, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)Browser Capabilities
+IP Address = 10.188.3.6
+Type = Chrome120
+Name = Chrome
+Version = 120.0
+Major Version = 120
+Minor Version = 0
+Platform = WinNT
+Is Beta = False
+Is Crawler = False
+Is AOL = False
+Is Win16 = False
+Is Win32 = True
+Supports Frames = True
+Supports Tables = True
+Supports Cookies = True
+Supports VBScript = False
+Supports JavaScript = True
+Supports Java Applets = True
+Supports BackgroundSounds = False
+Supports ActiveX Controls = False
+Browser = Chrome
+CDF = False
+CLR Version = 0.0
+ECMA Script version = 3.0
+MSDOM version = 0.0
+Supports tables = True
+W3C DOM version = 1.0
+
+
+
+----------------------------
+Logged On: 12/25/2023 12:17:07 AM
+
+
+Error Description: 
+
+ User ID: 
+  User Name: 
+  
+
+ Offending URL: http://smetoolkit.abs.org.sg/Error_Page.aspx
+ Source: System.Web
+ Message: A potentially dangerous Request.Form value was detected from the client (ctl00$ContentPlaceHolder1$txtNoofEmps="'"()&%<zzz><ScRiPt >76fq(9...").
+ 
+ Stack trace:    at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateHttpValueCollection(HttpValueCollection collection, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)Browser Capabilities
+IP Address = 10.188.3.6
+Type = Chrome120
+Name = Chrome
+Version = 120.0
+Major Version = 120
+Minor Version = 0
+Platform = WinNT
+Is Beta = False
+Is Crawler = False
+Is AOL = False
+Is Win16 = False
+Is Win32 = True
+Supports Frames = True
+Supports Tables = True
+Supports Cookies = True
+Supports VBScript = False
+Supports JavaScript = True
+Supports Java Applets = True
+Supports BackgroundSounds = False
+Supports ActiveX Controls = False
+Browser = Chrome
+CDF = False
+CLR Version = 0.0
+ECMA Script version = 3.0
+MSDOM version = 0.0
+Supports tables = True
+W3C DOM version = 1.0
+
+
+
+----------------------------
+Logged On: 12/25/2023 12:17:42 AM
+
+
+Error Description: 
+
+ User ID: 
+  User Name: 
+  
+
+ Offending URL: http://smetoolkit.abs.org.sg/Error_Page.aspx
+ Source: System.Web
+ Message: A potentially dangerous Request.Form value was detected from the client (ctl00$ContentPlaceHolder1$txtName="<th:t="${dfb}#foreac...").
+ 
+ Stack trace:    at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateHttpValueCollection(HttpValueCollection collection, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)Browser Capabilities
+IP Address = 10.188.3.6
+Type = Chrome120
+Name = Chrome
+Version = 120.0
+Major Version = 120
+Minor Version = 0
+Platform = WinNT
+Is Beta = False
+Is Crawler = False
+Is AOL = False
+Is Win16 = False
+Is Win32 = True
+Supports Frames = True
+Supports Tables = True
+Supports Cookies = True
+Supports VBScript = False
+Supports JavaScript = True
+Supports Java Applets = True
+Supports BackgroundSounds = False
+Supports ActiveX Controls = False
+Browser = Chrome
+CDF = False
+CLR Version = 0.0
+ECMA Script version = 3.0
+MSDOM version = 0.0
+Supports tables = True
+W3C DOM version = 1.0
+
+
+
+----------------------------
+Logged On: 12/25/2023 12:18:02 AM
+
+
+Error Description: 
+
+ User ID: 
+  User Name: 
+  
+
+ Offending URL: http://smetoolkit.abs.org.sg/Error_Page.aspx
+ Source: System.Web
+ Message: A potentially dangerous Request.Form value was detected from the client (ctl00$ContentPlaceHolder1$txtNoofEmps="1"><script>76fq(9003)</...").
+ 
+ Stack trace:    at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateHttpValueCollection(HttpValueCollection collection, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)Browser Capabilities
+IP Address = 10.188.3.6
+Type = Chrome120
+Name = Chrome
+Version = 120.0
+Major Version = 120
+Minor Version = 0
+Platform = WinNT
+Is Beta = False
+Is Crawler = False
+Is AOL = False
+Is Win16 = False
+Is Win32 = True
+Supports Frames = True
+Supports Tables = True
+Supports Cookies = True
+Supports VBScript = False
+Supports JavaScript = True
+Supports Java Applets = True
+Supports BackgroundSounds = False
+Supports ActiveX Controls = False
+Browser = Chrome
+CDF = False
+CLR Version = 0.0
+ECMA Script version = 3.0
+MSDOM version = 0.0
+Supports tables = True
+W3C DOM version = 1.0
+
+
+
+----------------------------
+Logged On: 12/25/2023 12:18:27 AM
+
+
+Error Description: 
+
+ User ID: 
+  User Name: 
+  
+
+ Offending URL: http://smetoolkit.abs.org.sg/Error_Page.aspx
+ Source: System.Web
+ Message: A potentially dangerous Request.Form value was detected from the client (ctl00$ContentPlaceHolder1$txtPassword="....x-F'"()&%<zzz><ScRiPt >76fq(9...").
+ 
+ Stack trace:    at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateHttpValueCollection(HttpValueCollection collection, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)Browser Capabilities
+IP Address = 10.188.3.6
+Type = Chrome120
+Name = Chrome
+Version = 120.0
+Major Version = 120
+Minor Version = 0
+Platform = WinNT
+Is Beta = False
+Is Crawler = False
+Is AOL = False
+Is Win16 = False
+Is Win32 = True
+Supports Frames = True
+Supports Tables = True
+Supports Cookies = True
+Supports VBScript = False
+Supports JavaScript = True
+Supports Java Applets = True
+Supports BackgroundSounds = False
+Supports ActiveX Controls = False
+Browser = Chrome
+CDF = False
+CLR Version = 0.0
+ECMA Script version = 3.0
+MSDOM version = 0.0
+Supports tables = True
+W3C DOM version = 1.0
+
+
+
+----------------------------
+Logged On: 12/25/2023 12:18:45 AM
+
+
+Error Description: 
+
+ User ID: 
+  User Name: 
+  
+
+ Offending URL: http://smetoolkit.abs.org.sg/Error_Page.aspx
+ Source: System.Web
+ Message: A potentially dangerous Request.Form value was detected from the client (ctl00$ContentPlaceHolder1$txtPassword="'"()&%<zzz><ScRiPt >76fq(9...").
+ 
+ Stack trace:    at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateHttpValueCollection(HttpValueCollection collection, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)Browser Capabilities
+IP Address = 10.188.3.6
+Type = Chrome120
+Name = Chrome
+Version = 120.0
+Major Version = 120
+Minor Version = 0
+Platform = WinNT
+Is Beta = False
+Is Crawler = False
+Is AOL = False
+Is Win16 = False
+Is Win32 = True
+Supports Frames = True
+Supports Tables = True
+Supports Cookies = True
+Supports VBScript = False
+Supports JavaScript = True
+Supports Java Applets = True
+Supports BackgroundSounds = False
+Supports ActiveX Controls = False
+Browser = Chrome
+CDF = False
+CLR Version = 0.0
+ECMA Script version = 3.0
+MSDOM version = 0.0
+Supports tables = True
+W3C DOM version = 1.0
+
+
+
+----------------------------
+Logged On: 12/25/2023 12:19:10 AM
+
+
+Error Description: 
+
+ User ID: 
+  User Name: 
+  
+
+ Offending URL: http://smetoolkit.abs.org.sg/Error_Page.aspx
+ Source: System.Web
+ Message: A potentially dangerous Request.Form value was detected from the client (ctl00$ContentPlaceHolder1$btnRegister="'"()&%<zzz><ScRiPt >7pSC(9...").
+ 
+ Stack trace:    at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateHttpValueCollection(HttpValueCollection collection, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)Browser Capabilities
+IP Address = 10.188.3.6
+Type = Chrome120
+Name = Chrome
+Version = 120.0
+Major Version = 120
+Minor Version = 0
+Platform = WinNT
+Is Beta = False
+Is Crawler = False
+Is AOL = False
+Is Win16 = False
+Is Win32 = True
+Supports Frames = True
+Supports Tables = True
+Supports Cookies = True
+Supports VBScript = False
+Supports JavaScript = True
+Supports Java Applets = True
+Supports BackgroundSounds = False
+Supports ActiveX Controls = False
+Browser = Chrome
+CDF = False
+CLR Version = 0.0
+ECMA Script version = 3.0
+MSDOM version = 0.0
+Supports tables = True
+W3C DOM version = 1.0
+
+
+
+----------------------------
+Logged On: 12/25/2023 12:19:31 AM
+
+
+Error Description: 
+
+ User ID: 
+  User Name: 
+  
+
+ Offending URL: http://smetoolkit.abs.org.sg/Error_Page.aspx
+ Source: System.Web
+ Message: A potentially dangerous Request.Form value was detected from the client (ctl00$ContentPlaceHolder1$txtRePassword="'"()&%<zzz><ScRiPt >76fq(9...").
+ 
+ Stack trace:    at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateHttpValueCollection(HttpValueCollection collection, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)Browser Capabilities
+IP Address = 10.188.3.6
+Type = Chrome120
+Name = Chrome
+Version = 120.0
+Major Version = 120
+Minor Version = 0
+Platform = WinNT
+Is Beta = False
+Is Crawler = False
+Is AOL = False
+Is Win16 = False
+Is Win32 = True
+Supports Frames = True
+Supports Tables = True
+Supports Cookies = True
+Supports VBScript = False
+Supports JavaScript = True
+Supports Java Applets = True
+Supports BackgroundSounds = False
+Supports ActiveX Controls = False
+Browser = Chrome
+CDF = False
+CLR Version = 0.0
+ECMA Script version = 3.0
+MSDOM version = 0.0
+Supports tables = True
+W3C DOM version = 1.0
+
+
+
+----------------------------
+Logged On: 12/25/2023 12:19:52 AM
+
+
+Error Description: 
+
+ User ID: 
+  User Name: 
+  
+
+ Offending URL: http://smetoolkit.abs.org.sg/Public/Registration.aspx
+ Source: System.Web
+ Message: A potentially dangerous Request.Form value was detected from the client (ctl00$ContentPlaceHolder1$ddlYear="<!--").
+ 
+ Stack trace:    at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateHttpValueCollection(HttpValueCollection collection, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)Browser Capabilities
+IP Address = 10.188.3.6
+Type = Chrome120
+Name = Chrome
+Version = 120.0
+Major Version = 120
+Minor Version = 0
+Platform = WinNT
+Is Beta = False
+Is Crawler = False
+Is AOL = False
+Is Win16 = False
+Is Win32 = True
+Supports Frames = True
+Supports Tables = True
+Supports Cookies = True
+Supports VBScript = False
+Supports JavaScript = True
+Supports Java Applets = True
+Supports BackgroundSounds = False
+Supports ActiveX Controls = False
+Browser = Chrome
+CDF = False
+CLR Version = 0.0
+ECMA Script version = 3.0
+MSDOM version = 0.0
+Supports tables = True
+W3C DOM version = 1.0
+
+
+
+----------------------------
+Logged On: 12/25/2023 12:20:13 AM
+
+
+Error Description: 
+
+ User ID: 
+  User Name: 
+  
+
+ Offending URL: http://smetoolkit.abs.org.sg/Public/Registration.aspx
+ Source: System.Web
+ Message: A potentially dangerous Request.Form value was detected from the client (ctl00$hdf="<!--").
+ 
+ Stack trace:    at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateHttpValueCollection(HttpValueCollection collection, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)Browser Capabilities
+IP Address = 10.188.3.6
+Type = Chrome120
+Name = Chrome
+Version = 120.0
+Major Version = 120
+Minor Version = 0
+Platform = WinNT
+Is Beta = False
+Is Crawler = False
+Is AOL = False
+Is Win16 = False
+Is Win32 = True
+Supports Frames = True
+Supports Tables = True
+Supports Cookies = True
+Supports VBScript = False
+Supports JavaScript = True
+Supports Java Applets = True
+Supports BackgroundSounds = False
+Supports ActiveX Controls = False
+Browser = Chrome
+CDF = False
+CLR Version = 0.0
+ECMA Script version = 3.0
+MSDOM version = 0.0
+Supports tables = True
+W3C DOM version = 1.0
+
+
+
+----------------------------
+Logged On: 12/25/2023 12:20:31 AM
+
+
+Error Description: 
+
+ User ID: 
+  User Name: 
+  
+
+ Offending URL: http://smetoolkit.abs.org.sg/Error_Page.aspx
+ Source: System.Web
+ Message: A potentially dangerous Request.Form value was detected from the client (ctl00$ContentPlaceHolder1$ddlIndustry="'"()&%<zzz><ScRiPt >7pSC(9...").
+ 
+ Stack trace:    at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateHttpValueCollection(HttpValueCollection collection, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)Browser Capabilities
+IP Address = 10.188.3.6
+Type = Chrome120
+Name = Chrome
+Version = 120.0
+Major Version = 120
+Minor Version = 0
+Platform = WinNT
+Is Beta = False
+Is Crawler = False
+Is AOL = False
+Is Win16 = False
+Is Win32 = True
+Supports Frames = True
+Supports Tables = True
+Supports Cookies = True
+Supports VBScript = False
+Supports JavaScript = True
+Supports Java Applets = True
+Supports BackgroundSounds = False
+Supports ActiveX Controls = False
+Browser = Chrome
+CDF = False
+CLR Version = 0.0
+ECMA Script version = 3.0
+MSDOM version = 0.0
+Supports tables = True
+W3C DOM version = 1.0
+
+
+
+----------------------------
+Logged On: 12/25/2023 12:20:47 AM
+
+
+Error Description: 
+
+ User ID: 
+  User Name: 
+  
+
+ Offending URL: http://smetoolkit.abs.org.sg/Error_Page.aspx
+ Source: System.Web
+ Message: A potentially dangerous Request.Form value was detected from the client (ctl00$ContentPlaceHolder1$ddlYear="1967'"()&%<zzz><ScRiPt >7pSC(9...").
+ 
+ Stack trace:    at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateHttpValueCollection(HttpValueCollection collection, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)Browser Capabilities
+IP Address = 10.188.3.6
+Type = Chrome120
+Name = Chrome
+Version = 120.0
+Major Version = 120
+Minor Version = 0
+Platform = WinNT
+Is Beta = False
+Is Crawler = False
+Is AOL = False
+Is Win16 = False
+Is Win32 = True
+Supports Frames = True
+Supports Tables = True
+Supports Cookies = True
+Supports VBScript = False
+Supports JavaScript = True
+Supports Java Applets = True
+Supports BackgroundSounds = False
+Supports ActiveX Controls = False
+Browser = Chrome
+CDF = False
+CLR Version = 0.0
+ECMA Script version = 3.0
+MSDOM version = 0.0
+Supports tables = True
+W3C DOM version = 1.0
+
+
+
+----------------------------
+Logged On: 12/25/2023 12:21:18 AM
+
+
+Error Description: 
+
+ User ID: 
+  User Name: 
+  
+
+ Offending URL: http://smetoolkit.abs.org.sg/Error_Page.aspx
+ Source: System.Web
+ Message: A potentially dangerous Request.Form value was detected from the client (ToolkitScriptManager1_HiddenField="'"()&%<zzz><ScRiPt >BP2i(9...").
+ 
+ Stack trace:    at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateHttpValueCollection(HttpValueCollection collection, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)Browser Capabilities
+IP Address = 10.188.3.6
+Type = Chrome120
+Name = Chrome
+Version = 120.0
+Major Version = 120
+Minor Version = 0
+Platform = WinNT
+Is Beta = False
+Is Crawler = False
+Is AOL = False
+Is Win16 = False
+Is Win32 = True
+Supports Frames = True
+Supports Tables = True
+Supports Cookies = True
+Supports VBScript = False
+Supports JavaScript = True
+Supports Java Applets = True
+Supports BackgroundSounds = False
+Supports ActiveX Controls = False
+Browser = Chrome
+CDF = False
+CLR Version = 0.0
+ECMA Script version = 3.0
+MSDOM version = 0.0
+Supports tables = True
+W3C DOM version = 1.0
+
+
+
+----------------------------
+Logged On: 12/25/2023 12:22:24 AM
+
+
+Error Description: 
+
+ User ID: 
+  User Name: 
+  
+
+ Offending URL: http://smetoolkit.abs.org.sg/Error_Page.aspx
+ Source: System.Web
+ Message: A potentially dangerous Request.Form value was detected from the client (ctl00$ContentPlaceHolder1$txtCompanyNm="...ting'"()&%<zzz><ScRiPt >7pSC(9...").
+ 
+ Stack trace:    at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateHttpValueCollection(HttpValueCollection collection, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)Browser Capabilities
+IP Address = 10.188.3.6
+Type = Chrome120
+Name = Chrome
+Version = 120.0
+Major Version = 120
+Minor Version = 0
+Platform = WinNT
+Is Beta = False
+Is Crawler = False
+Is AOL = False
+Is Win16 = False
+Is Win32 = True
+Supports Frames = True
+Supports Tables = True
+Supports Cookies = True
+Supports VBScript = False
+Supports JavaScript = True
+Supports Java Applets = True
+Supports BackgroundSounds = False
+Supports ActiveX Controls = False
+Browser = Chrome
+CDF = False
+CLR Version = 0.0
+ECMA Script version = 3.0
+MSDOM version = 0.0
+Supports tables = True
+W3C DOM version = 1.0
+
+
+
+----------------------------
+Logged On: 12/25/2023 12:23:30 AM
+
+
+Error Description: 
+
+ User ID: 
+  User Name: 
+  
+
+ Offending URL: http://smetoolkit.abs.org.sg/Error_Page.aspx
+ Source: System.Web
+ Message: A potentially dangerous Request.Form value was detected from the client (ctl00$ContentPlaceHolder1$txtNoofEmps="'"()&%<zzz><ScRiPt >A3rw(9...").
+ 
+ Stack trace:    at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateHttpValueCollection(HttpValueCollection collection, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)Browser Capabilities
+IP Address = 10.188.3.6
+Type = Chrome120
+Name = Chrome
+Version = 120.0
+Major Version = 120
+Minor Version = 0
+Platform = WinNT
+Is Beta = False
+Is Crawler = False
+Is AOL = False
+Is Win16 = False
+Is Win32 = True
+Supports Frames = True
+Supports Tables = True
+Supports Cookies = True
+Supports VBScript = False
+Supports JavaScript = True
+Supports Java Applets = True
+Supports BackgroundSounds = False
+Supports ActiveX Controls = False
+Browser = Chrome
+CDF = False
+CLR Version = 0.0
+ECMA Script version = 3.0
+MSDOM version = 0.0
+Supports tables = True
+W3C DOM version = 1.0
+
+
+
+----------------------------
+Logged On: 12/25/2023 12:24:29 AM
+
+
+Error Description: 
+
+ User ID: 
+  User Name: 
+  
+
+ Offending URL: http://smetoolkit.abs.org.sg/Error_Page.aspx
+ Source: System.Web
+ Message: A potentially dangerous Request.Form value was detected from the client (ctl00$ContentPlaceHolder1$txtName="...xqFm'"()&%<zzz><ScRiPt >8Vwb(9...").
+ 
+ Stack trace:    at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateHttpValueCollection(HttpValueCollection collection, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)Browser Capabilities
+IP Address = 10.188.3.6
+Type = Chrome120
+Name = Chrome
+Version = 120.0
+Major Version = 120
+Minor Version = 0
+Platform = WinNT
+Is Beta = False
+Is Crawler = False
+Is AOL = False
+Is Win16 = False
+Is Win32 = True
+Supports Frames = True
+Supports Tables = True
+Supports Cookies = True
+Supports VBScript = False
+Supports JavaScript = True
+Supports Java Applets = True
+Supports BackgroundSounds = False
+Supports ActiveX Controls = False
+Browser = Chrome
+CDF = False
+CLR Version = 0.0
+ECMA Script version = 3.0
+MSDOM version = 0.0
+Supports tables = True
+W3C DOM version = 1.0
+
+
+
+----------------------------
+Logged On: 12/25/2023 12:25:33 AM
+
+
+Error Description: 
+
+ User ID: 
+  User Name: 
+  
+
+ Offending URL: http://smetoolkit.abs.org.sg/Error_Page.aspx
+ Source: System.Web
+ Message: A potentially dangerous Request.Form value was detected from the client (ctl00$ContentPlaceHolder1$txtName="'"()&%<zzz><ScRiPt >BP2i(9...").
+ 
+ Stack trace:    at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateHttpValueCollection(HttpValueCollection collection, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)Browser Capabilities
+IP Address = 10.188.3.6
+Type = Chrome120
+Name = Chrome
+Version = 120.0
+Major Version = 120
+Minor Version = 0
+Platform = WinNT
+Is Beta = False
+Is Crawler = False
+Is AOL = False
+Is Win16 = False
+Is Win32 = True
+Supports Frames = True
+Supports Tables = True
+Supports Cookies = True
+Supports VBScript = False
+Supports JavaScript = True
+Supports Java Applets = True
+Supports BackgroundSounds = False
+Supports ActiveX Controls = False
+Browser = Chrome
+CDF = False
+CLR Version = 0.0
+ECMA Script version = 3.0
+MSDOM version = 0.0
+Supports tables = True
+W3C DOM version = 1.0
+
+
+
+----------------------------
+Logged On: 12/25/2023 12:26:38 AM
+
+
+Error Description: 
+
+ User ID: 
+  User Name: 
+  
+
+ Offending URL: http://smetoolkit.abs.org.sg/Error_Page.aspx
+ Source: System.Web
+ Message: A potentially dangerous Request.Form value was detected from the client (ctl00$ContentPlaceHolder1$txtRePassword="'"()&%<zzz><ScRiPt >8Vwb(9...").
+ 
+ Stack trace:    at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateHttpValueCollection(HttpValueCollection collection, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)Browser Capabilities
+IP Address = 10.188.3.6
+Type = Chrome120
+Name = Chrome
+Version = 120.0
+Major Version = 120
+Minor Version = 0
+Platform = WinNT
+Is Beta = False
+Is Crawler = False
+Is AOL = False
+Is Win16 = False
+Is Win32 = True
+Supports Frames = True
+Supports Tables = True
+Supports Cookies = True
+Supports VBScript = False
+Supports JavaScript = True
+Supports Java Applets = True
+Supports BackgroundSounds = False
+Supports ActiveX Controls = False
+Browser = Chrome
+CDF = False
+CLR Version = 0.0
+ECMA Script version = 3.0
+MSDOM version = 0.0
+Supports tables = True
+W3C DOM version = 1.0
+
+
+
+----------------------------
+Logged On: 12/25/2023 12:27:48 AM
+
+
+Error Description: 
+
+ User ID: 
+  User Name: 
+  
+
+ Offending URL: http://smetoolkit.abs.org.sg/Error_Page.aspx
+ Source: System.Web
+ Message: A potentially dangerous Request.Form value was detected from the client (ctl00$hdf="1'"()&%<zzz><ScRiPt >BP2i(9...").
+ 
+ Stack trace:    at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateHttpValueCollection(HttpValueCollection collection, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)Browser Capabilities
+IP Address = 10.188.3.6
+Type = Chrome120
+Name = Chrome
+Version = 120.0
+Major Version = 120
+Minor Version = 0
+Platform = WinNT
+Is Beta = False
+Is Crawler = False
+Is AOL = False
+Is Win16 = False
+Is Win32 = True
+Supports Frames = True
+Supports Tables = True
+Supports Cookies = True
+Supports VBScript = False
+Supports JavaScript = True
+Supports Java Applets = True
+Supports BackgroundSounds = False
+Supports ActiveX Controls = False
+Browser = Chrome
+CDF = False
+CLR Version = 0.0
+ECMA Script version = 3.0
+MSDOM version = 0.0
+Supports tables = True
+W3C DOM version = 1.0
+
+
+
+----------------------------
+Logged On: 12/25/2023 12:28:28 AM
+
+
+Error Description: 
+
+ User ID: 
+  User Name: 
+  
+
+ Offending URL: http://smetoolkit.abs.org.sg/default.aspx
+ Source: System.Web
+ Message: Exception of type 'System.Web.HttpUnhandledException' was thrown.
+ Inner exception: System.ArgumentException: Invalid postback or callback argument.  Event validation is enabled using <pages enableEventValidation="true"/> in configuration or <%@ Page EnableEventValidation="true" %> in a page.  For security purposes, this feature verifies that arguments to postback or callback events originate from the server control that originally rendered them.  If the data is valid and expected, use the ClientScriptManager.RegisterForEventValidation method in order to register the postback or callback data for validation.
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.WebControls.TextBox.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   at System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ Stack trace:    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)Browser Capabilities
+IP Address = 10.188.3.6
+Type = Chrome120
+Name = Chrome
+Version = 120.0
+Major Version = 120
+Minor Version = 0
+Platform = WinNT
+Is Beta = False
+Is Crawler = False
+Is AOL = False
+Is Win16 = False
+Is Win32 = True
+Supports Frames = True
+Supports Tables = True
+Supports Cookies = True
+Supports VBScript = False
+Supports JavaScript = True
+Supports Java Applets = True
+Supports BackgroundSounds = False
+Supports ActiveX Controls = False
+Browser = Chrome
+CDF = False
+CLR Version = 0.0
+ECMA Script version = 3.0
+MSDOM version = 0.0
+Supports tables = True
+W3C DOM version = 1.0
+
+
+
+----------------------------
+Logged On: 12/25/2023 12:32:27 AM
+
+
+Error Description: 
+
+ User ID: 
+  User Name: 
+  
+
+ Offending URL: http://smetoolkit.abs.org.sg/test.aspx
+ Source: System.Web
+ Message: Exception of type 'System.Web.HttpUnhandledException' was thrown.
+ Inner exception: System.Web.HttpException (0x80070057): An error occurred while communicating with the remote host. The error code is 0x80070057.
+   at System.Web.Hosting.ISAPIWorkerRequestInProcForIIS6.FlushCore(Byte[] status, Byte[] header, Int32 keepConnected, Int32 totalBodySize, Int32 numBodyFragments, IntPtr[] bodyFragments, Int32[] bodyFragmentLengths, Int32 doneWithSession, Int32 finalStatus, Boolean& async)
+   at System.Web.Hosting.ISAPIWorkerRequest.FlushCachedResponse(Boolean isFinal)
+   at System.Web.HttpResponse.Flush(Boolean finalFlush, Boolean async)
+   at test.generatePdf()
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ Stack trace:    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)Browser Capabilities
+IP Address = 10.188.3.6
+Type = Chrome120
+Name = Chrome
+Version = 120.0
+Major Version = 120
+Minor Version = 0
+Platform = WinNT
+Is Beta = False
+Is Crawler = False
+Is AOL = False
+Is Win16 = False
+Is Win32 = True
+Supports Frames = True
+Supports Tables = True
+Supports Cookies = True
+Supports VBScript = False
+Supports JavaScript = True
+Supports Java Applets = True
+Supports BackgroundSounds = False
+Supports ActiveX Controls = False
+Browser = Chrome
+CDF = False
+CLR Version = 0.0
+ECMA Script version = 3.0
+MSDOM version = 0.0
+Supports tables = True
+W3C DOM version = 1.0
+
+
+
+----------------------------
+Logged On: 12/25/2023 12:32:33 AM
+
+
+Error Description: 
+
+ User ID: 
+  User Name: 
+  
+
+ Offending URL: http://smetoolkit.abs.org.sg/test.aspx
+ Source: System.Web
+ Message: Exception of type 'System.Web.HttpUnhandledException' was thrown.
+ Inner exception: System.Web.HttpException (0x80070057): An error occurred while communicating with the remote host. The error code is 0x80070057.
+   at System.Web.Hosting.ISAPIWorkerRequestInProcForIIS6.FlushCore(Byte[] status, Byte[] header, Int32 keepConnected, Int32 totalBodySize, Int32 numBodyFragments, IntPtr[] bodyFragments, Int32[] bodyFragmentLengths, Int32 doneWithSession, Int32 finalStatus, Boolean& async)
+   at System.Web.Hosting.ISAPIWorkerRequest.FlushCachedResponse(Boolean isFinal)
+   at System.Web.HttpResponse.Flush(Boolean finalFlush, Boolean async)
+   at test.generatePdf()
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ Stack trace:    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)Browser Capabilities
+IP Address = 10.188.3.6
+Type = Chrome120
+Name = Chrome
+Version = 120.0
+Major Version = 120
+Minor Version = 0
+Platform = WinNT
+Is Beta = False
+Is Crawler = False
+Is AOL = False
+Is Win16 = False
+Is Win32 = True
+Supports Frames = True
+Supports Tables = True
+Supports Cookies = True
+Supports VBScript = False
+Supports JavaScript = True
+Supports Java Applets = True
+Supports BackgroundSounds = False
+Supports ActiveX Controls = False
+Browser = Chrome
+CDF = False
+CLR Version = 0.0
+ECMA Script version = 3.0
+MSDOM version = 0.0
+Supports tables = True
+W3C DOM version = 1.0
+
+
+
+----------------------------
+Logged On: 12/25/2023 12:32:43 AM
+
+
+Error Description: 
+
+ User ID: 
+  User Name: 
+  
+
+ Offending URL: http://smetoolkit.abs.org.sg/test.aspx
+ Source: System.Web
+ Message: Exception of type 'System.Web.HttpUnhandledException' was thrown.
+ Inner exception: System.Web.HttpException (0x80070057): An error occurred while communicating with the remote host. The error code is 0x80070057.
+   at System.Web.Hosting.ISAPIWorkerRequestInProcForIIS6.FlushCore(Byte[] status, Byte[] header, Int32 keepConnected, Int32 totalBodySize, Int32 numBodyFragments, IntPtr[] bodyFragments, Int32[] bodyFragmentLengths, Int32 doneWithSession, Int32 finalStatus, Boolean& async)
+   at System.Web.Hosting.ISAPIWorkerRequest.FlushCachedResponse(Boolean isFinal)
+   at System.Web.HttpResponse.Flush(Boolean finalFlush, Boolean async)
+   at test.generatePdf()
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ Stack trace:    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)Browser Capabilities
+IP Address = 10.188.3.6
+Type = Chrome120
+Name = Chrome
+Version = 120.0
+Major Version = 120
+Minor Version = 0
+Platform = WinNT
+Is Beta = False
+Is Crawler = False
+Is AOL = False
+Is Win16 = False
+Is Win32 = True
+Supports Frames = True
+Supports Tables = True
+Supports Cookies = True
+Supports VBScript = False
+Supports JavaScript = True
+Supports Java Applets = True
+Supports BackgroundSounds = False
+Supports ActiveX Controls = False
+Browser = Chrome
+CDF = False
+CLR Version = 0.0
+ECMA Script version = 3.0
+MSDOM version = 0.0
+Supports tables = True
+W3C DOM version = 1.0
+
+
+
+----------------------------
+Logged On: 12/25/2023 12:32:50 AM
+
+
+Error Description: 
+
+ User ID: 
+  User Name: 
+  
+
+ Offending URL: http://smetoolkit.abs.org.sg/test.aspx
+ Source: System.Web
+ Message: Exception of type 'System.Web.HttpUnhandledException' was thrown.
+ Inner exception: System.Web.HttpException (0x80070057): An error occurred while communicating with the remote host. The error code is 0x80070057.
+   at System.Web.Hosting.ISAPIWorkerRequestInProcForIIS6.FlushCore(Byte[] status, Byte[] header, Int32 keepConnected, Int32 totalBodySize, Int32 numBodyFragments, IntPtr[] bodyFragments, Int32[] bodyFragmentLengths, Int32 doneWithSession, Int32 finalStatus, Boolean& async)
+   at System.Web.Hosting.ISAPIWorkerRequest.FlushCachedResponse(Boolean isFinal)
+   at System.Web.HttpResponse.Flush(Boolean finalFlush, Boolean async)
+   at test.generatePdf()
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ Stack trace:    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)Browser Capabilities
+IP Address = 10.188.3.6
+Type = Chrome120
+Name = Chrome
+Version = 120.0
+Major Version = 120
+Minor Version = 0
+Platform = WinNT
+Is Beta = False
+Is Crawler = False
+Is AOL = False
+Is Win16 = False
+Is Win32 = True
+Supports Frames = True
+Supports Tables = True
+Supports Cookies = True
+Supports VBScript = False
+Supports JavaScript = True
+Supports Java Applets = True
+Supports BackgroundSounds = False
+Supports ActiveX Controls = False
+Browser = Chrome
+CDF = False
+CLR Version = 0.0
+ECMA Script version = 3.0
+MSDOM version = 0.0
+Supports tables = True
+W3C DOM version = 1.0
+
+
+
+----------------------------

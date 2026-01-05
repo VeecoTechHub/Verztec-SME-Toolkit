@@ -1,0 +1,879 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnBackResource1.Text" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="btnBackResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCalculateResource1.Text" xml:space="preserve">
+    <value>Calculate</value>
+  </data>
+  <data name="btnCalculateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnClearResource1.Text" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="btnClearResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSaveNextResource1.Text" xml:space="preserve">
+    <value>Save &amp; Next</value>
+  </data>
+  <data name="btnSaveNextResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Image1Resource1.AlternateText" xml:space="preserve">
+    <value>Processing</value>
+  </data>
+  <data name="Image1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgBtnGenerateReportResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgBtnGenerateReportResource1.ToolTip" xml:space="preserve">
+    <value>Generate Report</value>
+  </data>
+  <data name="imgBtnHelpResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgBtnHelpResource1.ToolTip" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="imgbtnHomeResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgbtnHomeResource1.ToolTip" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="imgbtnStatementsResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgbtnStatementsResource1.ToolTip" xml:space="preserve">
+    <value>Statements</value>
+  </data>
+  <data name="lbl10DaysResource1.Text" xml:space="preserve">
+    <value>day(s)</value>
+  </data>
+  <data name="lbl10DaysResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl11DaysResource1.Text" xml:space="preserve">
+    <value>day(s)</value>
+  </data>
+  <data name="lbl11DaysResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl12DaysResource1.Text" xml:space="preserve">
+    <value>day(s)</value>
+  </data>
+  <data name="lbl12DaysResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl15DaysResource1.Text" xml:space="preserve">
+    <value>day(s)</value>
+  </data>
+  <data name="lbl15DaysResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl1AnalysisResource1.Text" xml:space="preserve">
+    <value>Analysis of your average stock holding days</value>
+  </data>
+  <data name="lbl1AnalysisResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl1daysResource1.Text" xml:space="preserve">
+    <value>day(s)</value>
+  </data>
+  <data name="lbl1daysResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl1EstimatesResource1.Text" xml:space="preserve">
+    <value>Estimates</value>
+  </data>
+  <data name="lbl1EstimatesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl1IncreaseResource1.Text" xml:space="preserve">
+    <value>% of Increase</value>
+  </data>
+  <data name="lbl1IncreaseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl2A2ForResource1.Text" xml:space="preserve">
+    <value>2A (2) For manufacturing activities, please indicate the yearly fixed overhead
+                                                    costs of your business? Please exclude depreciation charges.</value>
+  </data>
+  <data name="lbl2A2ForResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl2AResource1.Text" xml:space="preserve">
+    <value>2A (1) What is the cost of sales as a percentage of your sales?</value>
+  </data>
+  <data name="lbl2AResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl2BasedOnTheResource1.Text" xml:space="preserve">
+    <value>Based on the information that you have entered above, you will need to keep approximately</value>
+  </data>
+  <data name="lbl2BasedOnTheResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl2BHowResource1.Text" xml:space="preserve">
+    <value>2B. How long does it take to pay your various suppliers?</value>
+  </data>
+  <data name="lbl2BHowResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl2CostOfSalesResource1.Text" xml:space="preserve">
+    <value>Cost of Sales</value>
+  </data>
+  <data name="lbl2CostOfSalesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl2CUnderstandingResource1.Text" xml:space="preserve">
+    <value>2C. Understanding your purchase &amp; delivery cycle.</value>
+  </data>
+  <data name="lbl2CUnderstandingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl2DaysResource1.Text" xml:space="preserve">
+    <value>day(s)</value>
+  </data>
+  <data name="lbl2DaysResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl2EstimatesResource1.Text" xml:space="preserve">
+    <value>Estimates</value>
+  </data>
+  <data name="lbl2EstimatesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl2IncreaseResource1.Text" xml:space="preserve">
+    <value>% of Increase</value>
+  </data>
+  <data name="lbl2IncreaseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl2OptionalResource1.Text" xml:space="preserve">
+    <value>(Optional)</value>
+  </data>
+  <data name="lbl2OptionalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl2TotalResource1.Text" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="lbl2TotalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl3DaysResource1.Text" xml:space="preserve">
+    <value>day(s)</value>
+  </data>
+  <data name="lbl3DaysResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl3EstimatesResource1.Text" xml:space="preserve">
+    <value>Estimates</value>
+  </data>
+  <data name="lbl3EstimatesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl4DaysResource1.Text" xml:space="preserve">
+    <value>day(s)</value>
+  </data>
+  <data name="lbl4DaysResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl4EstimatesResource1.Text" xml:space="preserve">
+    <value>Estimates</value>
+  </data>
+  <data name="lbl4EstimatesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl5EstimatesResource1.Text" xml:space="preserve">
+    <value>Estimates</value>
+  </data>
+  <data name="lbl5EstimatesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl6EstimatesResource1.Text" xml:space="preserve">
+    <value>Estimates</value>
+  </data>
+  <data name="lbl6EstimatesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl8DaysResource1.Text" xml:space="preserve">
+    <value>day(s)</value>
+  </data>
+  <data name="lbl8DaysResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl9DaysResource1.Text" xml:space="preserve">
+    <value>day(s)</value>
+  </data>
+  <data name="lbl9DaysResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAHaveResource1.Text" xml:space="preserve">
+    <value>(a) Have the suppliers deliver the goods to you after you have placed your order?</value>
+  </data>
+  <data name="lblAHaveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAnalysisResource1.Text" xml:space="preserve">
+    <value>Analysis of your average payment days</value>
+  </data>
+  <data name="lblAnalysisResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAreYouResource1.Text" xml:space="preserve">
+    <value>Are you sure, you want to save the data.</value>
+  </data>
+  <data name="lblAreYouResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAsEnteredResource1.Text" xml:space="preserve">
+    <value>(as entered in Section 1)</value>
+  </data>
+  <data name="lblAsEnteredResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAverageDaysResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAverageDaysResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAverageResource1.Text" xml:space="preserve">
+    <value>Average</value>
+  </data>
+  <data name="lblAverageResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAvgDays1Resource1.Text" xml:space="preserve">
+    <value>day(s)</value>
+  </data>
+  <data name="lblAvgDays1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAvgDaysResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAvgDaysResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAvgDaysTotalResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAvgDaysTotalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAvgStockPeriodResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAvgStockPeriodResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBasedOnTheResource1.Text" xml:space="preserve">
+    <value>Based on the information that you have entered above, you will take approximately</value>
+  </data>
+  <data name="lblBasedOnTheResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBasedResource1.Text" xml:space="preserve">
+    <value>Based on information that you have entered, the average cost of sales as a percentage
+                                                    of your overall sales is</value>
+  </data>
+  <data name="lblBasedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCorrespondingResource1.Text" xml:space="preserve">
+    <value>Corresponding Days to Pay</value>
+  </data>
+  <data name="lblCorrespondingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCostOfSalesResource1.Text" xml:space="preserve">
+    <value>2. Cost of Sales &amp; Payments</value>
+  </data>
+  <data name="lblCostOfSalesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDaysToPayResource1.Text" xml:space="preserve">
+    <value>days to pay your suppliers.
+                                                For subsequent projections and financial analysis, you may either use this figure,
+                                                or</value>
+  </data>
+  <data name="lblDaysToPayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDoYouChangesResource1.Text" xml:space="preserve">
+    <value>Do you want to save the changes you made?</value>
+  </data>
+  <data name="lblDoYouChangesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDoYouDealResource1.Text" xml:space="preserve">
+    <value>Do you deal in cash terms only?</value>
+  </data>
+  <data name="lblDoYouDealResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDoYouResource1.Text" xml:space="preserve">
+    <value>Do you want to save the data before naviagtion? then click OK, otherwise, click Cancel.</value>
+  </data>
+  <data name="lblDoYouResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEnter1TheResource1.Text" xml:space="preserve">
+    <value>Enter the average stock holding days here:</value>
+  </data>
+  <data name="lblEnter1TheResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblENterTheAvgResource1.Text" xml:space="preserve">
+    <value>Enter the average payment days you take to pay your suppliers here:</value>
+  </data>
+  <data name="lblENterTheAvgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExampleResource1.Text" xml:space="preserve">
+    <value>Example of cost of sales include materials, subcontract costs and freight charges.</value>
+  </data>
+  <data name="lblExampleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExamples1Resource1.Text" xml:space="preserve">
+    <value>Examples of fixed costs of sale include, salary of production workers, factory rental,
+                                                equipment rental &amp; maintenance, etc</value>
+  </data>
+  <data name="lblExamples1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblForExampleResource1.Text" xml:space="preserve">
+    <value>For example, if your sales is $100 and cost of sales is $56, the cost of sales %
+                            shall be 56%.</value>
+  </data>
+  <data name="lblForExampleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblForSubsequentResource1.Text" xml:space="preserve">
+    <value>For subsequent projections and financial analysis, you may either use this
+                                                figure, or</value>
+  </data>
+  <data name="lblForSubsequentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblGivenResource1.Text" xml:space="preserve">
+    <value>Given value is not in a correct format</value>
+  </data>
+  <data name="lblGivenResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHeadingResource1.Text" xml:space="preserve">
+    <value>FINANCIAL MANAGEMENT TOOLKIT</value>
+  </data>
+  <data name="lblHeadingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHelpResource1.Text" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="lblHelpResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHomeResource1.Text" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="lblHomeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInYourResource1.Text" xml:space="preserve">
+    <value>In your business, how many days does it take on the average to ….</value>
+  </data>
+  <data name="lblInYourResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblManufacturingSaleP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblManufacturingSaleP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblManufacturingSaleResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblManufacturingSaleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOptionalResource1.Text" xml:space="preserve">
+    <value>(Optional)</value>
+  </data>
+  <data name="lblOptionalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPercentageOfTotalResource1.Text" xml:space="preserve">
+    <value>Percentage of Total Cost of Sale</value>
+  </data>
+  <data name="lblPercentageOfTotalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPercentageResource1.Text" xml:space="preserve">
+    <value>Percentage of Total Sales Must Be 100%.</value>
+  </data>
+  <data name="lblPercentageResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProcessResource1.Text" xml:space="preserve">
+    <value>(c) Process the goods (manufacture, packing, etc) ?</value>
+  </data>
+  <data name="lblProcessResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProjectionP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProjectionP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProjectionP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProjectionP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProjYear1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProjYear1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProjYear2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProjYear2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProjYear3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProjYear3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProYear1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProYear1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProYear2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProYear2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProYear3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProYear3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReceiveResource1.Text" xml:space="preserve">
+    <value>(b) Receive the goods after it has been shipped to you?</value>
+  </data>
+  <data name="lblReceiveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReportResource1.Text" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="lblReportResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSection2Resource1.Text" xml:space="preserve">
+    <value>Section 2A(2) is not relevant to your business since there is no manufacturing activity in your business.</value>
+  </data>
+  <data name="lblSection2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblServicesP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblServicesP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblServicesResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblServicesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSourcesResource1.Text" xml:space="preserve">
+    <value>Sources of sales</value>
+  </data>
+  <data name="lblSourcesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStatementsResource1.Text" xml:space="preserve">
+    <value>Statements</value>
+  </data>
+  <data name="lblStatementsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotal1Resource1.Text" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="lblTotal1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotalResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTradingOfGoodsP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTradingOfGoodsP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTradingOfGoodsResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTradingOfGoodsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTransportResource1.Text" xml:space="preserve">
+    <value>(d) Transport the goods and bill your customer?</value>
+  </data>
+  <data name="lblTransportResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="ListItemResource2.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="locPara1Resource1.Text" xml:space="preserve">
+    <value>
+                            Every business will have some cost associated with sales. For a trading business,
+                            the costs will be like purchases of goods and transportation charges; for a service
+                            business, it could be subcontracting costs. However, cost of sales does not include
+                            overheads like rental, salaries and office expenses. This section seeks to understand
+                            your cost structure in your business.</value>
+  </data>
+  <data name="locPara2Resource1.Text" xml:space="preserve">
+    <value>
+                                                The number of days you take to pay your suppliers also have implications on the
+                                                cash and funds, which is part of your working capital, available to your business.</value>
+  </data>
+  <data name="locPara3Resource1.Text" xml:space="preserve">
+    <value>
+                                    Enter the percentage of your purchases and the corresponding days to pay your suppliers.
+                                    For example, if 60% of your purchases are payable within 30 days, and 40% of your
+                                    purchases are payable within 45 days, enter 60% and 30 days in the first row, and
+                                    40% and 45 days in the second row, and so on. If you take on the average 35 days
+                                    to pay all your suppliers, just enter 100% and 35 days in the first row, and leave
+                                    the rest blank.</value>
+  </data>
+  <data name="locPara4Resource1.Text" xml:space="preserve">
+    <value>
+                                    You will need to keep stocks to ensure availability of goods to supply to your customers
+                                    as and when they place orders with you. The level of stocks will typically based
+                                    on the lead time you need to replenish the stocks.</value>
+  </data>
+  <data name="locPara5Resource1.Text" xml:space="preserve">
+    <value>
+                                                days worth of stocks
+                                                to meet your customers' orders promptly, assuming that customers' orders are constant
+                                                during the period. Otherwise, the stock levels must be adjusted to cater to seasonal
+                                                fluctuation of demands.</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radRfv1Resource1.ErrorMessage" xml:space="preserve">
+    <value>Select One option</value>
+  </data>
+  <data name="radRfv1Resource1.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="radRfv1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbl_Q2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAvgStockDaysResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAvgStockDaysResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCostOfSale1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCostOfSale1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCostOfSale2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCostOfSale2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCostOfSale3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCostOfSale3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCostOfSale4Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCostOfSale4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDaysResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDaysResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtManufacturingSalePerResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtManufacturingSalePerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNumberOfDays1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNumberOfDays1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNumberOfDays2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNumberOfDays2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNumberOfDays3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNumberOfDays3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNumberOfDays4Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNumberOfDays4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOnTheAverageDays1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOnTheAverageDays1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOnTheAverageDays2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOnTheAverageDays2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOnTheAverageDays3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOnTheAverageDays3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOnTheAverageDays4Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOnTheAverageDays4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtProjectionP1PerResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtProjectionP1PerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtProjectionP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtProjectionP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtProjectionP2PerResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtProjectionP2PerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtServicesPerResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtServicesPerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTradingOfGoodsPerResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTradingOfGoodsPerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl1LastyearResource1.Text" xml:space="preserve">
+    <value>Last year, the average number of days it took for you to hold your stock was approximately</value>
+  </data>
+  <data name="lbl1LastyearResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLastYearResource1.Text" xml:space="preserve">
+    <value>Last year, the average number of days it took for you to pay your suppliers was approximately</value>
+  </data>
+  <data name="lblLastYearResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl13DaysResource1.Text" xml:space="preserve">
+    <value>days.</value>
+  </data>
+  <data name="lbl13DaysResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl7DaysResource1.Text" xml:space="preserve">
+    <value>days.</value>
+  </data>
+  <data name="lbl7DaysResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

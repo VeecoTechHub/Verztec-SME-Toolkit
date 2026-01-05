@@ -1,0 +1,312 @@
+Logged On: 3/9/2023 1:26:17 PM
+
+
+Error Description: 
+
+ User ID: 2CF569CE-0D0F-4635-9EA7-CF6651319AF5
+  User Name: ABSADMIN
+  
+
+ Offending URL: http://smetoolkit.abs.org.sg/Public/ResourceLibDtls.aspx?RL_ID=M5lbVB/6tjI=
+ Source: System.Web
+ Message: Exception of type 'System.Web.HttpUnhandledException' was thrown.
+ Inner exception: System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ','.
+   at ABSDAL.CommonDAL.GET_RelatedArticals(ResourceLibDetails obj_RsDetails)
+   at Public_ResourceLibDtls.id_datalist_ItemDataBound(Object sender, DataListItemEventArgs e)
+   at System.Web.UI.WebControls.DataList.OnItemDataBound(DataListItemEventArgs e)
+   at System.Web.UI.WebControls.DataList.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.DataList.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at Public_ResourceLibDtls.Page_Load(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:c6cf8b12-fd8b-469b-9aa2-913b2a526264
+Error Number:102,State:1,Class:15
+ Stack trace:    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)Browser Capabilities
+IP Address = 10.188.3.6
+Type = Chrome110
+Name = Chrome
+Version = 110.0
+Major Version = 110
+Minor Version = 0
+Platform = WinNT
+Is Beta = False
+Is Crawler = False
+Is AOL = False
+Is Win16 = False
+Is Win32 = True
+Supports Frames = True
+Supports Tables = True
+Supports Cookies = True
+Supports VBScript = False
+Supports JavaScript = True
+Supports Java Applets = True
+Supports BackgroundSounds = False
+Supports ActiveX Controls = False
+Browser = Chrome
+CDF = False
+CLR Version = 0.0
+ECMA Script version = 3.0
+MSDOM version = 0.0
+Supports tables = True
+W3C DOM version = 1.0
+
+
+
+----------------------------
+Logged On: 3/9/2023 1:27:43 PM
+
+
+Error Description: 
+
+ User ID: 2CF569CE-0D0F-4635-9EA7-CF6651319AF5
+  User Name: ABSADMIN
+  
+
+ Offending URL: http://smetoolkit.abs.org.sg/Administration/Admin_LibraryResource.aspx
+ Source: System.Web
+ Message: The client disconnected.
+ Inner exception: System.Web.UI.ViewStateException: Invalid viewstate. 
+	Client IP: 10.188.3.6
+	Port: 37588
+	Referer: https://smetoolkit.abs.org.sg/Administration/Admin_LibraryResource.aspx
+	Path: /Administration/Admin_LibraryResource.aspx
+	User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.63
+	ViewState: /wEPDwULLTE0ODIyNjk1MjcPFgweBUxpbmtzBbwEQWRtaW5pc3RyYXRpb24vQWRtaW5fTGlicmFyeVJlc291cmNlLmFzcHh8QWRtaW5pc3RyYXRpb24vQWRtaW5fTGlicmFyeVJlc291cmNlLmFzcHh8QWRtaW5pc3RyYXRpb24vQWRtaW5fQWRkTGlicmFyeVJlc291cmNlLmFzcHh8UmVzb3VyY2UgTGlicmFyeXxNYW5hZ2UgUmVzb3VyY2VzIExpYnJhcnk8c2NyaXB0PmlmKChkb2N1bWVudC5sb2NhdGlvbiArICcnKS5pbmRleE9mKCdfJyk+MClkb2N1bWVudC53cml0ZSgnICgnICsgKGRvY3VtZW50LmxvY2F0aW9uICsgJycpLnN1YnN0cigoZG9jdW1lbnQubG9jYXRpb24gKyAnJykubGFzdEluZGV4T2YoJ18nKSsxLCgoZG9jdW1lbnQubG9jYXRpb24gKyAnJykuaW5kZXhPZignLmFzcHgnKS0oKGRvY3VtZW50LmxvY2F0aW9uICsgJycpLmxhc3RJbmRleE9mKCdfJykrMSkpKSArICcpJyk7Ly9pZigoZG9jdW1lbnQubG9jYXRpb24gKyAnJykuaW5kZXhPZignQWRkJyk+MClkb2N1bWVudC53cml0ZSgnIChBZGQpJyk... ---> System.FormatException: Invalid length for a Base-64 char array or string.
+   at System.Convert.FromBase64_Decode(Char* startInputPtr, Int32 inputLength, Byte* startDestPtr, Int32 destLength)
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at System.Web.UI.ObjectStateFormatter.Deserialize(String inputString, Purpose purpose)
+   at System.Web.UI.Util.DeserializeWithAssert(IStateFormatter2 formatter, String serializedState, Purpose purpose)
+   at System.Web.UI.HiddenFieldPageStatePersister.Load()
+   --- End of inner exception stack trace ---
+ Stack trace:    at System.Web.UI.ViewStateException.ThrowError(Exception inner, String persistedState, String errorPageMessage, Boolean macValidationError)
+   at System.Web.UI.HiddenFieldPageStatePersister.Load()
+   at System.Web.UI.Page.LoadPageStateFromPersistenceMedium()
+   at System.Web.UI.Page.LoadAllState()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)Browser Capabilities
+IP Address = 10.188.3.6
+Type = Chrome110
+Name = Chrome
+Version = 110.0
+Major Version = 110
+Minor Version = 0
+Platform = WinNT
+Is Beta = False
+Is Crawler = False
+Is AOL = False
+Is Win16 = False
+Is Win32 = True
+Supports Frames = True
+Supports Tables = True
+Supports Cookies = True
+Supports VBScript = False
+Supports JavaScript = True
+Supports Java Applets = True
+Supports BackgroundSounds = False
+Supports ActiveX Controls = False
+Browser = Chrome
+CDF = False
+CLR Version = 0.0
+ECMA Script version = 3.0
+MSDOM version = 0.0
+Supports tables = True
+W3C DOM version = 1.0
+
+
+
+----------------------------
+Logged On: 3/9/2023 1:35:32 PM
+
+
+Error Description: 
+
+ User ID: 2CF569CE-0D0F-4635-9EA7-CF6651319AF5
+  User Name: ABSADMIN
+  
+
+ Offending URL: http://smetoolkit.abs.org.sg/Administration/Admin_AddLibraryResource.aspx
+ Source: System.Web
+ Message: A potentially dangerous Request.Form value was detected from the client (ctl00$ContentPlaceHolder1$id_txt_AddDetails="<p><a href="http://w...").
+ 
+ Stack trace:    at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateHttpValueCollection(HttpValueCollection collection, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.administration_admin_addlibraryresource_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\b90aea8c\c03211e9\App_Web_zrgf4ctw.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)Browser Capabilities
+IP Address = 10.188.3.6
+Type = Chrome110
+Name = Chrome
+Version = 110.0
+Major Version = 110
+Minor Version = 0
+Platform = WinNT
+Is Beta = False
+Is Crawler = False
+Is AOL = False
+Is Win16 = False
+Is Win32 = True
+Supports Frames = True
+Supports Tables = True
+Supports Cookies = True
+Supports VBScript = False
+Supports JavaScript = True
+Supports Java Applets = True
+Supports BackgroundSounds = False
+Supports ActiveX Controls = False
+Browser = Chrome
+CDF = False
+CLR Version = 0.0
+ECMA Script version = 3.0
+MSDOM version = 0.0
+Supports tables = True
+W3C DOM version = 1.0
+
+
+
+----------------------------
+Logged On: 3/9/2023 1:38:28 PM
+
+
+Error Description: 
+
+ User ID: 94E78EED-6DD6-449F-B0C3-6CA009A8F734
+  User Name: KM WONG
+  
+
+ Offending URL: http://smetoolkit.abs.org.sg/Public/ResourceLibDtls.aspx?RL_ID=M5lbVB/6tjI=
+ Source: System.Web
+ Message: Exception of type 'System.Web.HttpUnhandledException' was thrown.
+ Inner exception: System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near ','.
+   at ABSDAL.CommonDAL.GET_RelatedArticals(ResourceLibDetails obj_RsDetails)
+   at Public_ResourceLibDtls.id_datalist_ItemDataBound(Object sender, DataListItemEventArgs e)
+   at System.Web.UI.WebControls.DataList.OnItemDataBound(DataListItemEventArgs e)
+   at System.Web.UI.WebControls.DataList.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.DataList.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at Public_ResourceLibDtls.Page_Load(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:c6cf8b12-fd8b-469b-9aa2-913b2a526264
+Error Number:102,State:1,Class:15
+ Stack trace:    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)Browser Capabilities
+IP Address = 10.188.3.6
+Type = Chrome110
+Name = Chrome
+Version = 110.0
+Major Version = 110
+Minor Version = 0
+Platform = WinNT
+Is Beta = False
+Is Crawler = False
+Is AOL = False
+Is Win16 = False
+Is Win32 = True
+Supports Frames = True
+Supports Tables = True
+Supports Cookies = True
+Supports VBScript = False
+Supports JavaScript = True
+Supports Java Applets = True
+Supports BackgroundSounds = False
+Supports ActiveX Controls = False
+Browser = Chrome
+CDF = False
+CLR Version = 0.0
+ECMA Script version = 3.0
+MSDOM version = 0.0
+Supports tables = True
+W3C DOM version = 1.0
+
+
+
+----------------------------
+Logged On: 3/9/2023 1:49:32 PM
+
+
+Error Description: 
+
+ User ID: 94E78EED-6DD6-449F-B0C3-6CA009A8F734
+  User Name: KM WONG
+  
+
+ Offending URL: http://smetoolkit.abs.org.sg/Administration/Admin_AddLibraryResource.aspx
+ Source: System.Web
+ Message: A potentially dangerous Request.Form value was detected from the client (ctl00$ContentPlaceHolder1$id_txt_AddDetails="<p><a href="http://w...").
+ 
+ Stack trace:    at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.ValidateHttpValueCollection(HttpValueCollection collection, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.administration_admin_addlibraryresource_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\b90aea8c\c03211e9\App_Web_zrgf4ctw.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)Browser Capabilities
+IP Address = 10.188.3.6
+Type = Chrome110
+Name = Chrome
+Version = 110.0
+Major Version = 110
+Minor Version = 0
+Platform = WinNT
+Is Beta = False
+Is Crawler = False
+Is AOL = False
+Is Win16 = False
+Is Win32 = True
+Supports Frames = True
+Supports Tables = True
+Supports Cookies = True
+Supports VBScript = False
+Supports JavaScript = True
+Supports Java Applets = True
+Supports BackgroundSounds = False
+Supports ActiveX Controls = False
+Browser = Chrome
+CDF = False
+CLR Version = 0.0
+ECMA Script version = 3.0
+MSDOM version = 0.0
+Supports tables = True
+W3C DOM version = 1.0
+
+
+
+----------------------------

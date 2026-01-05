@@ -1,0 +1,68 @@
+Logged On: 10/2/2024 9:59:12 AM
+
+
+Error Description: 
+
+ User ID: 
+  User Name: 
+  
+
+ Offending URL: http://smetoolkit.abs.org.sg/default.aspx
+ Source: System.Web
+ Message: The state information is invalid for this page and might be corrupted.
+ Inner exception: System.Web.UI.ViewStateException: Invalid viewstate. 
+	Client IP: 10.188.3.6
+	Port: 40466
+	Referer: 
+	Path: /default.aspx
+	User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0
+	ViewState: /wEPDwULLTE2OTk3NTkyOTcPZBYCZg9kFgICAQ9kFgQCAw9kFgICAQ9kFgICAQ8PFgIeB0VuYWJsZWRoZGQCBQ9kFggCAg8PFgIeBFRleHQFgwJUaGlzIHRvb2wgaXMgcHJvdmlkZWQgZnJlZS1vZi1jaGFyZ2UgYnV0IG9uZS10aW1lIHJlZ2lzdHJhdGlvbiB3aXRoIGEgdmFsaWQgZW1haWwgYWRkcmVzcyBpcyByZXF1aXJlZC4gUGxlYXNlIHJlYWQgdGhlIDxhIGhyZWY9IiMiIGNsYXNzPSJtb3JlIiBvbmNsaWNrPSJteXBvcHVwKCdUZXJtc0NvbmRpdGlvbnMuYXNweCcpIj5UZXJtcyBvZiBVc2UgYW5kIFByaXZhY3kgTm90aWNlPC9hPiAgc2hvdWxkIHlvdSB3aXNoIHRvIHVzZSB0aGlzIFRvb2xraXQuZGQCAw8WAh4Dc3JjBRl L2ltYWdlcy9SZWdpc3Rlcl9idXQuanBnZAIODxYCHgdWaXNpYmxlaGQCEg8PFgIeC05hdmlnYXRlVXJsBThodHRwOi8vc21ldG9vbGtpdC5hYnMub3JnLnNnL1B1YmxpYy9DbGluaWNhbFNlc3Npb24uYXNweGQWAmYPDxYCHghJbWFnZVVybAU1fi9CYW5uZXJJbWFnZXMvMTI5OTMxMzM1MTk2MjA4NjIzRGFzaGJvYXJkX2Jhbm5lci5qcGdkZBgBBSxjdGwwMCRDb250ZW50UGxhY2VIb2xkZXIxJGNjQ29ycG9yYXRlQ2FwdGNoYQ8FJDA4YTJlOTUzLTVkNzUtNGFlZi05MmE2LTQwOTRk... ---> System.FormatException: Invalid length for a Base-64 char array or string.
+   at System.Convert.FromBase64_Decode(Char* startInputPtr, Int32 inputLength, Byte* startDestPtr, Int32 destLength)
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at System.Web.UI.ObjectStateFormatter.Deserialize(String inputString, Purpose purpose)
+   at System.Web.UI.Util.DeserializeWithAssert(IStateFormatter2 formatter, String serializedState, Purpose purpose)
+   at System.Web.UI.HiddenFieldPageStatePersister.Load()
+   --- End of inner exception stack trace ---
+ Stack trace:    at System.Web.UI.ViewStateException.ThrowError(Exception inner, String persistedState, String errorPageMessage, Boolean macValidationError)
+   at System.Web.UI.HiddenFieldPageStatePersister.Load()
+   at System.Web.UI.Page.LoadPageStateFromPersistenceMedium()
+   at System.Web.UI.Page.LoadAllState()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)Browser Capabilities
+IP Address = 10.188.3.6
+Type = Firefox116
+Name = Firefox
+Version = 116.0
+Major Version = 116
+Minor Version = 0
+Platform = WinNT
+Is Beta = False
+Is Crawler = False
+Is AOL = False
+Is Win16 = False
+Is Win32 = True
+Supports Frames = True
+Supports Tables = True
+Supports Cookies = True
+Supports VBScript = False
+Supports JavaScript = True
+Supports Java Applets = True
+Supports BackgroundSounds = False
+Supports ActiveX Controls = False
+Browser = Firefox
+CDF = False
+CLR Version = 0.0
+ECMA Script version = 3.0
+MSDOM version = 0.0
+Supports tables = True
+W3C DOM version = 1.0
+
+
+
+----------------------------

@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblaq1Resource1.Text" xml:space="preserve">
+    <value> How can I benefit from the SME Financial Management
+                                                                    Toolkit?</value>
+  </data>
+  <data name="lblaq1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblaq2Resource1.Text" xml:space="preserve">
+    <value> How can I get help if I need guidance on the SME
+                                                                    Financial Management Toolkit?</value>
+  </data>
+  <data name="lblaq2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblaq3Resource1.Text" xml:space="preserve">
+    <value>How can I use the report generated from the Financial
+                                                                    Modeling in my Business Plan?</value>
+  </data>
+  <data name="lblaq3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblaq4Resource1.Text" xml:space="preserve">
+    <value>How do I save the information before I logout?</value>
+  </data>
+  <data name="lblaq4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblaq5Resource1.Text" xml:space="preserve">
+    <value>Can I generate and save more than 1 set of report
+                                                                    with different scenarios using the Financial Modeling tool?</value>
+  </data>
+  <data name="lblaq5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblaq6Resource1.Text" xml:space="preserve">
+    <value>Will the data of my business in the Financial Modeling
+                                                                    be kept confidential?</value>
+  </data>
+  <data name="lblaq6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblaq7Resource1.Text" xml:space="preserve">
+    <value>Can I create more than one user account with
+                                                                    the same email address?</value>
+  </data>
+  <data name="lblaq7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblaq8Resource1.Text" xml:space="preserve">
+    <value>How do I report a bug?</value>
+  </data>
+  <data name="lblaq8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblaq9Resource1.Text" xml:space="preserve">
+    <value>How I can provide my feedback on the SME Financial
+                                                                    Management Toolkit?</value>
+  </data>
+  <data name="lblaq9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHeadingResource1.Text" xml:space="preserve">
+    <value>FAQs &amp; Online Help</value>
+  </data>
+  <data name="lblHeadingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLink2Resource1.Text" xml:space="preserve">
+    <value>If you encounter a bug, please report by sending an e-mail to &lt;a href='mailto:enquiries@abs.org.sg'&gt;
+                                                                    enquiries@abs.org.sg.&lt;/a&gt;</value>
+  </data>
+  <data name="lblLink2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLink3Resource1.Text" xml:space="preserve">
+    <value>If you have any suggestion that you would like to share with us to improve the toolkit,
+                                                                you can email to us at &lt;a href='mailto:FMtoolkit@stoneforest.com.sg'&gt;FMtoolkit@stoneforest.com.sg.&lt;/a&gt;</value>
+  </data>
+  <data name="lblLink3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLinkResource1.Text" xml:space="preserve">
+    <value>You are encouraged to sign up the one-to-one advisory session for a one hour free
+                                                                consultation or click on "Learn More" to register yourself for the upcoming workshops
+                                                                and seminars. If you need guidance on the use of the toolkit, you can call our Financial
+                                                                Management Advisor at +65 6224-4300 or email him at &lt;a style="text-decoration: underline;"
+                                                                    href="mailto:enquiries@abs.org.sg"&gt;enquiries@abs.org.sg&lt;/a&gt;.   
+                                                                You can also approach any one of the    &lt;br/&gt; &lt;a style="text-decoration: underline;"
+                                                                    href="http://www.enterpriseone.gov.sg/ " target="_blank"&gt; Enterprise Development Centres&lt;/a&gt; for help.</value>
+  </data>
+  <data name="lblLinkResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblq1Resource1.Text" xml:space="preserve">
+    <value>How can I benefit from the SME Financial Management Toolkit?</value>
+  </data>
+  <data name="lblq1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblq2Resource1.Text" xml:space="preserve">
+    <value>How can I get help if I need guidance on the SME Financial Management
+                                                                Toolkit?</value>
+  </data>
+  <data name="lblq2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblq3Resource1.Text" xml:space="preserve">
+    <value> How can I use the report generated from the Financial Modeling
+                                                                in my Business Plan?</value>
+  </data>
+  <data name="lblq3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblq4Resource1.Text" xml:space="preserve">
+    <value>How do I save the information before I logout?</value>
+  </data>
+  <data name="lblq4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblq5Resource1.Text" xml:space="preserve">
+    <value> Can I generate and save more than 1 set of report with different
+                                                                scenarios using the Financial Modeling tool?</value>
+  </data>
+  <data name="lblq5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblq6Resource1.Text" xml:space="preserve">
+    <value>Will the data of my business in the Financial Modeling be kept confidential?</value>
+  </data>
+  <data name="lblq6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblq7Resource1.Text" xml:space="preserve">
+    <value>Can I create more than one user account with the same email address?</value>
+  </data>
+  <data name="lblq7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblq8Resource1.Text" xml:space="preserve">
+    <value>How do I report a bug?</value>
+  </data>
+  <data name="lblq8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblq9Resource1.Text" xml:space="preserve">
+    <value>How I can provide my feedback on the SME Financial Management Toolkit?</value>
+  </data>
+  <data name="lblq9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblQuote1Resource1.Text" xml:space="preserve">
+    <value>For every registered user, only one set of data can be saved at any point in time.
+                                                                You can complete the 6 sections of the Financial Modeling, generate, download and
+                                                                save the Financial Diagnostic and Key Analysis Report (the "Report") on your own
+                                                                hard drive. After you have confirmed that the report is properly saved, you can
+                                                                go back to the respective sections of the Financial Modeling to vary the assumptions
+                                                                by overwriting the data. You can generate another set of report based on the new
+                                                                set of data. This can be repeated as many times as you wish.</value>
+  </data>
+  <data name="lblQuote1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblQuoteResource1.Text" xml:space="preserve">
+    <value>All data in the Business Profiling and Capabilities Profiling will be saved automatically
+                                                                once you enter the "Processed This" button. For the Financial Modeling, you have
+                                                                to click the "Save and Next" button after you have entered the data in each section.</value>
+  </data>
+  <data name="lblQuoteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblText2Resource1.Text" xml:space="preserve">
+    <value>
+                                                                The email address is the login ID. Each email address is one unique user account
+                                                                and you will not be able to create more than one user account with the same email
+                                                                address. However, you can create multiple logins with different email addresses.</value>
+  </data>
+  <data name="lblText2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTextResource1.Text" xml:space="preserve">
+    <value>Only the registered users have access to the SME Financial Management Toolkit and
+                                                                their own data. The information is NOT shared with any other 3rd party.</value>
+  </data>
+  <data name="lblTextResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="locPara1Resource1.Text" xml:space="preserve">
+    <value>
+                                                                The SME Financial Management Toolkit will provide you with a platform to enhance
+                                                                your knowledge and capabilities in financial management. It comes with basic tools
+                                                                for you to conduct self-assessment on the financial well-being of your business
+                                                                and a financial modeling tool to help you ascertain the funding requirements for
+                                                                your business growth. There are templates and guides to help you in drawing up your
+                                                                business plan and implement systems and controls.</value>
+  </data>
+  <data name="locPara2Resource1.Text" xml:space="preserve">
+    <value>
+                                                                Your business plan is not complete if there is no financial forecast to show how
+                                                                your business will fare if you deliver the results as planned. The financial modeling
+                                                                Tool helps you in converting your business plan into financial forecast. You will
+                                                                be able to ascertain the working capital required to fund your business growth.
+                                                                Information extracted from the report, (income statement and cash flow projections)
+                                                                can be incorporated into the business plan. The plan can then be presented to the
+                                                                Banks or Financial Institutions for loan applications; or to your investors to obtain
+                                                                equity funding.</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value />
+  </data>
+</root>

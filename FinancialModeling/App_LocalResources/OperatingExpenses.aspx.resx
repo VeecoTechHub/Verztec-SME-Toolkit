@@ -1,0 +1,525 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnBackResource1.Text" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="btnBackResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnClearResource1.Text" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="btnClearResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSaveNextResource1.Text" xml:space="preserve">
+    <value>Save &amp; Next</value>
+  </data>
+  <data name="btnSaveNextResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Image1Resource1.AlternateText" xml:space="preserve">
+    <value>Processing</value>
+  </data>
+  <data name="Image1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgBtnGenerateReportResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgBtnGenerateReportResource1.ToolTip" xml:space="preserve">
+    <value>Generate Report</value>
+  </data>
+  <data name="imgBtnHelpResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgBtnHelpResource1.ToolTip" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="imgbtnHomeResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgbtnHomeResource1.ToolTip" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="imgbtnStatementsResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgbtnStatementsResource1.ToolTip" xml:space="preserve">
+    <value>Statements</value>
+  </data>
+  <data name="lbl1EnterTheResource1.Text" xml:space="preserve">
+    <value>Enter the estimated other administrative expenses for the next 3 years below:</value>
+  </data>
+  <data name="lbl1EnterTheResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl1EstimatesResource1.Text" xml:space="preserve">
+    <value>Estimates</value>
+  </data>
+  <data name="lbl1EstimatesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl1IncreaseResource1.Text" xml:space="preserve">
+    <value>% of Increase</value>
+  </data>
+  <data name="lbl1IncreaseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl2EstimatesResource1.Text" xml:space="preserve">
+    <value>Estimates</value>
+  </data>
+  <data name="lbl2EstimatesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl2IncreaseResource1.Text" xml:space="preserve">
+    <value>% of Increase</value>
+  </data>
+  <data name="lbl2IncreaseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl3AOtherResource1.Text" xml:space="preserve">
+    <value>3A. Other Operating Expenses</value>
+  </data>
+  <data name="lbl3AOtherResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl3BIncomeResource1.Text" xml:space="preserve">
+    <value>3B. Other Income</value>
+  </data>
+  <data name="lbl3BIncomeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl3EstimatesResource1.Text" xml:space="preserve">
+    <value>Estimates</value>
+  </data>
+  <data name="lbl3EstimatesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl3IncreaseResource1.Text" xml:space="preserve">
+    <value> % of Increase</value>
+  </data>
+  <data name="lbl3IncreaseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl3OtherAdminResource1.Text" xml:space="preserve">
+    <value>Other administrative expenses</value>
+  </data>
+  <data name="lbl3OtherAdminResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl4EstimatesResource1.Text" xml:space="preserve">
+    <value>Estimates</value>
+  </data>
+  <data name="lbl4EstimatesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl4IncreaseResource1.Text" xml:space="preserve">
+    <value> % of Increase</value>
+  </data>
+  <data name="lbl4IncreaseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl4OtherIncomeResource1.Text" xml:space="preserve">
+    <value>Other Income</value>
+  </data>
+  <data name="lbl4OtherIncomeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl5EstimatesResource1.Text" xml:space="preserve">
+    <value>Estimates</value>
+  </data>
+  <data name="lbl5EstimatesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl6EstimatesResource1.Text" xml:space="preserve">
+    <value>Estimates</value>
+  </data>
+  <data name="lbl6EstimatesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAreYouResource1.Text" xml:space="preserve">
+    <value>Are you sure, you want to save the data.</value>
+  </data>
+  <data name="lblAreYouResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAsaOfResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAsaOfResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDoNotResource1.Text" xml:space="preserve">
+    <value>Do not include depreciation, amortisation and interests expenses.</value>
+  </data>
+  <data name="lblDoNotResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDoYouChangesResource1.Text" xml:space="preserve">
+    <value>Do you want to save the changes you made?</value>
+  </data>
+  <data name="lblDoYouChangesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDoYouResource1.Text" xml:space="preserve">
+    <value>Do you want to save the data before naviagtion? then click OK, otherwise, click Cancel.</value>
+  </data>
+  <data name="lblDoYouResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEnterTheResource1.Text" xml:space="preserve">
+    <value>Enter the variable selling &amp; distribution expenses expressed as a percentage
+                                of sales below:</value>
+  </data>
+  <data name="lblEnterTheResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblForExResource1.Text" xml:space="preserve">
+    <value>For example, salaries, rental expenses and telecommunication expenses, etc</value>
+  </data>
+  <data name="lblForExResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblGivenResource1.Text" xml:space="preserve">
+    <value>Given value is not in a correct format</value>
+  </data>
+  <data name="lblGivenResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHeadingResource1.Text" xml:space="preserve">
+    <value>FINANCIAL MANAGEMENT TOOLKIT</value>
+  </data>
+  <data name="lblHeadingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHelpResource1.Text" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="lblHelpResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHomeResource1.Text" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="lblHomeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIncomeP1TotalResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIncomeP1TotalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIncomeP2TotalResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIncomeP2TotalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIncomeP3TotalResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIncomeP3TotalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNonRecurrIncomeResource1.Text" xml:space="preserve">
+    <value>Nonrecurring in nature</value>
+  </data>
+  <data name="lblNonRecurrIncomeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOperatingExpenseP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOperatingExpenseP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOperatingExpenseP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOperatingExpenseP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOtherOperatingResource1.Text" xml:space="preserve">
+    <value>3. Other Operating Expenses &amp; Income</value>
+  </data>
+  <data name="lblOtherOperatingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProjYear1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProjYear1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProjYear2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProjYear2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProjYear3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProjYear3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProYear1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProYear1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProYear2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProYear2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProYear3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProYear3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRecurrIncomeResource1.Text" xml:space="preserve">
+    <value>Recurring in nature</value>
+  </data>
+  <data name="lblRecurrIncomeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRecurrP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRecurrP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRecurrP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRecurrP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReportResource1.Text" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="lblReportResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStatementsResource1.Text" xml:space="preserve">
+    <value>Statements</value>
+  </data>
+  <data name="lblStatementsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotalResource1.Text" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="lblTotalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVariableSellingResource1.Text" xml:space="preserve">
+    <value>Variable Selling &amp; Distribution Expenses</value>
+  </data>
+  <data name="lblVariableSellingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="locPara1Resource1.Text" xml:space="preserve">
+    <value>
+                            Other than the cost of sales and purchases, your business will naturally incur other
+                            operating costs, including selling and distribution costs and other administration
+                            expenses.</value>
+  </data>
+  <data name="locPara2Resource1.Text" xml:space="preserve">
+    <value>
+                            For example, sales commission, selling &amp; distribution costs (such as freight outwards
+                            and transportation charges), marketing expenses, etc.</value>
+  </data>
+  <data name="locPara3Resource1.Text" xml:space="preserve">
+    <value>
+                                        Your business may also receive other form of income other than the usual trade sources.
+                                        Other income could be interest or rental income, if these are not the regular income
+                                        expected in your trade.</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNonRecurrP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNonRecurrP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNonRecurrP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNonRecurrP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNonRecurrP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNonRecurrP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOperatingExpenseP1PerResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOperatingExpenseP1PerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOperatingExpenseP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOperatingExpenseP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOperatingExpenseP2PerResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOperatingExpenseP2PerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtRecurrP1PerResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtRecurrP1PerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtRecurrP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtRecurrP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtRecurrP2PerResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtRecurrP2PerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTotalSalesPerResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTotalSalesPerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

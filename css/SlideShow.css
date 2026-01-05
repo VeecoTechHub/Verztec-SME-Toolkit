@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{margin:0px; padding:0px;}
+#banner_Containder{position:relative; width:580px; }
+#wrapper{width:580px; position:relative;}
+.sliderbutton {float:left; width:32px;}
+.sliderbutton img {cursor:pointer}
+.sliderbutton img:hover {background:#666}
+#slider {float:left; position:relative; overflow:auto; width:580px; height:201px;}
+#slider ul {position:absolute; list-style:none; margin:0px; padding:0px;}
+#slider li {float:left; list-style:none; margin:0px; padding:0px;}
+
+
+.pagination {float:left; list-style:none; margin:0; position:absolute; width:200px;}
+.pagination li {float:left; cursor:pointer; padding:6px 10px; background:url(../Images/pagination1.png) no-repeat 0 0; margin:0 4px 0 0; text-align:center; color:#FFF}
+.pagination li:hover {padding:6px 10px; background:url(../Images/pagination.png) no-repeat 0 0; color:#FFF}
+
+
+li.current { padding:6px 10px; background:url(../Images/pagination.png) no-repeat -0px top; color:#FFF}
+li#content {width:580px; height:152px; margin:0; padding:0; background:url(../Images/banner.png) no-repeat left top;}
+li#content1 {width:580px; height:152px; margin:0; padding:0; background:url(../Images/banner1.png) no-repeat left top;}
+li#content2 {width:580px; height:152px; margin:0; padding:0; background:url(../Images/banner2.png) no-repeat left top;}
+#websyn{z-index:100; position:absolute; left:0px; top:180px; text-align:left;}
+#websynMain{z-index:101; position:absolute; width:640px; height:auto; margin-top:248px; left:0px;}

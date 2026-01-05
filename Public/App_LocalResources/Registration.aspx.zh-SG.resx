@@ -1,0 +1,444 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnCancelResource1.Text" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="btnCancelResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnClearResource1.Text" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="btnClearResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnRegisterResource1.Text" xml:space="preserve">
+    <value>注册</value>
+  </data>
+  <data name="btnRegisterResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ccCorporateCaptchaResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlIndustryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlYearResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblbasicCompanyNameResource1.Text" xml:space="preserve">
+    <value>企业或公司名称</value>
+  </data>
+  <data name="lblbasicCompanyNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBasicInfoResource1.Text" xml:space="preserve">
+    <value>您的企业或公司的基本信息</value>
+  </data>
+  <data name="lblBasicInfoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBusiStartedResource1.Text" xml:space="preserve">
+    <value>企业创始年度</value>
+  </data>
+  <data name="lblBusiStartedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDes1Resource1.Text" xml:space="preserve">
+    <value>输入了无效的验证码字符</value>
+  </data>
+  <data name="lblDes1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDes2Resource1.Text" xml:space="preserve">
+    <value>提供的电子邮件地址已被使用。</value>
+  </data>
+  <data name="lblDes2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDes3Resource1.Text" xml:space="preserve">
+    <value>请输入有效的验证码文本</value>
+  </data>
+  <data name="lblDes3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEmailMsgResource1.Text" xml:space="preserve">
+    <value>您必须提供有效的个人电邮地址</value>
+  </data>
+  <data name="lblEmailMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEmailResource1.Text" xml:space="preserve">
+    <value>用您的电邮地址作为登录 ID</value>
+  </data>
+  <data name="lblEmailResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEnterwordsResource1.Text" xml:space="preserve">
+    <value>请输入以下文字</value>
+  </data>
+  <data name="lblEnterwordsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblErrorMessageResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblErrorMessageResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHeadingResource1.Text" xml:space="preserve">
+    <value>中小企业财务工具箱用户登录注册</value>
+  </data>
+  <data name="lblHeadingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIndustryResource1.Text" xml:space="preserve">
+    <value>行业类别</value>
+  </data>
+  <data name="lblIndustryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMandatoryResource1.Text" xml:space="preserve">
+    <value>必填字段</value>
+  </data>
+  <data name="lblMandatoryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNameResource1.Text" xml:space="preserve">
+    <value>您的姓名</value>
+  </data>
+  <data name="lblNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoofEmpsMsgResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoofEmpsMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoofEmpsResource1.Text" xml:space="preserve">
+    <value>员工人数</value>
+  </data>
+  <data name="lblNoofEmpsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNotCaseResource1.Text" xml:space="preserve">
+    <value>（不区分大小写）</value>
+  </data>
+  <data name="lblNotCaseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPwdMsgResource1.Text" xml:space="preserve">
+    <value>至少8个字符；仅可包含数字和字母。</value>
+  </data>
+  <data name="lblPwdMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPwdResource1.Text" xml:space="preserve">
+    <value>密码</value>
+  </data>
+  <data name="lblPwdResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRErrorResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRErrorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRetypePwdResource1.Text" xml:space="preserve">
+    <value>再次输入密码</value>
+  </data>
+  <data name="lblRetypePwdResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RegularExpressionValidator1Resource1.ErrorMessage" xml:space="preserve">
+    <value>无效</value>
+  </data>
+  <data name="RegularExpressionValidator1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RegularExpressionValidator1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="regvaldnoofempResource1.ErrorMessage" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="regvaldnoofempResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="regvaldnoofempResource1.ToolTip" xml:space="preserve">
+    <value>You must enter Number</value>
+  </data>
+  <data name="txtCaptchaResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCaptchaResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCompanyNmResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCompanyNmResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEmailResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEmailResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNoofEmpsResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNoofEmpsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPasswordResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPasswordResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtRePasswordResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtRePasswordResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="valCompanyNmResource1.ErrorMessage" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="valCompanyNmResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="valCompanyNmResource1.ToolTip" xml:space="preserve">
+    <value>You must enter a Company Name</value>
+  </data>
+  <data name="ValConPwdCompareResource1.ErrorMessage" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="ValConPwdCompareResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ValConPwdCompareResource1.ToolTip" xml:space="preserve">
+    <value>密码和确认密码必须是一致</value>
+  </data>
+  <data name="valEmailResource1.ErrorMessage" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="valEmailResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="valEmailResource1.ToolTip" xml:space="preserve">
+    <value>You must enter a Email</value>
+  </data>
+  <data name="valEmailValidationResource1.ErrorMessage" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="valEmailValidationResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="valEmailValidationResource1.ToolTip" xml:space="preserve">
+    <value>You must enter a valid e-mail address</value>
+  </data>
+  <data name="valIndustryResource1.ErrorMessage" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="valIndustryResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="valIndustryResource1.ToolTip" xml:space="preserve">
+    <value>You must enter a Industry</value>
+  </data>
+  <data name="valName1Resource1.ErrorMessage" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="valName1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="valName1Resource1.ToolTip" xml:space="preserve">
+    <value>You must enter a Name</value>
+  </data>
+  <data name="valNoofEmpsResource1.ErrorMessage" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="valNoofEmpsResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="valNoofEmpsResource1.ToolTip" xml:space="preserve">
+    <value>You must enter a No of Employees</value>
+  </data>
+  <data name="valPasswordResource1.ErrorMessage" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="valPasswordResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="valPasswordResource1.ToolTip" xml:space="preserve">
+    <value>You must enter a Password</value>
+  </data>
+  <data name="valRePasswordResource1.ErrorMessage" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="valRePasswordResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="valRePasswordResource1.ToolTip" xml:space="preserve">
+    <value>You must enter a Password</value>
+  </data>
+  <data name="valYearResource1.ErrorMessage" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="valYearResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="valYearResource1.ToolTip" xml:space="preserve">
+    <value>You must enter a Year</value>
+  </data>
+  <data name="lblDes4Resource1.Text" xml:space="preserve">
+    <value>年份</value>
+  </data>
+  <data name="lblDes4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLinkResource1.Text" xml:space="preserve">
+    <value>浏览本网站的在线资源和工具需要先行注册。您提供的所有信息将得到保密，且不会被用于本网站以外的用途。请参阅 《使用条款》与《隐私声明》，以获取更多信息。</value>
+  </data>
+  <data name="lblLinkResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

@@ -1,0 +1,516 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnBackResource1.Text" xml:space="preserve">
+    <value>返回</value>
+  </data>
+  <data name="btnBackResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnClearResource1.Text" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="btnClearResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSaveNextResource1.Text" xml:space="preserve">
+    <value>保存并继续</value>
+  </data>
+  <data name="btnSaveNextResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Image1Resource1.AlternateText" xml:space="preserve">
+    <value>处理中</value>
+  </data>
+  <data name="Image1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgBtnGenerateReportResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgBtnGenerateReportResource1.ToolTip" xml:space="preserve">
+    <value>生成报告</value>
+  </data>
+  <data name="imgBtnHelpResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgBtnHelpResource1.ToolTip" xml:space="preserve">
+    <value>帮助</value>
+  </data>
+  <data name="imgbtnHomeResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgbtnHomeResource1.ToolTip" xml:space="preserve">
+    <value>首页</value>
+  </data>
+  <data name="imgbtnStatementsResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgbtnStatementsResource1.ToolTip" xml:space="preserve">
+    <value>报表</value>
+  </data>
+  <data name="lbl1EnterTheResource1.Text" xml:space="preserve">
+    <value>请在下方输入未来三年内预估的其他管理开支：</value>
+  </data>
+  <data name="lbl1EnterTheResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl1EstimatesResource1.Text" xml:space="preserve">
+    <value>预估</value>
+  </data>
+  <data name="lbl1EstimatesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl1IncreaseResource1.Text" xml:space="preserve">
+    <value>增长&lt;/br&gt;百分率</value>
+  </data>
+  <data name="lbl1IncreaseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl2EstimatesResource1.Text" xml:space="preserve">
+    <value>预估</value>
+  </data>
+  <data name="lbl2EstimatesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl2IncreaseResource1.Text" xml:space="preserve">
+    <value>增长&lt;/br&gt;百分率</value>
+  </data>
+  <data name="lbl2IncreaseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl3AOtherResource1.Text" xml:space="preserve">
+    <value>3A. 其他营运开支</value>
+  </data>
+  <data name="lbl3AOtherResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl3BIncomeResource1.Text" xml:space="preserve">
+    <value>3B. 其他收入</value>
+  </data>
+  <data name="lbl3BIncomeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl3EstimatesResource1.Text" xml:space="preserve">
+    <value>预估</value>
+  </data>
+  <data name="lbl3EstimatesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl3IncreaseResource1.Text" xml:space="preserve">
+    <value>增长&lt;/br&gt;百分率</value>
+  </data>
+  <data name="lbl3IncreaseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl3OtherAdminResource1.Text" xml:space="preserve">
+    <value>其他管理费用</value>
+  </data>
+  <data name="lbl3OtherAdminResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl4EstimatesResource1.Text" xml:space="preserve">
+    <value>预估</value>
+  </data>
+  <data name="lbl4EstimatesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl4IncreaseResource1.Text" xml:space="preserve">
+    <value> 增长&lt;/br&gt;百分率</value>
+  </data>
+  <data name="lbl4IncreaseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl4OtherIncomeResource1.Text" xml:space="preserve">
+    <value>其他收入</value>
+  </data>
+  <data name="lbl4OtherIncomeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl5EstimatesResource1.Text" xml:space="preserve">
+    <value>预估</value>
+  </data>
+  <data name="lbl5EstimatesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl6EstimatesResource1.Text" xml:space="preserve">
+    <value>预估</value>
+  </data>
+  <data name="lbl6EstimatesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAreYouResource1.Text" xml:space="preserve">
+    <value>您确定要保存资料？</value>
+  </data>
+  <data name="lblAreYouResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAsaOfResource1.Text" xml:space="preserve">
+    <value>占销售总额的百分比</value>
+  </data>
+  <data name="lblAsaOfResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDoNotResource1.Text" xml:space="preserve">
+    <value>不包含折旧、摊销和利息费用。</value>
+  </data>
+  <data name="lblDoNotResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDoYouChangesResource1.Text" xml:space="preserve">
+    <value>你是否要保存您所作的修改？</value>
+  </data>
+  <data name="lblDoYouChangesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDoYouResource1.Text" xml:space="preserve">
+    <value>在浏览前您是否要保存资料？如要保存，点击 “Ok”，如不保存，点击 “Cancel"。</value>
+  </data>
+  <data name="lblDoYouResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEnterTheResource1.Text" xml:space="preserve">
+    <value>请在下方输入可变量的销售和分销成本在销售额中所占的百分比</value>
+  </data>
+  <data name="lblEnterTheResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblForExResource1.Text" xml:space="preserve">
+    <value>例如:工资、租赁费和通讯费用等。</value>
+  </data>
+  <data name="lblForExResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblGivenResource1.Text" xml:space="preserve">
+    <value>给定值格式错误。</value>
+  </data>
+  <data name="lblGivenResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHeadingResource1.Text" xml:space="preserve">
+    <value>财务管理工具箱</value>
+  </data>
+  <data name="lblHeadingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHelpResource1.Text" xml:space="preserve">
+    <value>帮助</value>
+  </data>
+  <data name="lblHelpResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHomeResource1.Text" xml:space="preserve">
+    <value>首页</value>
+  </data>
+  <data name="lblHomeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIncomeP1TotalResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIncomeP1TotalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIncomeP2TotalResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIncomeP2TotalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIncomeP3TotalResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIncomeP3TotalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNonRecurrIncomeResource1.Text" xml:space="preserve">
+    <value>本质上无重复性</value>
+  </data>
+  <data name="lblNonRecurrIncomeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOperatingExpenseP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOperatingExpenseP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOperatingExpenseP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOperatingExpenseP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOtherOperatingResource1.Text" xml:space="preserve">
+    <value>3. 其他营运开支与收入</value>
+  </data>
+  <data name="lblOtherOperatingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProjYear1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProjYear1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProjYear2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProjYear2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProjYear3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProjYear3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProYear1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProYear1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProYear2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProYear2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProYear3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProYear3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRecurrIncomeResource1.Text" xml:space="preserve">
+    <value>本质上具有重复性</value>
+  </data>
+  <data name="lblRecurrIncomeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRecurrP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRecurrP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRecurrP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRecurrP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReportResource1.Text" xml:space="preserve">
+    <value>报告</value>
+  </data>
+  <data name="lblReportResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStatementsResource1.Text" xml:space="preserve">
+    <value>报表</value>
+  </data>
+  <data name="lblStatementsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVariableSellingResource1.Text" xml:space="preserve">
+    <value>可变量的销售及分销开支</value>
+  </data>
+  <data name="lblVariableSellingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="locPara1Resource1.Text" xml:space="preserve">
+    <value>除了销售成本和采购商品费用外，您的企业自然还需要支出其他营运成本，包括销售和分销成本以及其他管理开支。</value>
+  </data>
+  <data name="locPara2Resource1.Text" xml:space="preserve">
+    <value>例如，销售佣金、销售和分销成本（如销货运费和运输费用）、营销开支等。</value>
+  </data>
+  <data name="locPara3Resource1.Text" xml:space="preserve">
+    <value>除了一般贸易收入外，您的企业也可能收到其他形式的收入若这些收入不是您在交易中常规的预期收入，可以是利息或租赁收益。</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNonRecurrP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNonRecurrP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNonRecurrP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNonRecurrP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNonRecurrP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNonRecurrP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOperatingExpenseP1PerResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOperatingExpenseP1PerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOperatingExpenseP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOperatingExpenseP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOperatingExpenseP2PerResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOperatingExpenseP2PerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtRecurrP1PerResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtRecurrP1PerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtRecurrP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtRecurrP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtRecurrP2PerResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtRecurrP2PerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTotalSalesPerResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTotalSalesPerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotalResource1.Text" xml:space="preserve">
+    <value>总计</value>
+  </data>
+  <data name="lblTotalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

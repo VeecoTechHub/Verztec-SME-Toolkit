@@ -1,0 +1,504 @@
+﻿
+BODY
+{
+	background-position: 50% top;
+	background-image: url(../images/);
+	background-repeat: repeat-x;
+}
+.scroller
+{
+	padding-right: 5px;
+	padding-left: 5px;
+	font-weight: bold;
+	font-size: 12px;
+	color: #ffffff;
+	padding-top: 7px;
+	font-family: Arial, Helvetica, sans-serif;
+	height: 29px;
+	background-color: #6eacf7;
+	text-decoration: none;
+}
+.lefttablebg
+{
+	background-position: 50% top;
+	background-image: url(../images/default_21.jpg);
+	background-repeat: no-repeat;
+}
+.righttablebg
+{
+	background-position: 50% bottom;
+	background-image: url(../images/default_34.jpg);
+	background-repeat: no-repeat;
+}
+.bold
+{
+	font-weight: bold;
+}
+.footerlinks
+{
+	font-size: 12px;
+	color: #004a93;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+.prodboldtxt
+{
+	font-weight: bold;
+	font-size: 11px;
+	color: #f2a41e;
+	font-family: Tahoma, Arial, Verdana;
+}
+.productheader
+{
+	padding-left: 25px;
+	font-weight: bold;
+	font-size: 13px;
+	background-image: url(../images/default_26.jpg);
+	width: 244px;
+	color: #004a93;
+	background-repeat: no-repeat;
+	font-family: Arial, Helvetica, sans-serif;
+	height: 29px;
+}
+.pageheader
+{
+	font-weight: bold;
+	font-size: 16px;
+	color: #f2a41e;
+	background-repeat: no-repeat;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.prodbgcolor1
+{
+	background-color: #DCEAF3;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFFFFF;
+	height: 18px;
+}
+
+/*.prodbgcolor1 {
+	BORDER-BOTTOM: #ffffff 1px solid; HEIGHT: 18px; BACKGROUND-COLOR: #dceaf3
+}*/
+.prodbgcolor2
+{
+	background-color: #BFDBF0;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFFFFF;
+	height: 18px;
+}
+.prodtxt
+{
+	font-family: Tahoma, Arial, Verdana;
+	font-size: 11px;
+	font-weight: normal;
+	padding-left: 4px;
+	color: #666666;
+}
+
+
+/*
+.prodbgcolor2 {
+	BORDER-BOTTOM: #ffffff 1px solid; HEIGHT: 18px; BACKGROUND-COLOR: #bfdbf0
+}
+.prodtxt {
+	PADDING-LEFT: 4px; FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #666666; FONT-FAMILY: Tahoma, Arial, Verdana
+}*/
+.txt
+{
+	font-weight: normal;
+	font-size: 11px;
+	color: #666666;
+	font-family: Tahoma, Arial, Verdana;
+}
+.prodtxtcolor2
+{
+	font-family: Tahoma, Arial, Verdana;
+	font-size: 11px;
+	font-weight: bold;
+	color: #6699CC;
+	padding-left: 5px;
+	text-decoration: none;
+}
+
+
+
+/*.prodtxtcolor2 {
+	PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #666666; FONT-FAMILY: Tahoma, Arial, Verdana; TEXT-DECORATION: none
+}*/
+A.prodtxtcolor2:hover
+{
+	text-decoration: underline;
+}
+/*.prodtableborder {
+	BORDER-RIGHT: #d6d7d7 1px solid; BORDER-TOP: #d6d7d7 1px solid; BORDER-LEFT: #d6d7d7 1px solid; BORDER-BOTTOM: #d6d7d7 1px solid
+}*/
+
+
+.prodtableborder
+{
+	border: 1px solid #d6d7d7;
+}
+.prodtxtcolor3
+{
+	font-family: Tahoma, Arial, Verdana;
+	font-size: 11px;
+	font-weight: bold;
+	color: #666666;
+	padding-right: 3px;
+	padding-left: 3px;
+	height: 17px;
+}
+
+
+/*
+.prodtxtcolor3 {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #666666; FONT-FAMILY: Tahoma, Arial, Verdana; HEIGHT: 17px
+}*/
+
+
+
+
+.bidborder
+{
+	border: 1px solid #004A93;
+}
+.bidbarblue
+{
+	background-color: #004A93;
+}
+.bidbargray
+{
+	background-color: #d6d7d7;
+}
+
+.btn
+{
+	background-color: #FF6600;
+	border: 1px solid #78B3F7;
+	font-family: Tahoma, Arial, Verdana;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+	padding: 2px;
+}
+
+A.footerlinks:hover
+{
+	color: #cc0000;
+	text-decoration: underline;
+}
+.cart
+{
+	border-right: #99ccff 1px solid;
+	border-top: #99ccff 1px solid;
+	padding-left: 5px;
+	font-size: 11px;
+	border-left: #99ccff 1px solid;
+	color: #ffffff;
+	border-bottom: #99ccff 1px solid;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #346799;
+}
+.graytxt
+{
+	font-weight: bold;
+	font-size: 11px;
+	color: #666666;
+	font-family: Tahoma, Arial, Verdana;
+}
+.logintxt
+{
+	font-weight: bold;
+	font-size: 11px;
+	color: #666666;
+	font-family: Tahoma, Arial, Verdana;
+}
+A.logintxt:hover
+{
+	color: #346799;
+}
+.dotline
+{
+	background-position: center center;
+	background-image: url(../images/dotline.gif);
+	background-repeat: no-repeat;
+	height: 10px;
+}
+.footerbg
+{
+	height: 63px;
+	background-color: #dceaf3;
+	text-align: center;
+}
+.img-rightflot
+{
+	float: right;
+}
+.color-red
+{
+	color: #ff0000;
+}
+
+
+/**************new1*****************/
+
+.bg
+{
+	background-image: url(../images/bg.JPG);
+	background-repeat: repeat-x;
+}
+/*******************************************/
+
+
+body
+{
+	margin: 0px;
+	background-image: url(bg.JPG);
+	background-repeat: repeat-x;
+}
+
+h1, h2, h3, h4, h5, h6, pre, blockquote, form, label, dl, fieldset, address
+{
+	margin: 0px;
+}
+
+p
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+td
+{
+	font: Tahoma size:11px;
+	font-family: tahoma;
+	font-size: 11px;
+	color: #000000;
+}
+
+a.a
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+a.a:hover
+{
+	color: #fcffaa;
+	text-decoration: underline;
+}
+
+
+#admin
+{
+	background: url(key.GIF) no-repeat right #ff6600;
+	height: 248px;
+}
+
+
+.white
+{
+	color: #FFFFFF;
+}
+
+.blue
+{
+	color: #01319d;
+}
+
+.bg
+{
+	background-image: url(bg.JPG);
+	background-repeat: repeat-x;
+}
+#border
+{
+	border: 1px solid #aaaaaa;
+}
+#blueborder
+{
+	border: 1px solid #01319d;
+}
+
+a.a
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+a.a:hover
+{
+	color: #fcffaa;
+	text-decoration: underline;
+}
+
+
+.btnPreview
+{
+	color: #FFFFFF;
+	font-family: Tahoma, Arial;
+	font-size: 11px;
+	font-weight: bold;
+	background-color: #01319D;
+	border: 1px solid #c05005;
+	height: 25px;
+	width: 60px;
+	padding-left: 20px;
+	background-image: url(../images/arrow1.gif);
+	background-repeat: no-repeat;
+	background-position: 4px center;
+	text-align: left;
+	display: block;
+	padding-bottom: 5px;
+	padding-top: 4px;
+	margin: 0px;
+	cursor: pointer;
+}
+
+/*  New  23  April 2009 */
+
+body
+{
+}
+
+.accordionHeader
+{
+	border: 1px solid #2F4F4F;
+	color: white;
+	background-color: #2E4d7B;
+	font-family: Arial, Sans-Serif;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 3px;
+	cursor: pointer;
+}
+
+
+.accordionHeader a
+{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-family: Arial,Sans-Serif;
+	font-size: 10pt;
+}
+
+
+.accordionHeaderSelected a
+{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-family: Arial,Sans-Serif;
+	font-size: 10pt;
+	text-decoration: underline;
+}
+
+
+.accordionHeader a:hover
+{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-family: Arial,Sans-Serif;
+	font-size: 10pt;
+}
+
+
+.accordionHeaderSelected a:hover
+{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-family: Arial,Sans-Serif;
+	font-size: 10pt;
+	text-decoration: underline;
+}
+
+.accordionHeaderSelected
+{
+	border: 1px solid #2F4F4F;
+	color: white;
+	background-color: #5078B3;
+	font-family: Arial, Sans-Serif;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 3px;
+	cursor: pointer;
+}
+
+.accordionContent
+{
+	background-color: #D3DEEF;
+	border: 1px solid #2F4F4F;
+	border-top: none;
+	padding: 3px;
+	padding-top: 5px;
+}
+
+
+.Submenu
+{
+}
+
+
+.Submenu li
+{
+	
+	list-style-image:url(../images/dot.gif);
+	
+	
+	
+}
+
+.Submenu li a
+{
+	text-decoration: none;
+	color: #37414A;
+	font-weight: bold;
+	font-family: Arial,Sans-Serif;
+	font-size: 8.5pt;
+}
+
+
+.Submenu li a:hover
+{
+	text-decoration: none;
+	color: #FF6600;
+	font-weight: bold;
+	font-family: Arial,Sans-Serif;
+	font-size: 8.5pt;
+}
+/*Style Added By Krishna*/
+
+.btnBack
+{
+	color: #FFFFFF;
+	font-family: Tahoma, Arial;
+	font-size: 11px;
+	font-weight: bold;
+	background-color: #FF6600;
+	border: 1px solid #c05005;
+	height: 25px;
+	width: 60px;
+	padding-left: 20px;
+	background-image: url(../images/backarrow1.gif);
+	background-repeat: no-repeat;
+	background-position: 4px center;
+	text-align: left;
+	display: block;
+	padding-bottom: 5px;
+	padding-top: 4px;
+	margin: 0px;
+	cursor: pointer;
+}
+.report_color
+{
+background-color: #DCEAF3;	
+}
+.testmahesh
+{
+    background-image: url(../images/bg.jpg);
+  
+       padding-left: 10px;
+}

@@ -1,0 +1,1 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Admin.master.cs" Inherits="Masterpages_Admin" %>

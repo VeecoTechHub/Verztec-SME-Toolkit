@@ -1,0 +1,208 @@
+﻿<%@ Application Language="C#" %>
+
+<%@ Import Namespace="System.Web.SessionState" %>
+<%@ Import Namespace="System.Configuration" %>
+<%@ Import Namespace="System.Text" %>
+<%@ Import Namespace="System.IO" %>
+<%@ Import Namespace="System.Net.Mail" %>
+<%@ Import Namespace="System.Web" %>
+<%@ Import Namespace="System" %>
+<%@ Import Namespace="System.Web.SessionState" %>
+<%@ Import Namespace="System.Data.SqlClient" %>
+<%@ Import Namespace="System.Data" %>
+<%@ Import Namespace="Microsoft.Practices.EnterpriseLibrary.Data.Sql" %>
+<%@ Import Namespace="Microsoft.Practices.EnterpriseLibrary.Data" %>
+<%@ Import Namespace="System.Data.Common" %>
+<%@ Import Namespace="ABSBLL" %>
+
+<%@ Import Namespace="System.Web.UI"%>
+<%@ Import Namespace="System.Web.UI.WebControls"%>
+<%@ Import Namespace="System.Collections.Generic"%>
+
+<script runat="server">
+
+    public string strUser, strTO, strSubject, strFrom, strSalutation, strHearder, strsignature, strfooter, ccList;
+    public string strMainContent, strMainContent1, adminRole, adminUser, errorMessage, errorSource, dateTime;
+    public string strPath;
+
+    public string strMapPath = string.Empty;
+
+    Dictionary<string, string> tempValue = new Dictionary<string, string>();
+    HTMLParser htmlparser = new HTMLParser();
+    UserMgmt userObj = new UserMgmt();
+        
+    void Application_Start(object sender, EventArgs e) 
+    {
+        // Code that runs on application startup
+        
+        
+
+    }
+    
+    void Application_End(object sender, EventArgs e) 
+    {
+        //  Code that runs on application shutdown
+
+    }
+
+    void Application_Error(object sender, EventArgs e)
+    {
+        try
+        {
+            string str_user = string.Empty;
+            if (Session["USER_ID"].ToString() != "")
+                
+            {
+                str_user = Session["USER_ID"].ToString();
+            }
+            else if (Session["EmailAddress"] != null)
+            {
+                str_user = Session["EmailAddress"].ToString();
+            }
+            else
+            {
+                str_user = "";
+            }
+
+            string clientIP = Request.UserHostAddress + " " + Request.UserAgent + " " + Request.UserHostName;
+
+            Send_Error_Notification_Email(Server.GetLastError(), "DBConnection", str_user, clientIP);
+
+            String strURLPath = Request.Url.AbsolutePath.ToString();
+            Array strArray;
+            int strcount;
+            strArray = strURLPath.ToString().Split('/');
+            strcount = strArray.Length;
+            string path = string.Empty;
+            if (strArray.GetValue(2).ToString().ToLower().Contains("administration"))
+            {
+                //path = ConfigurationManager.AppSettings["InternalUrl"] + "Administration/Admin_Login.aspx"; 
+                path = ConfigurationManager.AppSettings["InternalUrl"] + "Admin_Error.aspx";
+
+            }
+            else if (strArray.GetValue(2).ToString().Trim().ToLower().Contains("public"))
+            {
+                // path = ConfigurationManager.AppSettings["InternalUrl"] + "Default.aspx";
+                path = ConfigurationManager.AppSettings["InternalUrl"] + "Error_Page.aspx";
+            }
+            else if (strArray.GetValue(2).ToString().Trim().ToLower().Contains("financialmodeling"))
+            {
+                // path = ConfigurationManager.AppSettings["InternalUrl"] + "Default.aspx";
+                path = ConfigurationManager.AppSettings["InternalUrl"] + "Error_Page.aspx";
+            }
+            else
+            {
+                path = ConfigurationManager.AppSettings["InternalUrl"] + "Error_Page.aspx";
+            }
+            HttpContext.Current.Response.Redirect(path);
+
+        }
+        catch
+        {
+
+            String strURLPath = Request.Url.AbsolutePath.ToString();
+            string strpath = ConfigurationManager.AppSettings["InternalUrl"] + "Administration/Admin_Login.aspx";
+            Array strArray;
+            int strcount;
+            strArray = strURLPath.ToString().Split('/');
+            strcount = strArray.Length;
+            string path = string.Empty;
+            if (strArray.GetValue(2).ToString().Trim().ToLower().Contains("administration"))
+            {
+                path = ConfigurationManager.AppSettings["InternalUrl"] + "Admin_Error.aspx";
+            }
+            else if (strArray.GetValue(2).ToString().Trim().ToLower().Contains("public"))
+            {
+                path = ConfigurationManager.AppSettings["InternalUrl"] + "Error_Page.aspx";
+            }
+            else if (strArray.GetValue(2).ToString().Trim().ToLower().Contains("financialmodeling"))
+            {
+                // path = ConfigurationManager.AppSettings["InternalUrl"] + "Default.aspx";
+                path = ConfigurationManager.AppSettings["InternalUrl"] + "Error_Page.aspx";
+            }
+            else
+            {
+                path = ConfigurationManager.AppSettings["InternalUrl"] + "Error_Page.aspx";
+            }
+            HttpContext.Current.Response.Redirect(path);
+        }
+    }
+    public void Send_Error_Notification_Email(Exception ex, string eSource, string struser, string clientIP)
+    {
+        strPath = ConfigurationManager.AppSettings["InternalUrl"].ToString();
+        strTO = Convert.ToString(ConfigurationManager.AppSettings["ToMail"]);
+        ccList = "";
+        adminUser = "";
+        strSubject = "Error Mail";
+        strSalutation = "Dear";
+        strHearder = "Please read below for the error details ";
+        strfooter = "Note: This is an auto generated email. Please do not reply.";
+        strsignature = "Yours Sincerely";
+        strFrom = Convert.ToString(ConfigurationManager.AppSettings["MailFrom"]);
+        strUser = struser;
+
+        errorMessage = ex.Message.ToString();
+        errorSource = Convert.ToString(ex.InnerException) + Convert.ToString(eSource.ToString());
+        dateTime = Convert.ToString(string.Format("{0:dd-MMM-yyyy HH:mm:ss}", DateTime.Now));
+
+        userObj.Error_Description= errorMessage;
+        userObj.Error_Source = Convert.ToString(ex.InnerException).ToString();
+        userObj.InsertErrorDetails(userObj);
+        Send_Email(strTO, strFrom, strSubject, strSalutation, strUser, strHearder, errorMessage, errorSource, strsignature, strfooter, adminUser, adminRole, ccList, dateTime, clientIP);
+    }
+
+    public void Send_Email(string mailto, string mailFrom, string strSubject, string strSalutation, string username, string strHearder, string errorMessage, string errorSource, string strsignature, string strfooter, string admUser, string admRole, string cc, string dateTime, string clientIP)
+    {
+        strPath = ConfigurationManager.AppSettings["InternalUrl"].ToString();
+        MailAddress mailTo = new MailAddress(mailto);
+        MailAddress mailfrom = new MailAddress("ABS <" + mailFrom + ">");
+        MailMessage myMail = new MailMessage(mailfrom, mailTo);
+
+        if (cc != "")
+        {
+            myMail.CC.Add(cc);
+        }
+
+        myMail.Subject = strSubject;
+
+        tempValue["[strSalutation]"] = strSalutation;
+        tempValue["[username]"] = username;
+        tempValue["[strHearder]"] = strHearder;
+        tempValue["[dmUser]"] = admUser;
+        tempValue["[admRole]"] = admRole;
+        tempValue["[strsignature]"] = strsignature;
+        tempValue["[strfooter]"] = strfooter;
+
+
+        tempValue["[strUser]"] = username;
+        tempValue["[Message]"] = errorMessage;
+        tempValue["[source]"] = errorSource;
+        tempValue["[datetime]"] = dateTime;
+        tempValue["[clientIP]"] = clientIP;
+
+        strMapPath = System.Configuration.ConfigurationManager.AppSettings["ErrorEmail"].ToString();
+        string path = Server.MapPath("../EmailTemplates") + strMapPath;
+        string strBody = htmlparser.getBody("ACK", tempValue, path);
+        myMail.IsBodyHtml = true;
+        myMail.Body = strBody;
+        SmtpClient SmtpServer = new SmtpClient(ConfigurationManager.AppSettings["SMTPHost"].ToString());
+        SmtpServer.UseDefaultCredentials = true;
+        SmtpServer.Send(myMail);
+    }
+
+    void Session_Start(object sender, EventArgs e) 
+    {
+        // Code that runs when a new session is started
+
+    }
+
+    void Session_End(object sender, EventArgs e) 
+    {
+        // Code that runs when a session ends. 
+        // Note: The Session_End event is raised only when the sessionstate mode
+        // is set to InProc in the Web.config file. If session mode is set to StateServer 
+        // or SQLServer, the event is not raised.
+
+    }
+       
+</script>

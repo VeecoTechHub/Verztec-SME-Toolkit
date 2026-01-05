@@ -1,0 +1,601 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lbl1AResource1.Text" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="lbl1AResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl1CostofSalesResource1.Text" xml:space="preserve">
+    <value>Cost of Sales</value>
+  </data>
+  <data name="lbl1CostofSalesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl1RefersResource1.Text" xml:space="preserve">
+    <value>refers to amounts owing to the Banks and/or Financial Institutions, example: bank overdrafts, trust receipts, factoring loans, short-term advances and revolving credit, etc</value>
+  </data>
+  <data name="lbl1RefersResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl2AResource1.Text" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="lbl2AResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl2BResource1.Text" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="lbl2BResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl2CResource1.Text" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="lbl2CResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl2DResource1.Text" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="lbl2DResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl2EResource1.Text" xml:space="preserve">
+    <value>E</value>
+  </data>
+  <data name="lbl2EResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl2IncomeTaxResource1.Text" xml:space="preserve">
+    <value>Income Tax</value>
+  </data>
+  <data name="lbl2IncomeTaxResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl2OtherIncomeResource1.Text" xml:space="preserve">
+    <value>Other Income</value>
+  </data>
+  <data name="lbl2OtherIncomeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl3AResource1.Text" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="lbl3AResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl3BResource1.Text" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="lbl3BResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl3CResource1.Text" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="lbl3CResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl3EResource1.Text" xml:space="preserve">
+    <value>E</value>
+  </data>
+  <data name="lbl3EResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl3FResource1.Text" xml:space="preserve">
+    <value>F</value>
+  </data>
+  <data name="lbl3FResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl3GResource1.Text" xml:space="preserve">
+    <value>G</value>
+  </data>
+  <data name="lbl3GResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl4AResource1.Text" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="lbl4AResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl4BResource1.Text" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="lbl4BResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl4DResource1.Text" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="lbl4DResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblaccumulatedResource1.Text" xml:space="preserve">
+    <value>refers to the accumulated profits or losses, net of all dividends paid out.</value>
+  </data>
+  <data name="lblaccumulatedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAResource1.Text" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="lblAResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBalanceSheetResource1.Text" xml:space="preserve">
+    <value>A. Balance Sheet</value>
+  </data>
+  <data name="lblBalanceSheetResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBIncomeStmtResource1.Text" xml:space="preserve">
+    <value>B. Income Statement</value>
+  </data>
+  <data name="lblBIncomeStmtResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBResource1.Text" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="lblBResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCashResource1.Text" xml:space="preserve">
+    <value>Cash on hand and at bank</value>
+  </data>
+  <data name="lblCashResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCResource1.Text" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="lblCResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCurrentAssetsResource1.Text" xml:space="preserve">
+    <value>Current Assets</value>
+  </data>
+  <data name="lblCurrentAssetsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDepreciationamortisationResource1.Text" xml:space="preserve">
+    <value>Depreciation &amp; amortisation</value>
+  </data>
+  <data name="lblDepreciationamortisationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbldirectResource1.Text" xml:space="preserve">
+    <value>refers to the direct cost associated to the sales generated</value>
+  </data>
+  <data name="lbldirectResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDResource1.Text" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="lblDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDueResource1.Text" xml:space="preserve">
+    <value>Due from business owner/(s)</value>
+  </data>
+  <data name="lblDueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDueToResource1.Text" xml:space="preserve">
+    <value>Due to business owners</value>
+  </data>
+  <data name="lblDueToResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEquityResource1.Text" xml:space="preserve">
+    <value>Equity</value>
+  </data>
+  <data name="lblEquityResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEResource1.Text" xml:space="preserve">
+    <value>E</value>
+  </data>
+  <data name="lblEResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExampleResource1.Text" xml:space="preserve">
+    <value>Example:</value>
+  </data>
+  <data name="lblExampleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFResource1.Text" xml:space="preserve">
+    <value>F</value>
+  </data>
+  <data name="lblFResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHeadingResource1.Text" xml:space="preserve">
+    <value>Classification Guide for the entry of Financial Statements</value>
+  </data>
+  <data name="lblHeadingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIncomeTaxResource1.Text" xml:space="preserve">
+    <value>Income tax payables</value>
+  </data>
+  <data name="lblIncomeTaxResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInterestexpenseResource1.Text" xml:space="preserve">
+    <value>Interest expense</value>
+  </data>
+  <data name="lblInterestexpenseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblinterestincurredResource1.Text" xml:space="preserve">
+    <value>refers to interest incurred on bank debts and hire purchase loans</value>
+  </data>
+  <data name="lblinterestincurredResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInventoryResource1.Text" xml:space="preserve">
+    <value>Inventory</value>
+  </data>
+  <data name="lblInventoryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLabourResource1.Text" xml:space="preserve">
+    <value>Labour and sub-contracting charges</value>
+  </data>
+  <data name="lblLabourResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblManufacturingResource1.Text" xml:space="preserve">
+    <value>(ii) Manufacturing company</value>
+  </data>
+  <data name="lblManufacturingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblmaterialsResource1.Text" xml:space="preserve">
+    <value>Cost of raw materials and delivery charges</value>
+  </data>
+  <data name="lblmaterialsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNonCurrentResource1.Text" xml:space="preserve">
+    <value>Non-current Assets</value>
+  </data>
+  <data name="lblNonCurrentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOperatingExpensesResource1.Text" xml:space="preserve">
+    <value>Operating Expenses</value>
+  </data>
+  <data name="lblOperatingExpensesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOtherAdministrativeResource1.Text" xml:space="preserve">
+    <value>Other Administrative expenses</value>
+  </data>
+  <data name="lblOtherAdministrativeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOtherAssetsResource1.Text" xml:space="preserve">
+    <value>Other Assets</value>
+  </data>
+  <data name="lblOtherAssetsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOtherLiabilitiesResource1.Text" xml:space="preserve">
+    <value>Other Liabilities</value>
+  </data>
+  <data name="lblOtherLiabilitiesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOverheadsResource1.Text" xml:space="preserve">
+    <value>Overheads include salaries and staff welfare of production workers, factory rental, equipment rental, repair and maintenance of equipments, factory utilities </value>
+  </data>
+  <data name="lblOverheadsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPropertyResource1.Text" xml:space="preserve">
+    <value>Property, plant &amp; machinery</value>
+  </data>
+  <data name="lblPropertyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPurchasesResource1.Text" xml:space="preserve">
+    <value>purchases of goods and delivery charges</value>
+  </data>
+  <data name="lblPurchasesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRefersResource1.Text" xml:space="preserve">
+    <value>refers to cash on hand, cash at bank and all fixed deposits placed with the banks</value>
+  </data>
+  <data name="lblRefersResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRefersToTheProvisionResource1.Text" xml:space="preserve">
+    <value>refers to the provision for income tax</value>
+  </data>
+  <data name="lblRefersToTheProvisionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRetainedResource1.Text" xml:space="preserve">
+    <value>Retained earnings / (Accumulated losses)</value>
+  </data>
+  <data name="lblRetainedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSalesResource1.Text" xml:space="preserve">
+    <value>Sales</value>
+  </data>
+  <data name="lblSalesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSellingdistributionResource1.Text" xml:space="preserve">
+    <value>Selling and distribution</value>
+  </data>
+  <data name="lblSellingdistributionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblServicingResource1.Text" xml:space="preserve">
+    <value>(iii) Servicing company</value>
+  </data>
+  <data name="lblServicingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblShareCapitalResource1.Text" xml:space="preserve">
+    <value>Share Capital / Partners' or Sole-Proprietor's Capital Accounts</value>
+  </data>
+  <data name="lblShareCapitalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTermLoanResource1.Text" xml:space="preserve">
+    <value>Term Loan / Hire-purchase loan</value>
+  </data>
+  <data name="lblTermLoanResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotalLiabilitiesResource1.Text" xml:space="preserve">
+    <value>Total Liabilities</value>
+  </data>
+  <data name="lblTotalLiabilitiesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTradePayablesResource1.Text" xml:space="preserve">
+    <value>Trade Payables</value>
+  </data>
+  <data name="lblTradePayablesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTradereceivablesResource1.Text" xml:space="preserve">
+    <value>Trade receivables</value>
+  </data>
+  <data name="lblTradereceivablesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTradingResource1.Text" xml:space="preserve">
+    <value>(i) Trading company</value>
+  </data>
+  <data name="lblTradingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWorkingCapitalResource1.Text" xml:space="preserve">
+    <value>Working Capital loan</value>
+  </data>
+  <data name="lblWorkingCapitalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="locPara10Resource1.Text" xml:space="preserve">
+    <value>
+                                        For company limited by shares, it refers to the paid-up capital of the company;&lt;br /&gt;
+                                        For sole proprietorship, it refers to the amount that the sole proprietor has advanced
+                                        to the business; and&lt;br /&gt;
+                                        For partnership, it represents the partners' capital accounts.</value>
+  </data>
+  <data name="locPara11Resource1.Text" xml:space="preserve">
+    <value>
+                                        refers to the total revenue generated by the business from sales of goods or services
+                                        rendered to the customers, net of discounts and returns</value>
+  </data>
+  <data name="locPara12Resource1.Text" xml:space="preserve">
+    <value>
+                                        all operating costs pertaining to the running of the sales and distribution departments,
+                                        including salaries, staff welfare, transportation costs, upkeep of motor vehicle,
+                                        sales commission, marketing expenses, freight outwards, etc</value>
+  </data>
+  <data name="locPara13Resource1.Text" xml:space="preserve">
+    <value>
+                                        all other operating expenses including salaries and staff welfare for the administrative
+                                        and finance department, office rental expenses, telecommunication expenses, utilities,
+                                        directors salaries, audit fees, professional fees, printing and stationery, general
+                                        expenses, etc</value>
+  </data>
+  <data name="locPara14Resource1.Text" xml:space="preserve">
+    <value>
+                                        refers to income which is not derived directly from core business activities, example
+                                        interest income, rental income, gain on sale of fixed assets, etc</value>
+  </data>
+  <data name="locPara15Resource1.Text" xml:space="preserve">
+    <value>
+                                        refers to the depreciation charges on fixed assets of the business and amortisation
+                                        of intangible assets, if applicable</value>
+  </data>
+  <data name="locPara16Resource1.Text" xml:space="preserve">
+    <value>
+                                        refers to tax computed on the chargeable profits of the business and any deferred
+                                        tax liabilities to be expensed to the current year's Income Statement</value>
+  </data>
+  <data name="locPara1Resource1.Text" xml:space="preserve">
+    <value>refers to all trade debts owing by your customers. Trade debts refers to unpaid
+                                        invoices for sale of goods or provision of services, net of any provision for doubtful
+                                        debts or bad debts written off</value>
+  </data>
+  <data name="locPara2Resource1.Text" xml:space="preserve">
+    <value>refers to raw materials, finished goods and work-in-progress of the business, net
+                                        of any provision for obsolete inventory</value>
+  </data>
+  <data name="locPara3Resource1.Text" xml:space="preserve">
+    <value>refers to amounts owing by the shareholder/(s) and/or related companies that are
+                                        non-trade in nature</value>
+  </data>
+  <data name="locPara4Resource1.Text" xml:space="preserve">
+    <value>refers to all other types of current assets such as prepayments, rental and uitlities
+                                        deposits, GST receivables, staff advances, other debtors, etc (not relating to the
+                                        trading activities of the business)</value>
+  </data>
+  <data name="locPara5Resource1.Text" xml:space="preserve">
+    <value>refers to fixed assets less accumulated depreciation, example: furniture &amp; fittings,
+                                        office equipment, computer, motor vehicles, renovation, plant &amp; machinery, land
+                                        and building, etc. Please also include other non-current assets such as country
+                                        club memberships, intangibles, investments in associates or in shares. etc. in this
+                                        field, if applicable</value>
+  </data>
+  <data name="locPara6Resource1.Text" xml:space="preserve">
+    <value>
+                                        refers to the term loans and/or hire purchase loans owing to the Banks and/or Financial
+                                        Institutions. For hire purchase loan, the amount should be net of interest in suspense</value>
+  </data>
+  <data name="locPara7Resource1.Text" xml:space="preserve">
+    <value>
+                                        refers to trade related liabilities owing to suppliers for the purchases of the
+                                        materials and services. If you receive advances from your customers prior to the
+                                        delivery of goods and services, which is a normal terms of supply, please enter
+                                        such advances here.</value>
+  </data>
+  <data name="locPara8Resource1.Text" xml:space="preserve">
+    <value>
+                                        refers to amounts owing to the shareholder/(s) and/or related companies that are
+                                        non trade in nature</value>
+  </data>
+  <data name="locPara9Resource1.Text" xml:space="preserve">
+    <value>
+                                        refers to all other types of liabilities example: other creditors (contractors for
+                                        renovation, suppliers for fixed assets, etc), accruals, GST payables, deferred tax
+                                        liabilities, etc</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value />
+  </data>
+</root>

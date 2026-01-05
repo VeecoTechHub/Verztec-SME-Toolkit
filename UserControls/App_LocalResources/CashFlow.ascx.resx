@@ -1,0 +1,714 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lbl2cashsurplusResource1.Text" xml:space="preserve">
+    <value>(B)  Net cash surplus/(shortfall) from financing &amp; investing activities</value>
+  </data>
+  <data name="lbl2cashsurplusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblABResource1.Text" xml:space="preserve">
+    <value>(A) + (B)</value>
+  </data>
+  <data name="lblABResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblassumedResource1.Text" xml:space="preserve">
+    <value>** It is assumed that there is no change in the working capital loan during the projection period.</value>
+  </data>
+  <data name="lblassumedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBalanceamountResource1.Text" xml:space="preserve">
+    <value>(I) Balance amount will be funded by internally generated resources</value>
+  </data>
+  <data name="lblBalanceamountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBalanceP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBalanceP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBalanceP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBalanceP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBalanceP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBalanceP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblbeginningofperiodResource1.Text" xml:space="preserve">
+    <value>Cash balance as at the beginning of period</value>
+  </data>
+  <data name="lblbeginningofperiodResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCashBal1P1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCashBal1P1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCashBal1P2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCashBal1P2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCashBal1P3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCashBal1P3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCashBalance1P1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCashBalance1P1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCashBalance1P2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCashBalance1P2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCashBalance1P3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCashBalance1P3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCashBalanceP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCashBalanceP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCashBalanceP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCashBalanceP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCashBalanceP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCashBalanceP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCashBalanceResource1.Text" xml:space="preserve">
+    <value>(D) Cash Balance as at the end of period of period</value>
+  </data>
+  <data name="lblCashBalanceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCashBalP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCashBalP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCashBalP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCashBalP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCashBalP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCashBalP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCashBalResource1.Text" xml:space="preserve">
+    <value>Cash balance as at the end of period</value>
+  </data>
+  <data name="lblCashBalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblcashsurplusResource1.Text" xml:space="preserve">
+    <value>(A)  Net cash surplus/(shortfall) from operating activities</value>
+  </data>
+  <data name="lblcashsurplusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblendofperiodResource1.Text" xml:space="preserve">
+    <value>Cash balance as at the end of period</value>
+  </data>
+  <data name="lblendofperiodResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExistingP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExistingP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExistingP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExistingP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExistingP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExistingP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblexistingResource1.Text" xml:space="preserve">
+    <value>Repayment of existing loan/(s)</value>
+  </data>
+  <data name="lblexistingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblfyResource1.Text" xml:space="preserve">
+    <value>FY</value>
+  </data>
+  <data name="lblfyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHeadingResource1.Text" xml:space="preserve">
+    <value>Cash flow Analysis</value>
+  </data>
+  <data name="lblHeadingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHeadroomP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHeadroomP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHeadroomP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHeadroomP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHeadroomP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHeadroomP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHeadroomResource1.Text" xml:space="preserve">
+    <value>Headroom Surplus/(Shortfall)</value>
+  </data>
+  <data name="lblHeadroomResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHeadroomSurplusP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHeadroomSurplusP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHeadroomSurplusP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHeadroomSurplusP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHeadroomSurplusP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHeadroomSurplusP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHeadroomsurplusResource1.Text" xml:space="preserve">
+    <value>(E) Headroom surplus/(shortfall)</value>
+  </data>
+  <data name="lblHeadroomsurplusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInterestsP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInterestsP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInterestsP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInterestsP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInterestsP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInterestsP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInvestingActivitiesP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInvestingActivitiesP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInvestingActivitiesP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInvestingActivitiesP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInvestingActivitiesP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInvestingActivitiesP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblloancommitmentsResource1.Text" xml:space="preserve">
+    <value>(II) Total loan commitments</value>
+  </data>
+  <data name="lblloancommitmentsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNetCashP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNetCashP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNetCashP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNetCashP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNetCashP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNetCashP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNewP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNewP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNewP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNewP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNewP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNewP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOfWhichP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOfWhichP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOfWhichP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOfWhichP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOfWhichP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOfWhichP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOfWhichResource1.Text" xml:space="preserve">
+    <value>Of which you plan secure external funding of</value>
+  </data>
+  <data name="lblOfWhichResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOperatingActivitiesP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOperatingActivitiesP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOperatingActivitiesP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOperatingActivitiesP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOperatingActivitiesP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOperatingActivitiesP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbloutflowResource1.Text" xml:space="preserve">
+    <value>Total cash inflow/(outflow) from financing and investing activities is the aggregate of (I) + (II) + (III)</value>
+  </data>
+  <data name="lbloutflowResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblplannedP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblplannedP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblplannedP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblplannedP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblplannedP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblplannedP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblplanningtoraiseResource1.Text" xml:space="preserve">
+    <value>(III) You are planning to raise new capital of</value>
+  </data>
+  <data name="lblplanningtoraiseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblpResource1.Text" xml:space="preserve">
+    <value>P</value>
+  </data>
+  <data name="lblpResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblprojectedResource1.Text" xml:space="preserve">
+    <value>Repayment of projected new loan/(s)</value>
+  </data>
+  <data name="lblprojectedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRaiseNewP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRaiseNewP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRaiseNewP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRaiseNewP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRaiseNewP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRaiseNewP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblrepaymentcommitmentsResource1.Text" xml:space="preserve">
+    <value>Your loan repayment commitments (Principal + Interests)</value>
+  </data>
+  <data name="lblrepaymentcommitmentsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRestrictedP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRestrictedP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRestrictedP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRestrictedP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRestrictedP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRestrictedP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRestrictedResource1.Text" xml:space="preserve">
+    <value>Less : Restricted Cash (Cash Pledged to Bank/(s))</value>
+  </data>
+  <data name="lblRestrictedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblshortfallResource1.Text" xml:space="preserve">
+    <value>Add : (C) Total net cash surplus/(shortfall) for the period</value>
+  </data>
+  <data name="lblshortfallResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotalcashP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotalcashP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotalcashP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotalcashP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotalcashP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotalcashP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotalloanP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotalloanP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotalloanP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotalloanP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotalloanP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotalloanP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotalnetcashResource1.Text" xml:space="preserve">
+    <value>(C) Total net cash surplus/(shortfall) generated in the period</value>
+  </data>
+  <data name="lblTotalnetcashResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotelNetCashP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotelNetCashP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotelNetCashP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotelNetCashP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotelNetCashP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotelNetCashP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUnutilisedP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUnutilisedP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUnutilisedP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUnutilisedP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUnutilisedP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUnutilisedP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUnutilisedResource1.Text" xml:space="preserve">
+    <value>Add : Unutilised credit facilities</value>
+  </data>
+  <data name="lblUnutilisedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblworkingcapitalloanResource1.Text" xml:space="preserve">
+    <value>Interests on working capital loan</value>
+  </data>
+  <data name="lblworkingcapitalloanResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblYearP1Resource1.Text" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="lblYearP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblYearP2Resource1.Text" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="lblYearP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblYearP3Resource1.Text" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="lblYearP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblYouhaveplannedResource1.Text" xml:space="preserve">
+    <value>You have planned capital expenditure amounting to</value>
+  </data>
+  <data name="lblYouhaveplannedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="locPara1Resource1.Text" xml:space="preserve">
+    <value>
+    Cash is king and it is the most important element for survival of businesses. Understanding the cash flow requirement 
+    of your business and planning ahead is important so that you can take necessary actions on a timely basis. Based on the
+     data that you have entered, the cash flow of your next 3 years are projected as follows: -</value>
+  </data>
+  <data name="locPara2Resource1.Text" xml:space="preserve">
+    <value>
+ The net cash generated from operations refers to the cash generated by your business after taking into &lt;br/&gt;account the funding of the working capital as well as payment of operating expenses and taxes (if applicable).&lt;br/&gt; Please refer to  &lt;span style=" color:Blue; font-style:italic; font-weight:bold"&gt;Appendix A&lt;/span&gt; for the details. If there is shortfall (negative amount) in the cash generated from&lt;br/&gt; operating activities, it means your operating business is consuming cash and therefore, you will need to look at&lt;br/&gt; ways to improve your profitability and shorten your cash conversion cycle. Find ways to collect faster from your&lt;br/&gt; customers and negotiate for longer credit terms to pay your suppliers or reduce the level of inventories (if &lt;br/&gt;applicable).</value>
+  </data>
+  <data name="locPara4Resource1.Text" xml:space="preserve">
+    <value>
+This refers to the total cash that your business generates in each of the projection periods. If the amount is positive,
+ your business is generating positive cash and will add on to your cash reserves. If the amount is negative, it means
+  your business activities is not generating positive cash flow and will deplete your cash reserves.</value>
+  </data>
+  <data name="locPara5Resource1.Text" xml:space="preserve">
+    <value>
+    This refers to the cash balance as at the end of each of the projection periods. This is computed by adding
+     the beginning cash balance of the period to the net cash surplus/(shortfall) for the period.</value>
+  </data>
+  <data name="locPara6Resource1.Text" xml:space="preserve">
+    <value>
+    This represents the free cash reserves (excluding cash that may be pledged to the banks / financial institutions as
+     collateral for your credit facilities) and unutilised credit facilities that are available as at the end of each
+      of the projection periods. If this is surplus (&lt;b&gt;positive&lt;/b&gt; amount), it means you have sufficient cash reserves
+       and credit facilities (after excluding the pledged cash) to fund your business needs.</value>
+  </data>
+  <data name="locPara7Resource1.Text" xml:space="preserve">
+    <value>
+        If it is shortfall (&lt;b&gt;negative&lt;/b&gt; amount), it means even you have exhausted all the cash reserves and utilised
+         the credit facilities in full, there is still insufficient cash to fund your projected activities.  You are likely
+          to experience strain in your cash flow. Therefore, you may like to consider (a) raising more debt and/or equity if
+           your business is viable, i.e. you are expecting to record profitability and your balance sheet is relatively
+            healthy; and (b) look into areas of improving your working capital management and profitability.</value>
+  </data>
+</root>

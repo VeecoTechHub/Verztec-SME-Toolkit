@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>eMailTemplate</title>
+    <style type="text/css">
+        .formLabel
+        {
+            color: white;
+            font-family: Verdana,Arial,haettenschweiler;
+            font-size: 10pt;
+            background-color: #C6C3C6;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <table id="Table1" cellspacing="0" align="center" cellpadding="2" width="90%" border="1">
+        <tr>
+            <td colspan="2" bgcolor="#C6C3C6">
+                <table width="100%">
+                  <!--  <tr>
+                        <td width="16%">
+                        &nbsp;
+                    
+                            <img src="../../images/error.png" alt="error" />
+                        </td>
+                        <td valign="top" bgcolor="#C6C3C6" align="left">
+                            <b><font face="Verdana, Arial, haettenschweiler,sans-serif"></font></b>
+                        </td>
+                    </tr>-->
+                </table>
+                <table border="0" width="90%" valign="top" bgcolor="#C6C3C6">
+                    <tr>
+                        <td colspan="2">
+                            <font face="Verdana" size="2" color="black">[strSalutation]<span style="width: 50px;">&nbsp;&nbsp</span>[username]
+                            </font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" height="7">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <font face="Verdana" size="2" color="black">[strHearder]</font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="left">
+                            <table width="100%">
+                                <tr>
+                                    <td width="25%" align="left" valign='top'>
+                                        <font face="Verdana" size="2"></font>Error Description :
+                                    </td>
+                                    <td align="left">
+                                        <font face="Verdana" size="2">[Message]</font>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="25%" align="left" valign='top'>
+                                        <font face="Verdana" size="2">Error in Page : </font>
+                                    </td>
+                                    <td align="left">
+                                        <font face="Verdana" size="2">Sgfreebee-[source]</font>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="25%" align="left">
+                                        <font face="Verdana" size="2">Error For User :</font>
+                                    </td>
+                                    <td align="left">
+                                        <font face="Verdana" size="2">[strUser]</font>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="25%" align="left">
+                                        <font face="Verdana" size="2">Error Date/Time : </font>
+                                    </td>
+                                    <td align="left">
+                                        <font face="Verdana" size="2">[datetime]</font>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="25%" align="left">
+                                        <font face="Verdana" size="2">Error Client IP : </font>
+                                    </td>
+                                    <td align="left">
+                                        <font face="Verdana" size="2">[clientIP]</font>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            [dmUser]
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            [admRole]
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <font face="Verdana" size="2" color="Black"></font>&nbsp;
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <font face="Verdana" size="2" color="Black">[strsignature]</font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <font face="Verdana" size="2" color="red">[strfooter]</font>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,566 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lbl1AResource1.Text" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="lbl1AResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl1CostofSalesResource1.Text" xml:space="preserve">
+    <value>销售成本</value>
+  </data>
+  <data name="lbl1CostofSalesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl1RefersResource1.Text" xml:space="preserve">
+    <value>指未向银行与/或金融机构支付的借款，例如：银行透支、信托收据、保理贷款、短期贷款项及循环信贷款等</value>
+  </data>
+  <data name="lbl1RefersResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl2AResource1.Text" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="lbl2AResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl2BResource1.Text" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="lbl2BResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl2CResource1.Text" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="lbl2CResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl2DResource1.Text" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="lbl2DResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl2EResource1.Text" xml:space="preserve">
+    <value>E</value>
+  </data>
+  <data name="lbl2EResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl2IncomeTaxResource1.Text" xml:space="preserve">
+    <value>所得税</value>
+  </data>
+  <data name="lbl2IncomeTaxResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl2OtherIncomeResource1.Text" xml:space="preserve">
+    <value>其他收入</value>
+  </data>
+  <data name="lbl2OtherIncomeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl3AResource1.Text" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="lbl3AResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl3BResource1.Text" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="lbl3BResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl3CResource1.Text" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="lbl3CResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl3EResource1.Text" xml:space="preserve">
+    <value>E</value>
+  </data>
+  <data name="lbl3EResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl3FResource1.Text" xml:space="preserve">
+    <value>F</value>
+  </data>
+  <data name="lbl3FResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl3GResource1.Text" xml:space="preserve">
+    <value>G</value>
+  </data>
+  <data name="lbl3GResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl4AResource1.Text" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="lbl4AResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl4BResource1.Text" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="lbl4BResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl4DResource1.Text" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="lbl4DResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblaccumulatedResource1.Text" xml:space="preserve">
+    <value>指累计损益，所有股息支出净值。</value>
+  </data>
+  <data name="lblaccumulatedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAResource1.Text" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="lblAResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBalanceSheetResource1.Text" xml:space="preserve">
+    <value>资产负债表</value>
+  </data>
+  <data name="lblBalanceSheetResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBIncomeStmtResource1.Text" xml:space="preserve">
+    <value>损益表</value>
+  </data>
+  <data name="lblBIncomeStmtResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBResource1.Text" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="lblBResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCashResource1.Text" xml:space="preserve">
+    <value>现金及银行存款</value>
+  </data>
+  <data name="lblCashResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCResource1.Text" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="lblCResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCurrentAssetsResource1.Text" xml:space="preserve">
+    <value>流动资产</value>
+  </data>
+  <data name="lblCurrentAssetsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDepreciationamortisationResource1.Text" xml:space="preserve">
+    <value>折旧及摊销费用</value>
+  </data>
+  <data name="lblDepreciationamortisationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbldirectResource1.Text" xml:space="preserve">
+    <value>指与生成销售关联的直接成本</value>
+  </data>
+  <data name="lbldirectResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDResource1.Text" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="lblDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDueResource1.Text" xml:space="preserve">
+    <value>应收企业所有者帐款</value>
+  </data>
+  <data name="lblDueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDueToResource1.Text" xml:space="preserve">
+    <value>应付企业所有者帐款</value>
+  </data>
+  <data name="lblDueToResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEquityResource1.Text" xml:space="preserve">
+    <value>股东权益</value>
+  </data>
+  <data name="lblEquityResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEResource1.Text" xml:space="preserve">
+    <value>E</value>
+  </data>
+  <data name="lblEResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExampleResource1.Text" xml:space="preserve">
+    <value>例：</value>
+  </data>
+  <data name="lblExampleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFResource1.Text" xml:space="preserve">
+    <value>F</value>
+  </data>
+  <data name="lblFResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHeadingResource1.Text" xml:space="preserve">
+    <value>财务报表分录分类指南</value>
+  </data>
+  <data name="lblHeadingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIncomeTaxResource1.Text" xml:space="preserve">
+    <value>应付所得税</value>
+  </data>
+  <data name="lblIncomeTaxResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInterestexpenseResource1.Text" xml:space="preserve">
+    <value>利息费用</value>
+  </data>
+  <data name="lblInterestexpenseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblinterestincurredResource1.Text" xml:space="preserve">
+    <value>指银行债务及贷款分期付款所产生的利息</value>
+  </data>
+  <data name="lblinterestincurredResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInventoryResource1.Text" xml:space="preserve">
+    <value>库存</value>
+  </data>
+  <data name="lblInventoryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLabourResource1.Text" xml:space="preserve">
+    <value>劳务及分包费用</value>
+  </data>
+  <data name="lblLabourResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblManufacturingResource1.Text" xml:space="preserve">
+    <value>(ii) 制造型公司</value>
+  </data>
+  <data name="lblManufacturingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblmaterialsResource1.Text" xml:space="preserve">
+    <value>原材料成本及运输费用</value>
+  </data>
+  <data name="lblmaterialsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNonCurrentResource1.Text" xml:space="preserve">
+    <value>非流动资产</value>
+  </data>
+  <data name="lblNonCurrentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOperatingExpensesResource1.Text" xml:space="preserve">
+    <value>营运费用</value>
+  </data>
+  <data name="lblOperatingExpensesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOtherAdministrativeResource1.Text" xml:space="preserve">
+    <value>其他管理费用</value>
+  </data>
+  <data name="lblOtherAdministrativeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOtherAssetsResource1.Text" xml:space="preserve">
+    <value>其他资产</value>
+  </data>
+  <data name="lblOtherAssetsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOtherLiabilitiesResource1.Text" xml:space="preserve">
+    <value>其他负债</value>
+  </data>
+  <data name="lblOtherLiabilitiesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOverheadsResource1.Text" xml:space="preserve">
+    <value>日常管理费用包括工资及生产工人的员工福利、厂房租赁费用、设备租赁费用、设备维修及维护费用及厂房公共事业费用。</value>
+  </data>
+  <data name="lblOverheadsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPropertyResource1.Text" xml:space="preserve">
+    <value>物业、厂房及机械设备</value>
+  </data>
+  <data name="lblPropertyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPurchasesResource1.Text" xml:space="preserve">
+    <value>货物采购及运输费用</value>
+  </data>
+  <data name="lblPurchasesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRefersResource1.Text" xml:space="preserve">
+    <value>指库存现金、银行现金及所有银行定期存款</value>
+  </data>
+  <data name="lblRefersResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRefersToTheProvisionResource1.Text" xml:space="preserve">
+    <value>指预提所得税</value>
+  </data>
+  <data name="lblRefersToTheProvisionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRetainedResource1.Text" xml:space="preserve">
+    <value>留存利润/（累积亏损）</value>
+  </data>
+  <data name="lblRetainedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSalesResource1.Text" xml:space="preserve">
+    <value>销售收入</value>
+  </data>
+  <data name="lblSalesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSellingdistributionResource1.Text" xml:space="preserve">
+    <value>销售及分销</value>
+  </data>
+  <data name="lblSellingdistributionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblServicingResource1.Text" xml:space="preserve">
+    <value>(iii) 服务型公司</value>
+  </data>
+  <data name="lblServicingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblShareCapitalResource1.Text" xml:space="preserve">
+    <value>股份资本/合伙人或独资企业的资本账户</value>
+  </data>
+  <data name="lblShareCapitalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTermLoanResource1.Text" xml:space="preserve">
+    <value>定期贷款/分期付款购买贷款</value>
+  </data>
+  <data name="lblTermLoanResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotalLiabilitiesResource1.Text" xml:space="preserve">
+    <value>负债总额</value>
+  </data>
+  <data name="lblTotalLiabilitiesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTradePayablesResource1.Text" xml:space="preserve">
+    <value>应付帐款</value>
+  </data>
+  <data name="lblTradePayablesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTradereceivablesResource1.Text" xml:space="preserve">
+    <value>应收帐款</value>
+  </data>
+  <data name="lblTradereceivablesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTradingResource1.Text" xml:space="preserve">
+    <value>(i) 贸易型公司</value>
+  </data>
+  <data name="lblTradingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWorkingCapitalResource1.Text" xml:space="preserve">
+    <value>营运资本贷款</value>
+  </data>
+  <data name="lblWorkingCapitalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="locPara10Resource1.Text" xml:space="preserve">
+    <value>
+对于股份有限公司，其指公司实收股本；                                             
+&lt;br /&gt;
+                                    对于独资企业，其指独资经营者向企业预付的金额；                                    
+&lt;br /&gt;
+                                     对于合伙企业，其指合伙人的资本账户。</value>
+  </data>
+  <data name="locPara11Resource1.Text" xml:space="preserve">
+    <value>指企业向顾客销售货物或提供服务所产生的总收入，以及折扣及回报净值</value>
+  </data>
+  <data name="locPara12Resource1.Text" xml:space="preserve">
+    <value>所有与销售及分销部门营运有关的营业成本，包括工资、员工福利、运输成本、机动车辆维修费、销售佣金、营销费用以及销货运费等</value>
+  </data>
+  <data name="locPara13Resource1.Text" xml:space="preserve">
+    <value>所有其他的营运费用，包括行政和财务部门的工资及员工福利、办公室租赁费用、电信费用、公共事业费用、董事薪酬、审计费用、专业费用、打印和文具费用以及一般费用等）</value>
+  </data>
+  <data name="locPara14Resource1.Text" xml:space="preserve">
+    <value>指非直接来自核心业务活动的收入，例如：利息收入、租赁收入以及固定资产销售收益等</value>
+  </data>
+  <data name="locPara15Resource1.Text" xml:space="preserve">
+    <value>指企业固定资产折旧费用及无形资产摊销（若适用）</value>
+  </data>
+  <data name="locPara16Resource1.Text" xml:space="preserve">
+    <value>指对企业应缴税利润计算出的税收及任何待计入当年收益表的递延所得税负债</value>
+  </data>
+  <data name="locPara1Resource1.Text" xml:space="preserve">
+    <value>指您的顾客所结欠的所有贸易应收帐款。贸易应收帐款是指用于货物销售或服务供应的，任意呆账或已注销坏账的净值等未偿票据。</value>
+  </data>
+  <data name="locPara2Resource1.Text" xml:space="preserve">
+    <value>指库存原材料、成品及在制品，净所有的库存呆滞损失</value>
+  </data>
+  <data name="locPara3Resource1.Text" xml:space="preserve">
+    <value>指股东与/或关联公司所欠的非贸易性质债款</value>
+  </data>
+  <data name="locPara4Resource1.Text" xml:space="preserve">
+    <value>指所有其他类型的流动资产，例如：预付款项、租凭金及公用事业存款、消费税应收款项、员工预付款及其他债务等（与企业的贸易活动无关联）</value>
+  </data>
+  <data name="locPara5Resource1.Text" xml:space="preserve">
+    <value>指固定资产，净累计折旧，例如：设备与配件、办公设备、电脑、机动车辆、装卸设备、厂房与机械设备、土地与建筑物等。此外，还需涵盖其他非流动资产，如乡村俱乐部会员身份、无形资产、对关联公司的投资或股票投资等（若适用）</value>
+  </data>
+  <data name="locPara6Resource1.Text" xml:space="preserve">
+    <value>指未向银行与/或金融机构支付的长期贷款与/或分期付款贷款。对于分期付款贷款，其金额为未决利息贷款就材料与服务的购买而未向供应商支付的交易相关债务。</value>
+  </data>
+  <data name="locPara7Resource1.Text" xml:space="preserve">
+    <value>指与贸易有关的债务，于采购材料与服务而未向供应商支付的欠款。若您在货物及服务交付前收到顾客的预付款（符合正常供应条款规定），则请在此输入预付款金额。</value>
+  </data>
+  <data name="locPara8Resource1.Text" xml:space="preserve">
+    <value>指未向股东与/或关联公司支付的非贸易性质债款</value>
+  </data>
+  <data name="locPara9Resource1.Text" xml:space="preserve">
+    <value>指所有其他类型的债务，例如：其他债权人（翻新承包商、固定资产供应商等）、权责发生额、消费税应付款项以及递延所得税负债等</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value />
+  </data>
+</root>

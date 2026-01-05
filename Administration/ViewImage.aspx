@@ -1,0 +1,34 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="ViewImage.aspx.cs" Inherits="Administration_ViewImage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<title>ABS: The Association of Banks in Singapore</title>
+  <script type="text/javascript" language="javascript">
+      function closepopup() {
+         window.close()
+       
+      }
+
+  </script>
+</head>
+<body>
+    <form id="form1" runat="server">
+  <table>
+  <tr><td>
+      <asp:Image ID="ImgBanner" runat="server" Height="200px" Width="500px" /><br />
+  </td></tr>
+  <tr><td style="height:30px"></td></tr>
+  <tr><td align="center">
+    <asp:ImageButton ID="Button_New" runat="server" ImageUrl="~/images/close.jpg" OnClientClick="closepopup()" >
+                                        </asp:ImageButton>
+    
+
+  
+  </td></tr>
+  </table>
+  
+    </form>
+</body>
+</html>

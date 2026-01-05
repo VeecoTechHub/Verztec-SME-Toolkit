@@ -1,0 +1,68 @@
+Logged On: 7/12/2024 5:50:35 PM
+
+
+Error Description: 
+
+ User ID: 2CF569CE-0D0F-4635-9EA7-CF6651319AF5
+  User Name: ABSADMIN
+  
+
+ Offending URL: http://smetoolkit.abs.org.sg/Administration/PublicUsersList_Search.aspx
+ Source: System.Web
+ Message: The client disconnected.
+ Inner exception: System.Web.UI.ViewStateException: Invalid viewstate. 
+	Client IP: 10.188.3.6
+	Port: 38436
+	Referer: https://smetoolkit.abs.org.sg/Administration/PublicUsersList_Search.aspx
+	Path: /Administration/PublicUsersList_Search.aspx
+	User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+	ViewState: /wEPDwUJMjAyMTc5ODA4DxYKHgVMaW5rcwX5A0FkbWluaXN0cmF0aW9uL1B1YmxpY1VzZXJzTGlzdF9TZWFyY2guYXNweHx8QWRtaW5pc3RyYXRpb24vUHVibGljVXNlcnNMaXN0X1VwZGF0ZS5hc3B4fFN1cHBvcnR8VXNlckxpc3Q8c2NyaXB0PmlmKChkb2N1bWVudC5sb2NhdGlvbiArICcnKS5pbmRleE9mKCdfJyk+MClkb2N1bWVudC53cml0ZSgnICgnICsgKGRvY3VtZW50LmxvY2F0aW9uICsgJycpLnN1YnN0cigoZG9jdW1lbnQubG9jYXRpb24gKyAnJykubGFzdEluZGV4T2YoJ18nKSsxLCgoZG9jdW1lbnQubG9jYXRpb24gKyAnJykuaW5kZXhPZignLmFzcHgnKS0oKGRvY3VtZW50LmxvY2F0aW9uICsgJycpLmxhc3RJbmRleE9mKCdfJykrMSkpKSArICcpJyk7Ly9pZigoZG9jdW1lbnQubG9jYXRpb24gKyAnJykuaW5kZXhPZignQWRkJyk+MClkb2N1bWVudC53cml0ZSgnIChBZGQpJyk7aWYoKGRvY3VtZW50LmxvY2F0aW9uICsgJycpLmluZGV4T2YoJ1VwZGF0ZScpPjApZG9jdW1lbnQud3JpdGUoJyAoRWRpdCknKTs8L3Njcml... ---> System.FormatException: Invalid length for a Base-64 char array or string.
+   at System.Convert.FromBase64_Decode(Char* startInputPtr, Int32 inputLength, Byte* startDestPtr, Int32 destLength)
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at System.Web.UI.ObjectStateFormatter.Deserialize(String inputString, Purpose purpose)
+   at System.Web.UI.Util.DeserializeWithAssert(IStateFormatter2 formatter, String serializedState, Purpose purpose)
+   at System.Web.UI.HiddenFieldPageStatePersister.Load()
+   --- End of inner exception stack trace ---
+ Stack trace:    at System.Web.UI.ViewStateException.ThrowError(Exception inner, String persistedState, String errorPageMessage, Boolean macValidationError)
+   at System.Web.UI.HiddenFieldPageStatePersister.Load()
+   at System.Web.UI.Page.LoadPageStateFromPersistenceMedium()
+   at System.Web.UI.Page.LoadAllState()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)Browser Capabilities
+IP Address = 10.188.3.6
+Type = Chrome126
+Name = Chrome
+Version = 126.0
+Major Version = 126
+Minor Version = 0
+Platform = WinNT
+Is Beta = False
+Is Crawler = False
+Is AOL = False
+Is Win16 = False
+Is Win32 = True
+Supports Frames = True
+Supports Tables = True
+Supports Cookies = True
+Supports VBScript = False
+Supports JavaScript = True
+Supports Java Applets = True
+Supports BackgroundSounds = False
+Supports ActiveX Controls = False
+Browser = Chrome
+CDF = False
+CLR Version = 0.0
+ECMA Script version = 3.0
+MSDOM version = 0.0
+Supports tables = True
+W3C DOM version = 1.0
+
+
+
+----------------------------

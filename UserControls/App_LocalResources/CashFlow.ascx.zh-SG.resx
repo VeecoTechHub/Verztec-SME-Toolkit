@@ -1,0 +1,696 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lbl2cashsurplusResource1.Text" xml:space="preserve">
+    <value>(B) 融资与投资活动之净现金盈余/（短缺）</value>
+  </data>
+  <data name="lbl2cashsurplusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblABResource1.Text" xml:space="preserve">
+    <value>(A) + (B)</value>
+  </data>
+  <data name="lblABResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblassumedResource1.Text" xml:space="preserve">
+    <value>**假设在预测期间，营运资本贷款未发生变化。</value>
+  </data>
+  <data name="lblassumedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBalanceamountResource1.Text" xml:space="preserve">
+    <value>(I) 结余金额将由内部生成的资源出资</value>
+  </data>
+  <data name="lblBalanceamountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBalanceP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBalanceP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBalanceP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBalanceP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBalanceP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBalanceP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblbeginningofperiodResource1.Text" xml:space="preserve">
+    <value>期初现金余额</value>
+  </data>
+  <data name="lblbeginningofperiodResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCashBal1P1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCashBal1P1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCashBal1P2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCashBal1P2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCashBal1P3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCashBal1P3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCashBalance1P1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCashBalance1P1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCashBalance1P2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCashBalance1P2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCashBalance1P3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCashBalance1P3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCashBalanceP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCashBalanceP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCashBalanceP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCashBalanceP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCashBalanceP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCashBalanceP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCashBalanceResource1.Text" xml:space="preserve">
+    <value>(D) 期末现金余额</value>
+  </data>
+  <data name="lblCashBalanceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCashBalP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCashBalP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCashBalP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCashBalP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCashBalP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCashBalP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCashBalResource1.Text" xml:space="preserve">
+    <value>期末现金余额</value>
+  </data>
+  <data name="lblCashBalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblcashsurplusResource1.Text" xml:space="preserve">
+    <value>(A) 营运活动之净现金盈余/（短缺）</value>
+  </data>
+  <data name="lblcashsurplusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblendofperiodResource1.Text" xml:space="preserve">
+    <value>期末现金余额</value>
+  </data>
+  <data name="lblendofperiodResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExistingP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExistingP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExistingP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExistingP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExistingP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExistingP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblexistingResource1.Text" xml:space="preserve">
+    <value>现有贷款还款</value>
+  </data>
+  <data name="lblexistingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHeadingResource1.Text" xml:space="preserve">
+    <value>现金流分析</value>
+  </data>
+  <data name="lblHeadingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHeadroomP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHeadroomP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHeadroomP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHeadroomP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHeadroomP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHeadroomP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHeadroomResource1.Text" xml:space="preserve">
+    <value>净空盈余/（短缺）</value>
+  </data>
+  <data name="lblHeadroomResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHeadroomSurplusP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHeadroomSurplusP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHeadroomSurplusP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHeadroomSurplusP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHeadroomSurplusP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHeadroomSurplusP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHeadroomsurplusResource1.Text" xml:space="preserve">
+    <value>(E) 净空盈余/（短缺）</value>
+  </data>
+  <data name="lblHeadroomsurplusResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInterestsP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInterestsP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInterestsP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInterestsP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInterestsP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInterestsP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInvestingActivitiesP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInvestingActivitiesP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInvestingActivitiesP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInvestingActivitiesP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInvestingActivitiesP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInvestingActivitiesP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblloancommitmentsResource1.Text" xml:space="preserve">
+    <value>(II) 总贷款承诺</value>
+  </data>
+  <data name="lblloancommitmentsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNetCashP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNetCashP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNetCashP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNetCashP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNetCashP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNetCashP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNewP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNewP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNewP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNewP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNewP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNewP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOfWhichP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOfWhichP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOfWhichP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOfWhichP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOfWhichP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOfWhichP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOfWhichResource1.Text" xml:space="preserve">
+    <value>其中，您规划获取外部资金的金额为</value>
+  </data>
+  <data name="lblOfWhichResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOperatingActivitiesP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOperatingActivitiesP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOperatingActivitiesP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOperatingActivitiesP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOperatingActivitiesP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOperatingActivitiesP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbloutflowResource1.Text" xml:space="preserve">
+    <value>融资及投资活动的总现金流入/（流出）为(I)+(II)+(III)的合计</value>
+  </data>
+  <data name="lbloutflowResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblplannedP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblplannedP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblplannedP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblplannedP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblplannedP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblplannedP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblplanningtoraiseResource1.Text" xml:space="preserve">
+    <value>(III) 您正在计划筹集新资本为</value>
+  </data>
+  <data name="lblplanningtoraiseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblprojectedResource1.Text" xml:space="preserve">
+    <value>预测新增贷款还款</value>
+  </data>
+  <data name="lblprojectedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRaiseNewP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRaiseNewP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRaiseNewP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRaiseNewP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRaiseNewP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRaiseNewP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblrepaymentcommitmentsResource1.Text" xml:space="preserve">
+    <value>您贷款的还款承诺（本金+利息）</value>
+  </data>
+  <data name="lblrepaymentcommitmentsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRestrictedP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRestrictedP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRestrictedP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRestrictedP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRestrictedP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRestrictedP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRestrictedResource1.Text" xml:space="preserve">
+    <value>减：限定用途现金（向银行质押的现金）</value>
+  </data>
+  <data name="lblRestrictedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblshortfallResource1.Text" xml:space="preserve">
+    <value>加：(C) 本期间总净现金盈余/（短缺）</value>
+  </data>
+  <data name="lblshortfallResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotalcashP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotalcashP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotalcashP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotalcashP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotalcashP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotalcashP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotalloanP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotalloanP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotalloanP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotalloanP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotalloanP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotalloanP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotalnetcashResource1.Text" xml:space="preserve">
+    <value>(C) 期间产生的总净现金盈余/（短缺) </value>
+  </data>
+  <data name="lblTotalnetcashResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotelNetCashP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotelNetCashP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotelNetCashP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotelNetCashP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotelNetCashP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotelNetCashP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUnutilisedP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUnutilisedP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUnutilisedP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUnutilisedP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUnutilisedP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUnutilisedP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUnutilisedResource1.Text" xml:space="preserve">
+    <value>加：未动用的信贷融资</value>
+  </data>
+  <data name="lblUnutilisedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblworkingcapitalloanResource1.Text" xml:space="preserve">
+    <value>营运资本贷款利息</value>
+  </data>
+  <data name="lblworkingcapitalloanResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblYearP1Resource1.Text" xml:space="preserve">
+    <value>$Label</value>
+  </data>
+  <data name="lblYearP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblYearP2Resource1.Text" xml:space="preserve">
+    <value>$Label</value>
+  </data>
+  <data name="lblYearP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblYearP3Resource1.Text" xml:space="preserve">
+    <value>$Label</value>
+  </data>
+  <data name="lblYearP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblYouhaveplannedResource1.Text" xml:space="preserve">
+    <value>您已规划的资本支出金额为</value>
+  </data>
+  <data name="lblYouhaveplannedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="locPara1Resource1.Text" xml:space="preserve">
+    <value>现金为王，现金是企业求存最为重要的因素。事先了解您的企业所需要的现金流及拥有妥善的未来规划尤为重要，以便有利于您及时采取必要措施。根据您所输入的数据，您在未来3年的现金流预测如下：-</value>
+  </data>
+  <data name="locPara2Resource1.Text" xml:space="preserve">
+    <value>营运活动产生的净现金是指您在考虑营运资本筹措资金，以及营运费用和税收的支付（若适用）后，企业所产生的现金。详细信息，请参阅&lt;b&gt;附录A。&lt;/b&gt;若营运活动所产生的现金中存在短缺（负数金额），这意味着您所经营的业务正在消耗现金；对此，您须探求一些以改进您企业盈利能力的方案及缩短现金周转周期的方法。寻找如何能加快速度向顾客收款、与供应商协商争取更长的支付款项的信贷期，或降低库存量（若适用）。</value>
+  </data>
+  <data name="locPara4Resource1.Text" xml:space="preserve">
+    <value>这是指您的业务在各个预测期间所产生的总现金额。若金额为正数，您的业务正产生正数现金并将被增加至您的现金储备。若金额为负数，即表明您的业务活动未能产生正数现金流并将消耗您的现金储备。</value>
+  </data>
+  <data name="locPara5Resource1.Text" xml:space="preserve">
+    <value>这是指的是您在截至预测期末的现金余额。该金额由期初现金余额加上本期净现金盈余/（短缺）所计算出来的。</value>
+  </data>
+  <data name="locPara6Resource1.Text" xml:space="preserve">
+    <value>这表示您所持有的自由现金储备（不含质押给银行/金融机构作为您信贷融资的抵押品的现金），及仅在各预测期末可用的未动用的信贷融资的额度。若该为盈余（&lt;b&gt;正数&lt;/b&gt;金额），意味着您拥有充足的现金储备及信贷融资（排除已质押的现金）以为您的业务提供资金需求。</value>
+  </data>
+  <data name="locPara7Resource1.Text" xml:space="preserve">
+    <value>若其为短缺（&lt;b&gt;负数&lt;/b&gt;金额），意味着您已用完所有现金储备及动用了全面的信贷融资，却仍然没有充分的现金支持您的预测活动。您可能将经历现金流紧张期。因此，须考虑：(a)筹集更多债务及/或权益（若您的企业还具有生存能力，即您预计将会记录盈利且您的资产负债表相对较为健康）；以及(b)探讨改进您的企业营运资本管理及盈利能力。</value>
+  </data>
+  <data name="lblfyResource1.Text" xml:space="preserve">
+    <value>财政年度</value>
+  </data>
+  <data name="lblfyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblpResource1.Text" xml:space="preserve">
+    <value>预测</value>
+  </data>
+  <data name="lblpResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

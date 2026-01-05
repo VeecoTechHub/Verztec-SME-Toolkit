@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblaq1Resource1.Text" xml:space="preserve">
+    <value>我如何能从中小企业财务管理工具箱收益?</value>
+  </data>
+  <data name="lblaq1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblaq2Resource1.Text" xml:space="preserve">
+    <value>我如何获得有关中小企业财务管理工具箱的使用的指导?</value>
+  </data>
+  <data name="lblaq2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblaq3Resource1.Text" xml:space="preserve">
+    <value>在筹备企业计划时，我如何应用财务建模所生成的报告?</value>
+  </data>
+  <data name="lblaq3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblaq4Resource1.Text" xml:space="preserve">
+    <value>注销前,我该如何保存信息?</value>
+  </data>
+  <data name="lblaq4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblaq5Resource1.Text" xml:space="preserve">
+    <value>我可以通过财务建模工具获得不同方案的多项报告吗?</value>
+  </data>
+  <data name="lblaq5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblaq6Resource1.Text" xml:space="preserve">
+    <value>我在财务建模中所输入与企业有关的商业资料是否会受到保密?</value>
+  </data>
+  <data name="lblaq6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblaq7Resource1.Text" xml:space="preserve">
+    <value>我是否可以使用相同的电邮地址创建多个用户账户?</value>
+  </data>
+  <data name="lblaq7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblaq8Resource1.Text" xml:space="preserve">
+    <value>我如何报告系统故障?</value>
+  </data>
+  <data name="lblaq8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblaq9Resource1.Text" xml:space="preserve">
+    <value>我如何提出有关中小企业财务管理工具箱的意见?</value>
+  </data>
+  <data name="lblaq9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHeadingResource1.Text" xml:space="preserve">
+    <value>常见问题解答与在线帮助</value>
+  </data>
+  <data name="lblHeadingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLink2Resource1.Text" xml:space="preserve">
+    <value>如果发现系统故障，请将故障报告电邮至  &lt;a href='mailto:enquiries@abs.org.sg'&gt;
+                                                                    enquiries@abs.org.sg&lt;/a&gt;。</value>
+  </data>
+  <data name="lblLink2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLink3Resource1.Text" xml:space="preserve">
+    <value>如果您有任何关于工具箱的意见与建议，可以发送电邮至  &lt;a href='mailto:FMtoolkit@stoneforest.com.sg'&gt;FMtoolkit@stoneforest.com.sg&lt;/a&gt; 与我们分享。</value>
+  </data>
+  <data name="lblLink3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLinkResource1.Text" xml:space="preserve">
+    <value>您可以免费注册一个小时的一对一咨询会议，或点击“了解更多信息”注册即将开始的培训班和研讨会。如果您在使用工具箱过程中需要指导，您可以致电给我们的财务管理顾问，电话  +65 6224-4300，或发送电邮至 &lt;a style="text-decoration: underline;"
+                                                                    href="mailto:enquiries@abs.org.sg"&gt;enquiries@abs.org.sg&lt;/a&gt;。您也可以向任何一个企业发展中心  &lt;a style="text-decoration: underline;"
+                                                                    href="http://www.enterpriseone.gov.sg/"  target="_blank"&gt;(Enterprise Development Centres)&lt;/a&gt;。寻求协助。</value>
+  </data>
+  <data name="lblLinkResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblq1Resource1.Text" xml:space="preserve">
+    <value>我如何能从中小企业财务管理工具箱收益?</value>
+  </data>
+  <data name="lblq1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblq2Resource1.Text" xml:space="preserve">
+    <value>我如何获得有关中小企业财务管理工具箱所使用的指导?</value>
+  </data>
+  <data name="lblq2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblq3Resource1.Text" xml:space="preserve">
+    <value>在筹备企业计划时，我如何应用财务建模所生成的报告?</value>
+  </data>
+  <data name="lblq3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblq4Resource1.Text" xml:space="preserve">
+    <value>注销前,我如何保存信息?</value>
+  </data>
+  <data name="lblq4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblq5Resource1.Text" xml:space="preserve">
+    <value>我可以通过财务建模工具获得不同方案的多项报告吗?</value>
+  </data>
+  <data name="lblq5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblq6Resource1.Text" xml:space="preserve">
+    <value>我在财务建模中所输入与企业有关的商业资料,是否会受保密?</value>
+  </data>
+  <data name="lblq6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblq7Resource1.Text" xml:space="preserve">
+    <value>我是否可以使用相同的电邮地址创建多个用户账户?</value>
+  </data>
+  <data name="lblq7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblq8Resource1.Text" xml:space="preserve">
+    <value>我如何报告系统故障?</value>
+  </data>
+  <data name="lblq8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblq9Resource1.Text" xml:space="preserve">
+    <value>我如何提出有关中小企业财务管理工具箱的意见?</value>
+  </data>
+  <data name="lblq9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblQuote1Resource1.Text" xml:space="preserve">
+    <value>点击 “进行分析继续此操作” 按钮，业务分析和能力分析的所有数据将自动保存。对于财务建模，您在每个段落输入数据后，需要点击页面下方的“保存并继续 ” 按钮。</value>
+  </data>
+  <data name="lblQuote1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblQuoteResource1.Text" xml:space="preserve">
+    <value>点击 “进行分析” 按钮，业务分析和能力分析的所有数据将自动保存。至于财务建模，您在每个段落输入数据后，需要点击页面下方的 “保存并继续” 按钮。</value>
+  </data>
+  <data name="lblQuoteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblText2Resource1.Text" xml:space="preserve">
+    <value>电邮地址即是您的登录ID。每个电邮地址只能创建一个用户账号。然而，您可以使用不同的电邮地址创建多个登录账号。</value>
+  </data>
+  <data name="lblText2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTextResource1.Text" xml:space="preserve">
+    <value>只有注册的用户能使用中小企业财务管理工具箱及其中资料。其他用户一概不能查阅您所输入的资料，所有资料将受保密。</value>
+  </data>
+  <data name="lblTextResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="locPara1Resource1.Text" xml:space="preserve">
+    <value>中小企业财务管理工具箱为您提供一个深化财务管理知识及增强财务管理能力的平台。工具箱包含了基本的企业财务健康自我评定工具和财务建模工具，后者有助于了解企业成长的资金需求。同时，工具箱还提供模板和指南，协助您拟定企业计划，并将各系统及控制程序付诸实践。</value>
+  </data>
+  <data name="locPara2Resource1.Text" xml:space="preserve">
+    <value>未包括财务预测的商企计划不算完整。企业计划必须包括财务预测，因为财务预测可以让您更好了解企业的发展前景，并有助于企业计划的付诸实施。您也可以通过财务建模工具助您将企业计划转变成财务预测。您也可以确定企业发展所需筹集的营运资金。从财务建模所组成的报告（损益表和现金流预测）中摘录的信息可以纳入为企业计划书的一部分。过后，您也能够将计划书提交给银行或金融机构供申请贷款，或提交给您的投资商，以获取股权筹资。</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value />
+  </data>
+</root>

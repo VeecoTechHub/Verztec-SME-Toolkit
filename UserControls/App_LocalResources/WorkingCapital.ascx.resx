@@ -1,0 +1,658 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CashConversion1_ChartResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CashConversion1_ChartResource1.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CashConversion1_ChartResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CashConversion2_ChartResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CashConversion2_ChartResource1.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CashConversion2_ChartResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl1FYResource1.Text" xml:space="preserve">
+    <value>FY</value>
+  </data>
+  <data name="lbl1FYResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl1PResource1.Text" xml:space="preserve">
+    <value>P</value>
+  </data>
+  <data name="lbl1PResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl1YourMostResource1.Text" xml:space="preserve">
+    <value>Your Most Recent Average Working Capital Days</value>
+  </data>
+  <data name="lbl1YourMostResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl2FYResource1.Text" xml:space="preserve">
+    <value>FY</value>
+  </data>
+  <data name="lbl2FYResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl2PResource1.Text" xml:space="preserve">
+    <value>P</value>
+  </data>
+  <data name="lbl2PResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl3FYResource1.Text" xml:space="preserve">
+    <value>FY</value>
+  </data>
+  <data name="lbl3FYResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl3PResource1.Text" xml:space="preserve">
+    <value>P</value>
+  </data>
+  <data name="lbl3PResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblABCTotalResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblABCTotalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblaResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblaResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAverage1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAverage1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAverage2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAverage2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAverage3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAverage3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAvgCollectionDaysResource1.Text" xml:space="preserve">
+    <value>Avg Collection Days</value>
+  </data>
+  <data name="lblAvgCollectionDaysResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAvgFinancingDaysfromSupplliersResource1.Text" xml:space="preserve">
+    <value>Avg Financing Days from Suppliers</value>
+  </data>
+  <data name="lblAvgFinancingDaysfromSupplliersResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAvgPaymentDaysResource1.Text" xml:space="preserve">
+    <value>Avg Payment Days</value>
+  </data>
+  <data name="lblAvgPaymentDaysResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAvgStockHoldingsDaysResource1.Text" xml:space="preserve">
+    <value>Avg Stock Holdings Days</value>
+  </data>
+  <data name="lblAvgStockHoldingsDaysResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblbResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblbResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblbusinessResource1.Text" xml:space="preserve">
+    <value>The Working Capital Needs of your business</value>
+  </data>
+  <data name="lblbusinessResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCapital1DaysResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCapital1DaysResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCapital2DaysResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCapital2DaysResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCapital3DaysResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCapital3DaysResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblChartTitleResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblChartTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblcResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblcResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCycleName1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCycleName1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCycleName2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCycleName2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDes19Resource1.Text" xml:space="preserve">
+    <value>Comparison not meaningful</value>
+  </data>
+  <data name="lblDes19Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDes20Resource1.Text" xml:space="preserve">
+    <value>You have average financing days from suppliers of </value>
+  </data>
+  <data name="lblDes20Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDes21Resource1.Text" xml:space="preserve">
+    <value>You have projected average financing days from suppliers of </value>
+  </data>
+  <data name="lblDes21Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDes22Resource1.Text" xml:space="preserve">
+    <value>N.A.</value>
+  </data>
+  <data name="lblDes22Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFundingbySuppliersResource1.Text" xml:space="preserve">
+    <value>Funding by Suppliers</value>
+  </data>
+  <data name="lblFundingbySuppliersResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFundingP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFundingP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFundingP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFundingP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFundingP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFundingP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHeadingResource1.Text" xml:space="preserve">
+    <value>Cash Conversion Cycle</value>
+  </data>
+  <data name="lblHeadingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProjectedResource1.Text" xml:space="preserve">
+    <value>Your Projected Working Capital Days</value>
+  </data>
+  <data name="lblProjectedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProjectionYearsResource1.Text" xml:space="preserve">
+    <value>Projection Years</value>
+  </data>
+  <data name="lblProjectionYearsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReceivablesResource1.Text" xml:space="preserve">
+    <value>Resources tied in Receivables</value>
+  </data>
+  <data name="lblReceivablesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblResourcesReceivablesP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblResourcesReceivablesP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblResourcesReceivablesP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblResourcesReceivablesP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblResourcesReceivablesP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblResourcesReceivablesP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblResourcesResource1.Text" xml:space="preserve">
+    <value>Resources tied in Stocks</value>
+  </data>
+  <data name="lblResourcesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblResourcesStocksP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblResourcesStocksP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblResourcesStocksP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblResourcesStocksP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblResourcesStocksP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblResourcesStocksP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblThefollowingResource1.Text" xml:space="preserve">
+    <value>The following assumptions are noted:-</value>
+  </data>
+  <data name="lblThefollowingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTheworkingcapitalResource1.Text" xml:space="preserve">
+    <value>The working capital requirements of your business are represented below:-</value>
+  </data>
+  <data name="lblTheworkingcapitalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWorkingCapitalDaysResource1.Text" xml:space="preserve">
+    <value>Working Capital Days</value>
+  </data>
+  <data name="lblWorkingCapitalDaysResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWorkingCapitalP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWorkingCapitalP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWorkingCapitalP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWorkingCapitalP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWorkingCapitalP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWorkingCapitalP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWorkingCapitalRequirementsResource1.Text" xml:space="preserve">
+    <value>Working Capital Requirements</value>
+  </data>
+  <data name="lblWorkingCapitalRequirementsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblYearP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblYearP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblYearP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblYearP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblYearP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblYearP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblYourMostResource1.Text" xml:space="preserve">
+    <value>Your Most Recent Financial Year</value>
+  </data>
+  <data name="lblYourMostResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="locPara1Resource1.Text" xml:space="preserve">
+    <value>Due to the different timing of activities in a business, it takes time to “turn”
+                        a sale into cash. For example, a business that sells on credit terms may need to
+                        wait a period of time until cash is finally collected. During the same period, payments
+                        need to be made to staff and creditors. So the “gap” between collecting cash and
+                        paying cash needs to be properly managed.</value>
+  </data>
+  <data name="locPara2Resource1.Text" xml:space="preserve">
+    <value>&lt;b&gt;Working Capital Days,&lt;/b&gt; also known as &lt;b&gt;Cash Conversion Cycle,&lt;/b&gt;refers to the period
+                        of time in which resources are tied up in the business process before cash can be
+                        generated. It is an indication of the &lt;b&gt;financing days&lt;/b&gt; that you need for your trade. If your business have strong capital base or have
+                        generated sufficient past reserves, you may not need external financing.</value>
+  </data>
+  <data name="locPara3Resource1.Text" xml:space="preserve">
+    <value>This section is not applicable to your business as you have no balance in the past
+                                    on the average stock holdings days, average collection days and average payment
+                                    days.</value>
+  </data>
+  <data name="locPara5Resource1.Text" xml:space="preserve">
+    <value>This section is not applicable to your business as you have assumed that there is
+                                    no balance in the projected years on the average stock holdings days, average collection
+                                    days and average payment days.</value>
+  </data>
+  <data name="locPara6Resource1.Text" xml:space="preserve">
+    <value>If your working capital needs is &lt;b&gt;&lt;u&gt;negative&lt;/u&gt;&lt;/b&gt; amount, it means that, on
+            the average, your trade is self-financing and will be able to generate sufficient
+            cash from the trade before payment to your suppliers.</value>
+  </data>
+  <data name="locPara7Resource1.Text" xml:space="preserve">
+    <value>Conversely, if the working capital needs is &lt;b&gt;&lt;u&gt;positive&lt;/u&gt;&lt;/b&gt; amount, it means
+            that, on the average, your business need more trade and alternative sources of financing.
+            However, if there is sufficient capital base or you have built up strong cash reserves,
+            you may not need external financing.</value>
+  </data>
+  <data name="lblDaysResource1.Text" xml:space="preserve">
+    <value>Days.</value>
+  </data>
+  <data name="lblDaysResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDes10Resource1.Text" xml:space="preserve">
+    <value>(a) You have projected that your customers are taking longer to pay you by an average of</value>
+  </data>
+  <data name="lblDes10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDes11Resource1.Text" xml:space="preserve">
+    <value>(b) Your stock holding days is projected to increase by an average of</value>
+  </data>
+  <data name="lblDes11Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDes12Resource1.Text" xml:space="preserve">
+    <value>(c) You have assumed to pay your suppliers slower by an average of</value>
+  </data>
+  <data name="lblDes12Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDes13Resource1.Text" xml:space="preserve">
+    <value>You have an average Working Capital Days of </value>
+  </data>
+  <data name="lblDes13Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDes14Resource1.Text" xml:space="preserve">
+    <value>You have projected the average Working Capital Days to be</value>
+  </data>
+  <data name="lblDes14Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDes15Resource1.Text" xml:space="preserve">
+    <value>There is no change in your cash conversion cycle.</value>
+  </data>
+  <data name="lblDes15Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDes16Resource1.Text" xml:space="preserve">
+    <value>(a) There is no change in your average collection days.</value>
+  </data>
+  <data name="lblDes16Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDes17Resource1.Text" xml:space="preserve">
+    <value>(b) There is no change in your average stock holding days.</value>
+  </data>
+  <data name="lblDes17Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDes18Resource1.Text" xml:space="preserve">
+    <value>(c) There is no change in your average payment days.</value>
+  </data>
+  <data name="lblDes18Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDes1Resource1.Text" xml:space="preserve">
+    <value>You have an average Working Capital Days of </value>
+  </data>
+  <data name="lblDes1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDes23Resource1.Text1" xml:space="preserve">
+    <value>(a) N.A.</value>
+  </data>
+  <data name="lblDes23Resource1.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDes24Resource1.Text1" xml:space="preserve">
+    <value>(b) N.A.</value>
+  </data>
+  <data name="lblDes24Resource1.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDes25Resource1.Text2" xml:space="preserve">
+    <value>(c) N.A.</value>
+  </data>
+  <data name="lblDes25Resource1.ToolTip2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDes2Resource1.Text" xml:space="preserve">
+    <value>You have projected the average Working Capital Days to be </value>
+  </data>
+  <data name="lblDes2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDes3Resource1.Text" xml:space="preserve">
+    <value>This means you expect the cash conversion cycle of your business to deteriorate by </value>
+  </data>
+  <data name="lblDes3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDes4Resource1.Text" xml:space="preserve">
+    <value>(a) You have projected that your customers pay you faster by an average of</value>
+  </data>
+  <data name="lblDes4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDes5Resource1.Text" xml:space="preserve">
+    <value>(b) Your stock holding days is projected to reduce by an average of</value>
+  </data>
+  <data name="lblDes5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDes6Resource1.Text" xml:space="preserve">
+    <value>(c) You have assumed to pay your suppliers faster by an average of</value>
+  </data>
+  <data name="lblDes6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDes7Resource1.Text" xml:space="preserve">
+    <value>You have an average Working Capital Days of </value>
+  </data>
+  <data name="lblDes7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDes8Resource1.Text" xml:space="preserve">
+    <value>You have projected the average Working Capital Days to be</value>
+  </data>
+  <data name="lblDes8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDes9Resource1.Text" xml:space="preserve">
+    <value>This means you expect the cash conversion cycle of your business to improve by</value>
+  </data>
+  <data name="lblDes9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblfake1Resource1.Text" xml:space="preserve">
+    <value>Days.</value>
+  </data>
+  <data name="lblfake1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblfake2Resource1.Text" xml:space="preserve">
+    <value>Days.</value>
+  </data>
+  <data name="lblfake2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblfake3Resource1.Text" xml:space="preserve">
+    <value>Days.</value>
+  </data>
+  <data name="lblfake3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblfake4Resource1.Text" xml:space="preserve">
+    <value>Days.</value>
+  </data>
+  <data name="lblfake4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

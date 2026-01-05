@@ -1,0 +1,36 @@
+<%@ Page language="c#" CodeFile="ImgManager.aspx.cs" AutoEventWireup="false" Inherits="CMS_gallery_ImgManager" %>
+<%@ Register TagPrefix="uc1" TagName="FileManager" Src="FileManager.ascx" %>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" >
+<HTML>
+	<HEAD>
+		<title>ImgManager</title>
+		<meta name="GENERATOR" Content="Microsoft Visual Studio .NET 7.1">
+		<meta name="CODE_LANGUAGE" Content="C#">
+		<meta name="vs_defaultClientScript" content="JavaScript">
+		<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5">
+		<LINK href="Style/StyleSheet1.css" type="text/css" rel="stylesheet">
+ 
+	</HEAD>
+	<body MS_POSITIONING="GridLayout" leftmargin=0 topmargin=0  >
+	<script language="javascript">
+	function GetParent1()
+    {
+        if(window.opener.document.getElementById('inpImgURL')!=null)
+        {
+        document.getElementById('FileManager1_lblImgepath').style.visibility="visible";
+        document.getElementById('FileManager1_lbtnSetImage').style.visibility="visible";
+        }
+        else
+        {
+        document.getElementById('FileManager1_lbtnSetImage').style.visibility="hidden";
+        document.getElementById('FileManager1_lblImgepath').style.visibility="hidden";
+        }
+        
+    }
+    </script>
+	
+		<form id="Form1" method="post" runat="server">
+			<uc1:FileManager id="FileManager1" runat="server"></uc1:FileManager>
+		</form>
+	</body>
+</HTML>

@@ -1,0 +1,90 @@
+﻿using System;
+using System.Collections.Generic;
+////using System.Linq;
+using System.Web;
+using System.Web.Services;
+using System.Data;
+using ABSDAL;
+
+/// <summary>
+/// Summary description for WebService
+/// </summary>
+[WebService(Namespace = "http://tempuri.org/")]
+[WebServiceBinding(ConformsTo = WsiProfiles.BasicProfile1_1)]
+// To allow this Web Service to be called from script, using ASP.NET AJAX, uncomment the following line. 
+[System.Web.Script.Services.ScriptService]
+public class WebService : System.Web.Services.WebService
+{
+
+    public WebService()
+    {
+
+        //Uncomment the following line if using designed components 
+        //InitializeComponent(); 
+    }
+
+    [WebMethod]
+    public string HelloWorld()
+    {
+        return "Hello World";
+    }
+
+    [WebMethod]
+    public string[] GetClients(string prefixText, int count)
+    {
+        DataTable dt; ;
+        int i = 0;
+        ResourceLibraryDetails obj_RLDetails = new ResourceLibraryDetails();
+        obj_RLDetails.Title = prefixText;
+        dt = obj_RLDetails.GetClients(obj_RLDetails);
+
+        string[] cntName = new string[dt.Rows.Count];
+
+        foreach (DataRow rdr in dt.Rows)
+        {
+            cntName.SetValue(rdr["ArticleTitle"].ToString(), i);
+            i++;
+        }
+        return cntName;
+    }
+    [WebMethod]
+    public string[] GetCourseDetails_By_Service(string prefixText, int count)
+    {
+        CommonDAL obj_CDal = new CommonDAL();
+        DataSet ds = new DataSet();
+        int i = 0;
+        CourseDetails obj_CDetails = new CourseDetails();
+        obj_CDetails.Title = prefixText;
+        ds = obj_CDetails.GetCourseDetails_By_Service(obj_CDetails);
+
+        string[] cntName = new string[ds.Tables[0].Rows.Count];
+
+        foreach (DataRow rdr in ds.Tables[0].Rows)
+        {
+            cntName.SetValue(rdr["Category_Title"].ToString(), i);
+            i++;
+        }
+        return cntName;
+    }
+
+    [WebMethod]
+    public string[] GetNewsTitles(string prefixText, int count)
+    {
+        DataTable dt; ;
+        int i = 0;
+        ResourceLibDetails obj_RLDetails = new ResourceLibDetails();
+        obj_RLDetails.Title = prefixText;
+        dt = obj_RLDetails.GetRLTitles(obj_RLDetails);
+
+        string[] cntName = new string[dt.Rows.Count];
+
+        foreach (DataRow rdr in dt.Rows)
+        {
+            cntName.SetValue(rdr["Title"].ToString(), i);
+            i++;
+        }
+        return cntName;
+    }
+
+
+}

@@ -1,0 +1,32 @@
+@charset utf-8;
+
+.greyRounded, .whiteRounded {
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;	
+	padding:10px;
+	margin:0 auto;
+}
+.greyRounded {
+	background-color:#e3e4e6;	
+}
+.whiteRounded {
+	background-color:#fff;
+	overflow:hidden;	
+	padding:15px;	
+}
+h2 {
+	color:#FF0000;
+	font-size:20px;
+	line-height:24px;
+	padding:0px 0px 10px;	
+	font-family: 'Ubuntu', sans-serif;	
+}
+/*never change this*/
+#overlay{
+	position: absolute;
+	width:1px;
+	height: 1px;
+	z-index: 1;
+	background:url(../images/overlay.png) repeat 0px 0px;
+}

@@ -1,0 +1,153 @@
+<%@ Control Language="c#" AutoEventWireup="false" CodeFile="FileManager.ascx.cs"
+    Inherits="CMS_gallery_FileManager" TargetSchema="http://schemas.microsoft.com/intellisense/ie5" %>
+
+<script>
+function btnDelete_Click() {
+	a = window.confirm("Are you sure want to delete this Files ?");
+	if(a) {
+		return true;
+	}
+	else {
+		return false;
+	}
+	
+}
+function imgACL_Click(filename) {
+	alert(filename);
+	
+}
+function GetParent()
+    {
+        if(window.opener.document.getElementById('inpImgURL')!=null)
+        {
+        document.getElementById('<%=lblImgepath.ClientID %>').visible=true;
+        document.getElementById('<%=lbtnSetImage.ClientID %>').visible=true;
+        }
+        else
+        {
+        document.getElementById('<%=lblImgepath.ClientID %>').visible=false;
+        document.getElementById('<%=lbtnSetImage.ClientID %>').visible=false;
+        }
+    }
+</script>
+
+<link href="Style/StyleSheet1.css" type="text/css" rel="stylesheet">
+<table cellspacing="0" cellpadding="4" width="100%" border="1" style="background-color: #DCE3EB;">
+    <tr>
+        <td valign="top" colspan="2">
+            <asp:Label ID="lblImgepath" runat="server" Text=""></asp:Label>
+            &nbsp;&nbsp;
+            <asp:LinkButton ID="lbtnSetImage" runat="server" Text="Insert Image"></asp:LinkButton>
+        </td>
+    </tr>
+    <tr>
+        <td valign="top">
+            <table cellspacing="0" cellpadding="0" width="100%" border="1">
+                <tr>
+                    <td bgcolor="#1428a0" style="color: White; font-weight: bold" height="10">
+                        File Manager
+                    </td>
+                </tr>
+                <tr bgcolor="#d4d0c8">
+                    <td>
+                        <asp:ImageButton ID="btnGoUp" runat="server" ImageUrl="images/btnUp.jpg" AlternateText="Up One Level">
+                        </asp:ImageButton><asp:ImageButton ID="btnDelete" runat="server" ImageUrl="images/btnDelete.jpg"
+                            AlternateText="Delete"></asp:ImageButton></td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <div style="overflow-y: auto; overflow-x: auto; width: 400px; height: 400px">
+                            <asp:DataGrid ID="dgFile" runat="server" BorderWidth="0" Width="100%" AutoGenerateColumns="False"
+                                AllowSorting="True" CellPadding="4" CellSpacing="0" PageSize="10" GridLines="None">
+                                <HeaderStyle ForeColor="Black" BackColor="#D4D0C8"></HeaderStyle>
+                                <Columns>
+                                    <asp:TemplateColumn>
+                                        <ItemStyle Width="40px"></ItemStyle>
+                                        <ItemTemplate>
+                                            <asp:CheckBox ID="chkChecked" runat="server"></asp:CheckBox>
+                                        </ItemTemplate>
+                                    </asp:TemplateColumn>
+                                    <asp:TemplateColumn SortExpression="fileName" HeaderText="FileName">
+                                        <ItemStyle Width="2200px"></ItemStyle>
+                                        <ItemTemplate>
+                                            &nbsp;
+                                            <asp:PlaceHolder ID="plhImgEdit" runat="server"></asp:PlaceHolder>
+                                            <asp:Image ID="imgType" runat="server" BorderWidth="0" BorderStyle="None"></asp:Image>
+                                            <asp:LinkButton ID="lnkName" runat="server" Text='<%# DataBinder.Eval(Container.DataItem,"filename") %>'
+                                                CausesValidation="false" CommandName="ItemClicked" CssClass="FileManager">
+                                            </asp:LinkButton>
+                                        </ItemTemplate>
+                                        <EditItemTemplate>
+                                            &nbsp;
+                                            <asp:PlaceHolder ID="plhImgEdit" runat="server"></asp:PlaceHolder>
+                                            <asp:Image ID="imgType" runat="server" BorderWidth="0" BorderStyle="None"></asp:Image>
+                                            <asp:TextBox ID="txtEditName" runat="server" Text='<%# DataBinder.Eval(Container.DataItem,"filename") %>'>
+                                            </asp:TextBox>
+                                        </EditItemTemplate>
+                                    </asp:TemplateColumn>
+                                    <asp:TemplateColumn>
+                                        <ItemStyle HorizontalAlign="Center" Width="40px"></ItemStyle>
+                                        <ItemTemplate>
+                                            <asp:LinkButton ID="LinkButton1" runat="server" CommandName="Edit" CausesValidation="false"
+                                                Text="Rename"></asp:LinkButton>
+                                        </ItemTemplate>
+                                        <EditItemTemplate>
+                                            <asp:LinkButton ID="LinkButton3" runat="server" CommandName="Update" Text="Update"></asp:LinkButton>&nbsp;
+                                            <asp:LinkButton ID="LinkButton2" runat="server" CommandName="Cancel" CausesValidation="false"
+                                                Text="Cancel"></asp:LinkButton>
+                                        </EditItemTemplate>
+                                    </asp:TemplateColumn>
+                                </Columns>
+                            </asp:DataGrid></div>
+                    </td>
+                </tr>
+                <tr bgcolor="#d4d0c8">
+                    <td>
+                        <asp:Label ID="lblCounter" runat="server" Visible="False"></asp:Label></td>
+                </tr>
+                <tr>
+                    <td>
+                        <asp:Label ID="lblError" runat="server" ForeColor="red"></asp:Label></td>
+                </tr>
+            </table>
+        </td>
+        <td valign="top">
+            <table>
+                <tr>
+                    <td nowrap align="right" bgcolor="black" height="25">
+                        <font color="#ffffff">Click-and-Drag Images Into Your Content Window&nbsp;&nbsp;</font></td>
+                </tr>
+            </table>
+            <div style="overflow-y: auto; overflow-x: auto; width: 400px; height: 400px">
+                <asp:Image ID="newmy" ImageUrl="images/noimage.jpg" runat="server"></asp:Image></div>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <table cellspacing="0" cellpadding="2" border="0" width="100%">
+                <tr>
+                    <td width="50%" valign="top">
+                        <b>Upload Image</b><br>
+                        <input id="file1" type="file" name="file1" runat="server">&nbsp;
+                        <asp:Button ID="btnUpload" runat="server" Text="Upload" ></asp:Button><br>
+                        <input id="file2" type="file" name="file2" runat="server" visible="false">
+                        <input id="file3" type="file" name="file3" runat="server" visible="false">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    <td valign="top">
+                        &nbsp;<table border="0" cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td width="150">
+                                    <b>Create New Directory </b>
+                                </td>
+                                <td>
+                                    &nbsp;<asp:TextBox ID="txtNewDirectory" runat="server" EnableViewState="False"></asp:TextBox></td>
+                                <td align="center" valign="top" width="25">
+                                    <asp:ImageButton ID="Imagebutton1" runat="server" AlternateText="New Folder" ImageUrl="~/scripts/gallery/images/folder_add.png" /></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>

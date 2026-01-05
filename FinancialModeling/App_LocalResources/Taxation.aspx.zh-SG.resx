@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnBackResource1.Text" xml:space="preserve">
+    <value>返回</value>
+  </data>
+  <data name="btnBackResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnClearResource1.Text" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="btnClearResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSaveNextResource1.Text" xml:space="preserve">
+    <value>保存并继续</value>
+  </data>
+  <data name="btnSaveNextResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Image1Resource1.AlternateText" xml:space="preserve">
+    <value>处理中</value>
+  </data>
+  <data name="Image1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgBtnGenerateReportResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgBtnGenerateReportResource1.ToolTip" xml:space="preserve">
+    <value>生成报告</value>
+  </data>
+  <data name="imgBtnHelpResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgBtnHelpResource1.ToolTip" xml:space="preserve">
+    <value>帮助</value>
+  </data>
+  <data name="imgbtnHomeResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgbtnHomeResource1.ToolTip" xml:space="preserve">
+    <value>首页</value>
+  </data>
+  <data name="imgbtnStatementsResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgbtnStatementsResource1.ToolTip" xml:space="preserve">
+    <value>报表</value>
+  </data>
+  <data name="lbl1EstimatesResource1.Text" xml:space="preserve">
+    <value>预估</value>
+  </data>
+  <data name="lbl1EstimatesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl1TaxationResource1.Text" xml:space="preserve">
+    <value>6.1 税收</value>
+  </data>
+  <data name="lbl1TaxationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl2EstimatesResource1.Text" xml:space="preserve">
+    <value>预估</value>
+  </data>
+  <data name="lbl2EstimatesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl3EstimatesResource1.Text" xml:space="preserve">
+    <value>预估</value>
+  </data>
+  <data name="lbl3EstimatesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAreYouResource1.Text" xml:space="preserve">
+    <value>您确定要保存资料？</value>
+  </data>
+  <data name="lblAreYouResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDepreciationP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDepreciationP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDepreciationResource1.Text" xml:space="preserve">
+    <value>6.2 折旧</value>
+  </data>
+  <data name="lblDepreciationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDepreciationTotalResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDepreciationTotalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDoYouChangesResource1.Text" xml:space="preserve">
+    <value>你是否要保存您所作的修改？</value>
+  </data>
+  <data name="lblDoYouChangesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDoYouResource1.Text" xml:space="preserve">
+    <value>在浏览前您是否要保存资料？如要保存，点击 “Ok”，如不保存，点击 “Cancel"。</value>
+  </data>
+  <data name="lblDoYouResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEnterResource1.Text" xml:space="preserve">
+    <value>输入您预估的每年折旧费用</value>
+  </data>
+  <data name="lblEnterResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblErrorMsgResource1.Text" xml:space="preserve">
+    <value>出现错误，您输入的折旧费用超过账面净值</value>
+  </data>
+  <data name="lblErrorMsgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblGivenResource1.Text" xml:space="preserve">
+    <value>给定值格式错误。</value>
+  </data>
+  <data name="lblGivenResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHeadingResource1.Text" xml:space="preserve">
+    <value>财务管理工具箱</value>
+  </data>
+  <data name="lblHeadingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHelpResource1.Text" xml:space="preserve">
+    <value>帮助</value>
+  </data>
+  <data name="lblHelpResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHomeResource1.Text" xml:space="preserve">
+    <value>首页</value>
+  </data>
+  <data name="lblHomeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIncometaxResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIncometaxResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPerSymbolResource1.Text" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="lblPerSymbolResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProjYear1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProjYear1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProjYear2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProjYear2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProjYear3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProjYear3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReportResource1.Text" xml:space="preserve">
+    <value>报告</value>
+  </data>
+  <data name="lblReportResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStatementsResource1.Text" xml:space="preserve">
+    <value>报表</value>
+  </data>
+  <data name="lblStatementsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTaxationResource1.Text" xml:space="preserve">
+    <value>6. 税收与折旧（可选择）</value>
+  </data>
+  <data name="lblTaxationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTheResource1.Text" xml:space="preserve">
+    <value>期初固定资产的账面净值</value>
+  </data>
+  <data name="lblTheResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotalResource1.Text" xml:space="preserve">
+    <value>现有资产在未来三年内的折旧总费用为</value>
+  </data>
+  <data name="lblTotalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="locPara1Resource1.Text" xml:space="preserve">
+    <value>税收与折旧可能是会影响一个企业盈利率和现金流的其中两大财务要素。如果您对此有所了解，请在下方输入您了解的情况；如果不适用,则保留空白。</value>
+  </data>
+  <data name="locPara2Resource1.Text" xml:space="preserve">
+    <value>最近财政年度，所得税支出占了税前利润百分比，为</value>
+  </data>
+  <data name="locPara3Resource1.Text" xml:space="preserve">
+    <value>请输入在预測期间您想要使用的税前利润百分比来计算您的所得税。</value>
+  </data>
+  <data name="locPara4Resource1.Text" xml:space="preserve">
+    <value>如果有账面净值，建议您预估本期间的折旧费用。否则，得出的报告将无法反映现有资产的折旧费用。</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDepreciationP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDepreciationP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDepreciationP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDepreciationP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDepreciationP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDepreciationP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtIncometaxResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtIncometaxResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

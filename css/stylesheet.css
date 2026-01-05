@@ -1,0 +1,23 @@
+body{margin:10px 0px; padding:0px; font:normal 12px Arial, Helvetica, sans-serif; color:#000; text-align:center;}
+.maintable{margin:0px auto;}
+p{font-size:14px; padding:7px 0px 2px 0px; margin:0px; line-height:18px;}
+p span{color:#FF6600;}
+p a{color:#394c8c;}p a:hover{color:#394c8c; text-decoration:none;}
+h1{margin:0px; padding:0px; color:#404040; font-size:14px; font-weight:bold;}
+h1 span{margin:0px; padding:0px; color:#394c8c; font-size:14px; font-weight:bold;}
+h2{margin:0px; padding:0px; color:#404040; font-size:13px; font-weight:normal;}
+h3{margin:0px; padding:5px 0px; color:#394c8c; font-size:19px; font-weight:bold;}
+h4{margin:0px; padding:7px 0px; color:#404040; font-size:14px; font-weight:bold;}
+h5{margin:0px; padding:5px 0px; color:#404040; font-size:14px; font-weight:bold; border-bottom:#b2b2b2 solid 3px;}
+.border{border:#f6f6f6 solid 1px;}
+.border_btm{border-bottom:#b2b2b2 solid 1px;}
+.border_btm1{border-bottom:#b2b2b2 solid 5px; padding:5px 5px;}
+.border_btm2{border-bottom:#b2b2b2 solid 1px; padding:5px 5px;}
+.topnav{color:#394c8c; font-size:12px; font-weight:bold; text-decoration:none; white-space:nowrap; padding:0px 5px;}
+.topnav:hover{color:#999; font-size:12px; font-weight:bold; text-decoration:none;}
+.leftNav a{color:#262626; font-size:14px; text-decoration:none; display:block; padding:5px 0px;}
+.leftNav a:hover{color:#666; font-size:14px; text-decoration:none;}
+.marTB{margin:5px 0px;}
+.ABS{height:530px;}
+
+

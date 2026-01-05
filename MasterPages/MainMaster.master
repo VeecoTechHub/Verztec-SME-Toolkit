@@ -1,0 +1,234 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MainMaster.master.cs" Inherits="MasterPages_MainMaster" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajaxToolkit" %>
+<%@ Register Src="../UserControls/Header.ascx" TagName="Header" TagPrefix="uc1" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="X-UA-Compatible" content="IE=8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>
+        <%=Convert.ToString(ConfigurationSettings.AppSettings["WindowTitle"]) %>
+    </title>
+
+    <script src="../scripts/Common.js" type="text/javascript"></script>
+
+    <style type="text/css">
+        .style1
+        {
+            height: 25px;
+            width: 160px;
+        }
+        .style2
+        {
+            width: 160px;
+        }
+    </style>
+</head>
+<body>
+    <link href="<%= Page.ResolveUrl("~/css/mainstyles.css") %>" rel="stylesheet" type="text/css" />
+    <link href="<%= Page.ResolveUrl("~/css/SlideShow.css") %>" rel="stylesheet" type="text/css" />
+    <link href="<%= Page.ResolveUrl("~/css/RatingStyles.css") %>" rel="stylesheet" type="text/css" />
+    <link href="<%= Page.ResolveUrl("~/css/dialog.css") %>" rel="stylesheet" type="text/css" />
+    <form id="form1" runat="server">
+
+	<ajaxToolkit:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server" 
+        CombineScripts="True">
+    </ajaxToolkit:ToolkitScriptManager>
+
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td valign="top" class="mainbg">
+                <a name="top" id="top"></a>
+                <table width="874" border="0" align="center" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td height="12">
+                            <asp:HiddenField ID="hdf" runat="server" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="left">
+                            <table width="874" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td width="46" height="99">
+                                        <uc1:Header ID="Header1" runat="server" />
+                                    </td>
+                                    <td width="741" align="left" valign="bottom">
+                                        <asp:ContentPlaceHolder ID="MenuPlaceHolder" runat="server">
+                                        </asp:ContentPlaceHolder>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top" class="middle_bg">
+                <table width="874" border="0" align="center" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td>
+                            <asp:ContentPlaceHolder ID="LogPlaceHolder" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table width="874" border="0" align="center" cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td height="300" valign="top">
+                                        <table width="874" border="0" align="center" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td style="vertical-align: top;">
+                                                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                                    </asp:ContentPlaceHolder>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    &nbsp;
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <table width="874" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+            <td height="85" valign="bottom" width="874">
+                <table width="874" align="center" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td style="width: 50%;">
+                            &nbsp;
+                        </td>
+                        <td align="left" class="style1">
+                            <asp:Label ID="lblProjectBy" runat="server" Text="A Project by:" 
+                                meta:resourcekey="lblProjectByResource1"></asp:Label>
+                        </td>
+                        <td style="width: 60px; text-align: center;">
+                            &nbsp;
+                        </td>
+                        <td align="left" colspan="4">
+                            &nbsp;&nbsp;
+                            <asp:Label ID="lblSupportBy" runat="server" Text="Supported by:" 
+                                meta:resourcekey="lblSupportByResource1"></asp:Label>
+                        </td>
+                        <td align="left" style="width: 20px">
+                            <asp:Label ID="lblContentPartner" runat="server" Text="Content Partner:" 
+                                meta:resourcekey="lblContentPartnerResource1"></asp:Label>
+                        </td>
+                        <td style="width: 50%;">
+                            &nbsp;
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width: 50%;">
+                            &nbsp;
+                        </td>
+                        <td align="center" valign="bottom" class="style2" style="padding-right:20px;">
+                            <!--<a href="http://www.abs.org.sg/cms/index.php" target="_blank">
+                                <img src="<%= Page.ResolveUrl("~/images/logo-ABS.jpg") %>" alt="" border="0" width="140px"
+                                    height="53px" align="bottom" />
+                            </a>-->
+                            <a href="http://www.abs.org.sg/cms/index.php" target="_blank">
+                                <img src="<%= Page.ResolveUrl("~/images/logo-ABS.jpg") %>" alt="" border="0"
+                                    height="53px" align="bottom" />
+                            </a>
+                        </td>
+                        <td style="width: 30px; text-align: center;">
+                        </td>
+                        <td width="123" align="left" valign="bottom">
+                            <!--<a href="http://www.spring.gov.sg/Pages/Homepage.aspx"  target="_blank">
+                                <img src="<%= Page.ResolveUrl("~/images/logo-spring.jpg") %>" alt="" width="130px"
+                                    height="53px" border="0" align="bottom" />
+                            </a>-->
+                            <a href="https://www.enterprisesg.gov.sg" target="_blank">
+                                <img src="<%= Page.ResolveUrl("~/images/logo-spring.jpg") %>" alt=""
+                                    height="53px" border="0" align="bottom" />
+                            </a>
+                        </td>
+                        <td style="width: 50px; text-align: center;">
+                         <asp:Label ID="lblAnd" runat="server" Text="and" 
+                                meta:resourcekey="lblAndResource1"></asp:Label>
+                            &nbsp;&nbsp;&nbsp;
+                        </td>
+                        <td width="123" align="left" valign="bottom" style="">
+                            <a href="http://www.creditbureau.com.sg/" target="_blank">
+                                <img src="<%= Page.ResolveUrl("~/images/cbslogo.gif") %>" alt="" width="102px" height="53px"
+                                    border="0" align="bottom" />
+                            </a>
+                        </td>
+                        <td style="width: 50px; text-align: center;">
+                            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                        </td>
+                        <td align="left" valign="middle">
+                            <a href="http://www.rsmsingapore.sg" target="_blank">
+                                <img src="<%= Page.ResolveUrl("~/images/logo-rsm.jpg") %>" alt="" width="199px" height="53px"
+                                    border="0" align="bottom" />
+                            </a>
+                        </td>
+                        <td style="width: 50%;">
+                            &nbsp;
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td height="40" align="center">
+                <asp:Label ID="lblCopyRIght" runat="server" Text="Copyright © 2012." 
+                    meta:resourcekey="lblCopyRIghtResource1"></asp:Label>
+                <a href="http://www.abs.org.sg/cms/index.php" target="_blank" class="footer_link">
+                    <asp:Label ID="lblABS" runat="server" 
+                    Text="The Association of Banks in Singapore." 
+                    meta:resourcekey="lblABSResource1"></asp:Label>
+                </a>
+                <asp:Label ID="lblAllRights" runat="server" Text="All rights reserved." 
+                    meta:resourcekey="lblAllRightsResource1"></asp:Label>
+                <a href="#" class="footer_link" onclick="javascript:return mypopup('<%= Page.ResolveUrl("~/TermsConditions.aspx") %>');">
+                <asp:Label ID="lblTerms" runat="server" Text="Terms of Use and Privacy Notice." 
+                    meta:resourcekey="lblTermsResource1"></asp:Label>
+                    </a>
+            </td>
+        </tr>
+    </table>
+    </form>
+</body>
+
+<script type="text/javascript">
+    var findid = document.getElementById('ctl00_ContentPlaceHolder1_txtUsername');
+    //alert(findid);
+    if (findid != null) {
+        var slideshow = new TINY.slider.slide('slideshow', {
+            id: 'slider',
+            auto: 7,
+            resume: true,
+            vertical: false,
+            navid: 'pagination',
+            activeclass: 'current',
+            position: 0
+        });
+    }
+</script>
+
+<script type="text/javascript">
+    function mypopup(url) {
+        params = 'width=830';
+        params += ', height=420, ';
+        params += 'status=no, location=no,directories=no,toolbar=no,menubar=no,scrollbars=yes ,minimize=no,copyhistory=no,status=no,titlebar=no, left=90, top=70, titlebar=no, menubar=no, resizable=no';
+
+
+        newwin = window.open(url, 'windowname4', params);
+        if (window.focus) { newwin.focus() }
+        return false;
+    }
+</script>
+
+</html>

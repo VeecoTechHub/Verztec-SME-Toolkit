@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+margin:0;
+padding:0;
+font-family: Arial, Helvetica, sans-serif;
+font-size:14px;
+color:#333333;
+background:url(../images/AdminLogin_Images/inner_bg.jpg) repeat-x top;
+}
+.left_bg {
+	background:url(../images/AdminLogin_Images/left_bg.jpg) no-repeat top;
+}
+.right_bg {
+	background:url(../images/AdminLogin_Images/right_bg.jpg) no-repeat top;
+}
+
+.topbg {
+	background:#D6D6D6 url(../images/AdminLogin_Images/topbg.jpg) no-repeat top;
+	color:#fff;
+}
+.blue_bg {
+	background:#153379;
+}
+
+.login_content_bg {
+	background:#fff url(../images/AdminLogin_Images/login_content_bg.jpg) repeat-x top;
+}
+
+.new_loginbg {
+	background:url(../images/AdminLogin_Images/Loginbg.png) no-repeat top;
+}
+.New_login_txtfiled_bg {
+	background: url(../images/AdminLogin_Images/new_login_txtfiled_bg.png) no-repeat left top;
+	width:231px;
+	height:31px;
+}
+
+.New_login_txtfiled_bg_1 {
+	background:none;
+	border:none;
+	padding:0;
+	margin:0;
+	width:220px;
+	height:31px;
+	line-height:31px;
+	color:#6a6a6a;
+}

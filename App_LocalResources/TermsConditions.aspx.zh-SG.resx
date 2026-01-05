@@ -1,0 +1,453 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>财务管理工具箱使用条款与隐私声明一般条款</value>
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblABSMayResource1.Text" xml:space="preserve">
+    <value>ABS 可收集并使用下列个人信息：</value>
+  </data>
+  <data name="lblABSMayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblABSmayUpdateResource1.Text" xml:space="preserve">
+    <value>ABS 可以更新条款和隐秘制度，并将最新版本发布到网站上。您须定期检查该页面以确保知悉有关任何变更。 </value>
+  </data>
+  <data name="lblABSmayUpdateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblABSMayUseResource1.Text" xml:space="preserve">
+    <value>ABS 可将您非敏感性的个人信息用于以下用途：</value>
+  </data>
+  <data name="lblABSMayUseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblABSreservesResource1.Text" xml:space="preserve">
+    <value>ABS 在定期维护期间有权清除可能导致服务器/或数据库性能退化的任何用户数据。用户须执行必要的记录保存或数据备份。</value>
+  </data>
+  <data name="lblABSreservesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblABSTakesTheResource1.Text" xml:space="preserve">
+    <value>ABS 十分重视版权保护。</value>
+  </data>
+  <data name="lblABSTakesTheResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblABSwillResource1.Text" xml:space="preserve">
+    <value>ABS 将采取适当的技术及组织措施防止您的个人信息遭致丢失、误用或修改。</value>
+  </data>
+  <data name="lblABSwillResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblABSwillStoreResource1.Text" xml:space="preserve">
+    <value>ABS 将妥善保存您在其安全服务器中所提供的所有非敏感的个人信息。</value>
+  </data>
+  <data name="lblABSwillStoreResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAllTrademarksResource1.Text" xml:space="preserve">
+    <value>本网站使用的所有商标、服务标记以及徽标均属于ABS 与/或在本网站中确认的各第三方产权人。</value>
+  </data>
+  <data name="lblAllTrademarksResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBreachesResource1.Text" xml:space="preserve">
+    <value>违反条款与条件</value>
+  </data>
+  <data name="lblBreachesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblByEnterResource1.Text" xml:space="preserve">
+    <value>在进入此网站任何网页和/或使用在线服务时，意味着您已承认且同意此文件中的所有条款和条件。您每次登录本网站都将适用本《使用条款》。如果您不同意条款中任何一点，请不要使用本网站。</value>
+  </data>
+  <data name="lblByEnterResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblByUsingResource1.Text" xml:space="preserve">
+    <value>使用本网站时，您须同意本网站免责声明中有关责任免除及限制的规定是合理的。</value>
+  </data>
+  <data name="lblByUsingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblConfidentialityResource1.Text" xml:space="preserve">
+    <value>信息保密与隐私</value>
+  </data>
+  <data name="lblConfidentialityResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblContactResource1.Text" xml:space="preserve">
+    <value>联系方式</value>
+  </data>
+  <data name="lblContactResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCopyrightResource1.Text" xml:space="preserve">
+    <value>版权与所有权</value>
+  </data>
+  <data name="lblCopyrightResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDisclaimerResource1.Text" xml:space="preserve">
+    <value>免责声明</value>
+  </data>
+  <data name="lblDisclaimerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblenableResource1.Text" xml:space="preserve">
+    <value>供您使用网站服务；</value>
+  </data>
+  <data name="lblenableResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEnforcementResource1.Text" xml:space="preserve">
+    <value>版权强制执行</value>
+  </data>
+  <data name="lblEnforcementResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExceptResource1.Text" xml:space="preserve">
+    <value>除非另有明确规定，本网站内容所涉及的版权及其他知识产权（包括但不限于所有设计、版面、文本、图像、图片链接以及搜索引擎）均属于新加坡银行公会(ABS)及其协办伙伴标新局 (Enterprise Singapore) 以及RSM企业咨询有限公司 (RSM Corporate Advisory Pte Ltd)。未经 ABS 事先明文许可与同意，不得使用、复制、传输、出版、执行、广播、储存、改编、分发、显示、许可、修改、超链接或以其他方式使用上述产权的整体或部分。</value>
+  </data>
+  <data name="lblExceptResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblGoverningLawResource1.Text" xml:space="preserve">
+    <value>管辖法律</value>
+  </data>
+  <data name="lblGoverningLawResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHyperlinksResource1.Text" xml:space="preserve">
+    <value>超链接</value>
+  </data>
+  <data name="lblHyperlinksResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIfyoubecomeawareResource1.Text" xml:space="preserve">
+    <value>若您意识到本网站资料侵犯了您或他人的版权，请发送邮件至 &lt;a href="mailto:enquiries@abs.org.sg"&gt;enquiries@abs.org.sg&lt;/a&gt;. 予以通报。</value>
+  </data>
+  <data name="lblIfyoubecomeawareResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIfyoubecomeResource1.Text" xml:space="preserve">
+    <value>若您意识到任何使用 ABS 版权资料的行为已违反或可能违反上述许可规定时，请发送邮件至 &lt;a href="mailto:enquiries@abs.org.sg"&gt;enquiries@abs.org.sg.&lt;/a&gt;予以通报。</value>
+  </data>
+  <data name="lblIfyoubecomeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIfYoudonotthinkResource1.Text" xml:space="preserve">
+    <value>若您认为上述规定不具合理性，请勿使用本网站。</value>
+  </data>
+  <data name="lblIfYoudonotthinkResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIfYouhaveAnyQueResource1.Text" xml:space="preserve">
+    <value>有关该条款与条件的任何疑问，均可联系 ABS，请发送邮件至  &lt;a href="mailto:equiries@abs.org.sg"&gt;enquiries@abs.org.sg.&lt;/a&gt;</value>
+  </data>
+  <data name="lblIfYouhaveAnyQueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInformationAboutResource1.Text" xml:space="preserve">
+    <value>通过本网站操作的交易信息（包括统计使用）；</value>
+  </data>
+  <data name="lblInformationAboutResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInformationAnyOtherResource1.Text" xml:space="preserve">
+    <value>您向 ABS 发送的任何其他信息。</value>
+  </data>
+  <data name="lblInformationAnyOtherResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInformationrelatingResource1.Text" xml:space="preserve">
+    <value>通过本网站进行的电子交易有关的信息将采用加密技术予以保护，并受在线网关所制定的条款与条件管辖。</value>
+  </data>
+  <data name="lblInformationrelatingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInformationResource1.Text" xml:space="preserve">
+    <value>与您使用本网站有关的信息；</value>
+  </data>
+  <data name="lblInformationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInformationThatResource1.Text" xml:space="preserve">
+    <value>您所提供的用于网站登记的信息（包括有效邮箱及非敏感的个人信息）；</value>
+  </data>
+  <data name="lblInformationThatResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInformationThatYouResource1.Text" xml:space="preserve">
+    <value>您所提供的用于订阅网站服务的信息（包括评论等内容）；</value>
+  </data>
+  <data name="lblInformationThatYouResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInfringementResource1.Text" xml:space="preserve">
+    <value>资料侵权</value>
+  </data>
+  <data name="lblInfringementResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblModificationResource1.Text" xml:space="preserve">
+    <value>对本网站任何内容的修改或将本站内容用于任何其他目的均构成对ABS版权及其他知识产权的侵犯。本网站的图表及图片均受版权保护，未经各版权所有人事先书面同意您不得以任何方式转载或使用。</value>
+  </data>
+  <data name="lblModificationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNeitherResource1.Text" xml:space="preserve">
+    <value>ABS 或任何第三方内容提供者不提供以下保证：</value>
+  </data>
+  <data name="lblNeitherResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoLicenseResource1.Text" xml:space="preserve">
+    <value>未经 ABS 或拥有其专属权利的相关第三方的事先书面同意，您并未被授予许可或权利，您浏览本网站和/或使用在线工具和服务并不构成明示、暗示或以任何其他形式授予您使用任何内容的许可或权利。</value>
+  </data>
+  <data name="lblNoLicenseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPermissionsResource1.Text" xml:space="preserve">
+    <value>许可权</value>
+  </data>
+  <data name="lblPermissionsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblpersonalizeResource1.Text" xml:space="preserve">
+    <value>为您打造个性化网站；</value>
+  </data>
+  <data name="lblpersonalizeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReasonablenessResource1.Text" xml:space="preserve">
+    <value>合理性</value>
+  </data>
+  <data name="lblReasonablenessResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRightResource1.Text" xml:space="preserve">
+    <value>登录权/限制登录</value>
+  </data>
+  <data name="lblRightResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSaveAndExceptResource1.Text" xml:space="preserve">
+    <value>除非获得 ABS 的事先书面同意，否则您不得在任何其他网站，或镜像、架构中添加本网站或本网站任何部分的超链接；亦不得将本网站及其任何部分，或本网站包含的任何信息或资料超链接至任何其他服务器、网站或网页中。</value>
+  </data>
+  <data name="lblSaveAndExceptResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStatisticalResource1.Text" xml:space="preserve">
+    <value>网站使用统计分析。</value>
+  </data>
+  <data name="lblStatisticalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTermsResource1.Text" xml:space="preserve">
+    <value>条款与条件</value>
+  </data>
+  <data name="lblTermsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTheseTermsResource1.Text" xml:space="preserve">
+    <value>本使用条款受新加坡共和国法律管辖并按其进行解释。</value>
+  </data>
+  <data name="lblTheseTermsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTheUseOfResource1.Text" xml:space="preserve">
+    <value>使用本网站内容及在线工具前须凭有效电邮地址及其他非敏感的个人信息进行在线注册。</value>
+  </data>
+  <data name="lblTheUseOfResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUpdatesResource1.Text" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="lblUpdatesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblYoumayrequestpermissionResource1.Text" xml:space="preserve">
+    <value>欲使用本网站版权资料，可发送邮件至 &lt;a href="mailto:enquiries@abs.org.sg"&gt;enquiries@abs.org.sg&lt;/a&gt;. 以征询许可。</value>
+  </data>
+  <data name="lblYoumayrequestpermissionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblYouMayResource1.Text" xml:space="preserve">
+    <value>您可以使用、复制和分发本网站中的内容，但仅限用于个人、内部、非商业和/或参考目的。您可以下载本网站的任何内容并保存一份副本在电脑中，同时在不侵犯版权的前提下可以将本网站内容用于个人和非商业用途。出于任何目的对本网站资料进行的修改或使用均构成对ABS 合法权益的侵犯。</value>
+  </data>
+  <data name="lblYouMayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="locPara10Resource1.Text" xml:space="preserve">
+    <value>若 ABS 为您提供了一个用户 ID 及密码，以便您可访问本网站的限制区域或获取其他内容与服务，您须确保该用户 ID 及密码的保密性。</value>
+  </data>
+  <data name="locPara11Resource1.Text" xml:space="preserve">
+    <value>ABS 可在未经通知或解释的前提下，自行决定收回您的用户 ID 及密码。</value>
+  </data>
+  <data name="locPara12Resource1.Text" xml:space="preserve">
+    <value>ABS 有权出于任何特定理由拒绝或限制对本网站的登录，或在未经解释原因或发出事先通知的前提下，随时封锁通过某一网络地址登录本网站。</value>
+  </data>
+  <data name="locPara13Resource1.Text" xml:space="preserve">
+    <value>为了您的便利，ABS 可在本网站添加由第三方拥有并运营的网站超链接。该类链接网站不受 ABS 控制，且 ABS 不对任何链接网站的内容或使用该类链接网站或链接网站中的链接所产生的后果负责。此外，本网站所提供的超链接不应视为或构成 ABS 对该类链接网站或网站内容的认可或验证。您同意自行承担登录和/或使用该类链接网站所造成的一切风险，并遵循有关访问和/或使用条款与条件。</value>
+  </data>
+  <data name="locPara14Resource1.Text" xml:space="preserve">
+    <value>在不影响 ABS 在有关条款与条件下所具有的其他权利的前提下，若您以任何方式违反了有关条款与条件，ABS 将可采取以其认为合适的措施处理有关违约行为，包括暂停您对本网站的登录、禁止您登录本网站、封锁您的 IP 地址登录本网站、联系您的网络服务供应商，要求其封锁您登录本网站及/或向您提起诉讼。</value>
+  </data>
+  <data name="locPara15Resource1.Text" xml:space="preserve">
+    <value>ABS 或任何第三方内容提供者均无需对损害赔偿、费用、成本或任何性质的损失（包括但不限于任何直接或间接、特殊、偶然或必然发生的损害、利润损失或损失机会）承担任何责任，不论上述后果是否由您对本网站的使用而（直接或间接）导致，或是因与其有关联而导致，抑或是由使用本网站提供的任何信息、资料或在线服务时而导致，且不论采用何种诉讼形式。</value>
+  </data>
+  <data name="locPara16Resource1.Text" xml:space="preserve">
+    <value>若 ABS 发现您违反上述许可规定使用其版权资料，可对您提起诉讼，索取金钱赔偿并禁止您使用该类资料。</value>
+  </data>
+  <data name="locPara1Resource1.Text" xml:space="preserve">
+    <value>本网站所有信息与材料仅供一般参考使用。须注意的是，ABS并不提供专业建议。本网站可能并未涵盖某一特定问题的所有信息。ABS 建议用户进行自检或从本网站以外的途径获取相关专业建议。</value>
+  </data>
+  <data name="locPara2Resource1.Text" xml:space="preserve">
+    <value>本网站内容（包括但不限于“在线工具与计算器”）均按“现状”及“现有”基准提供，不提供任何形式的担保，且所有内容均为一般性质的内容。</value>
+  </data>
+  <data name="locPara3Resource1.Text" xml:space="preserve">
+    <value>在尽力确保本网站内容遵循现行法律及商业惯例的同时，建议您参考相关法规并在根据该类信息或资料做出决定前寻求专业建议。ABS 或任何第三方内容提供商无须对使用本网站的信息和资料或本网站中的工具的任何错误或遗漏，或所取得的成果负责。</value>
+  </data>
+  <data name="locPara4Resource1.Text" xml:space="preserve">
+    <value>本网站登载或通过本网站获取的内容的真实性、准确性、充分性、可靠性、完整性、合理性、实时性或及时性，且明确免除其对由本网站内容导致的任何错误或遗漏所承担责任；以及</value>
+  </data>
+  <data name="locPara5Resource1.Text" xml:space="preserve">
+    <value>通过本网站可获取的内容或与本网站相关联的功能均不中断、无错误、存在的缺陷将得到纠正，以及本网站及其服务器不携带任何病毒及/或其他恶意、破坏性或有害代码、宏指令或程序。</value>
+  </data>
+  <data name="locPara6Resource1.Text" xml:space="preserve">
+    <value>未经各版权所有人事先书面同意，不对本网站内容、工具或网站整体做出任何性质的担保，不论明示、暗示或法定性质（包括但不限于权利担保、适销性、质量满意度、未侵犯第三方知识产权、特定用途的适合性以及不携带电脑病毒等方面的担保）。</value>
+  </data>
+  <data name="locPara7Resource1.Text" xml:space="preserve">
+    <value>在任何情形下，不论采用何种诉讼方式，ABS均无需对任何性能故障、系统或服务器故障或连接故障、错误、遗漏、中断、违反保密规定、电脑病毒、恶意代码、崩溃、操作或传输延迟、传输错误或无法登陆本网站与/或使用在线服务，承担任何责任，即使 ABS 已获悉发生上述问题的可能性。</value>
+  </data>
+  <data name="locPara8Resource1.Text" xml:space="preserve">
+    <value>使用本网站内容及在线工具前须凭有效电邮地址及其他非敏感的个人信息进行在线注册。本网站所撷取的资讯均不会对外透露，但法律要求或强制规定的情形除外。ABS 可将收集的信息用于网站使用的一般统计分析，如最常被浏览的网页、网站每日登录的访客人数以及访客在各网页的停留时间等方面。</value>
+  </data>
+  <data name="locPara9Resource1.Text" xml:space="preserve">
+    <value>本网站的某些区域属于限制登录的。ABS 有权限制对本网站其他区域的登录，或经 ABS 审核定夺后限制对整个网站的登录。</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>ABS : 条款与条件</value>
+  </data>
+</root>

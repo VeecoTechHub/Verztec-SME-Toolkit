@@ -1,0 +1,658 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnBackResource1.Text" xml:space="preserve">
+    <value>返回</value>
+  </data>
+  <data name="btnBackResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnClearResource1.Text" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="btnClearResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSaveNextResource1.Text" xml:space="preserve">
+    <value>保存并继续</value>
+  </data>
+  <data name="btnSaveNextResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Image1Resource1.AlternateText" xml:space="preserve">
+    <value>处理中</value>
+  </data>
+  <data name="Image1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgBtnGenerateReportResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgBtnGenerateReportResource1.ToolTip" xml:space="preserve">
+    <value>生成报告</value>
+  </data>
+  <data name="imgBtnHelpResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgBtnHelpResource1.ToolTip" xml:space="preserve">
+    <value>帮助</value>
+  </data>
+  <data name="imgbtnHomeResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgbtnHomeResource1.ToolTip" xml:space="preserve">
+    <value>首页</value>
+  </data>
+  <data name="imgbtnStatementsResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgbtnStatementsResource1.ToolTip" xml:space="preserve">
+    <value>报表</value>
+  </data>
+  <data name="lbl1AEstimationResource1.Text" xml:space="preserve">
+    <value>1A. 销售预估</value>
+  </data>
+  <data name="lbl1AEstimationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl1BCollectionsResource1.Text" xml:space="preserve">
+    <value>1B.收款</value>
+  </data>
+  <data name="lbl1BCollectionsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl1DaysResource1.Text" xml:space="preserve">
+    <value>天数</value>
+  </data>
+  <data name="lbl1DaysResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl1EstimatesResource1.Text" xml:space="preserve">
+    <value>预估</value>
+  </data>
+  <data name="lbl1EstimatesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl1IncreaseResource1.Text" xml:space="preserve">
+    <value>增长&lt;br /&gt;百分率</value>
+  </data>
+  <data name="lbl1IncreaseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl2DaysResource1.Text" xml:space="preserve">
+    <value>天数</value>
+  </data>
+  <data name="lbl2DaysResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl2EstimatesResource1.Text" xml:space="preserve">
+    <value>预估</value>
+  </data>
+  <data name="lbl2EstimatesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl2IncreaseResource1.Text" xml:space="preserve">
+    <value>增长&lt;br /&gt;百分率</value>
+  </data>
+  <data name="lbl2IncreaseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl3DaysResource1.Text" xml:space="preserve">
+    <value>天数</value>
+  </data>
+  <data name="lbl3DaysResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl3EstimatesResource1.Text" xml:space="preserve">
+    <value>预估</value>
+  </data>
+  <data name="lbl3EstimatesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl4DaysResource1.Text" xml:space="preserve">
+    <value>天数</value>
+  </data>
+  <data name="lbl4DaysResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl5DaysResource1.Text" xml:space="preserve">
+    <value>天数</value>
+  </data>
+  <data name="lbl5DaysResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl6DaysResource1.Text" xml:space="preserve">
+    <value>天数</value>
+  </data>
+  <data name="lbl6DaysResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAreYouResource1.Text" xml:space="preserve">
+    <value>您确定要保存资料？</value>
+  </data>
+  <data name="lblAreYouResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAvaCollDaysResource1.Text" xml:space="preserve">
+    <value>分析您的平均收款天数</value>
+  </data>
+  <data name="lblAvaCollDaysResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAvgDaysResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAvgDaysResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAvgNumberofDaysResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAvgNumberofDaysResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAvgResource1.Text" xml:space="preserve">
+    <value>平均数</value>
+  </data>
+  <data name="lblAvgResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblbasedResource1.Text" xml:space="preserve">
+    <value>根据您之前输入的信息，您从顾客处收款的平均天数大约为</value>
+  </data>
+  <data name="lblbasedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCorrespondingResource1.Text" xml:space="preserve">
+    <value>收款所需对应&lt;br /&gt;
+天数</value>
+  </data>
+  <data name="lblCorrespondingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDaysToResource1.Text" xml:space="preserve">
+    <value>天。在随后的预测和财务分析中，您可以使用这个数据或</value>
+  </data>
+  <data name="lblDaysToResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDoYouChangesResource1.Text" xml:space="preserve">
+    <value>你是否要保存您所作的修改？</value>
+  </data>
+  <data name="lblDoYouChangesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDoyoudealincashtermsonlyResource1.Text" xml:space="preserve">
+    <value>您是否仅允许现金支付交易？</value>
+  </data>
+  <data name="lblDoyoudealincashtermsonlyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDoYouResource1.Text" xml:space="preserve">
+    <value>在浏览前您是否要保存资料？如要保存，点击 “Ok”，如不保存，点击 “Cancel"。</value>
+  </data>
+  <data name="lblDoYouResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEGResource1.Text" xml:space="preserve">
+    <value>（例如制造、贸易等）</value>
+  </data>
+  <data name="lblEGResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEnterTheResource1.Text" xml:space="preserve">
+    <value>请在此处输入您从顾客处收款所需的平均天数：</value>
+  </data>
+  <data name="lblEnterTheResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblGivenResource1.Text" xml:space="preserve">
+    <value>给定值格式错误。</value>
+  </data>
+  <data name="lblGivenResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHeadingResource1.Text" xml:space="preserve">
+    <value>财务管理工具箱</value>
+  </data>
+  <data name="lblHeadingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHelpResource1.Text" xml:space="preserve">
+    <value>帮助</value>
+  </data>
+  <data name="lblHelpResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHomeResource1.Text" xml:space="preserve">
+    <value>首页</value>
+  </data>
+  <data name="lblHomeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblManufacturingSaleP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblManufacturingSaleP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblManufacturingSaleP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblManufacturingSaleP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOptionalResource1.Text" xml:space="preserve">
+    <value>（可选择）</value>
+  </data>
+  <data name="lblOptionalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPercentageofTotalSalesResource1.Text" xml:space="preserve">
+    <value>销售总额的百分比</value>
+  </data>
+  <data name="lblPercentageofTotalSalesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPercentageResource1.Text" xml:space="preserve">
+    <value>销售总额的百分比必须为100%。</value>
+  </data>
+  <data name="lblPercentageResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProjYear1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProjYear1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProjYear2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProjYear2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProjYear3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProjYear3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReportResource1.Text" xml:space="preserve">
+    <value>报告</value>
+  </data>
+  <data name="lblReportResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSalesConditionsResource1.Text" xml:space="preserve">
+    <value>1. 销售与收款</value>
+  </data>
+  <data name="lblSalesConditionsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblServicesP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblServicesP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblServicesP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblServicesP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSourcesofsalesResource1.Text" xml:space="preserve">
+    <value>销售来源</value>
+  </data>
+  <data name="lblSourcesofsalesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStatementsResource1.Text" xml:space="preserve">
+    <value>报表</value>
+  </data>
+  <data name="lblStatementsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotal1Resource1.Text" xml:space="preserve">
+    <value>总计</value>
+  </data>
+  <data name="lblTotal1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotalP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotalP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotalP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotalP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotalP4Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotalP4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotalResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotResource1.Text" xml:space="preserve">
+    <value>总计</value>
+  </data>
+  <data name="lblTotResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTradingOfGoodsP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTradingOfGoodsP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTradingOfGoodsP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTradingOfGoodsP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>是</value>
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>否</value>
+  </data>
+  <data name="ListItemResource2.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="locPara1Resource1.Text" xml:space="preserve">
+    <value>首先请让我们了解您的企业未来三年的销售预估。如果您的销售来源各不相同，毛利润也不一样，您可将其分别罗列出来。否则请在第一行输入销售总额。</value>
+  </data>
+  <data name="locPara2Resource1.Text" xml:space="preserve">
+    <value>注：预估即您对您的企业预期业绩或未来几年销售目标所作的判断。</value>
+  </data>
+  <data name="locPara3Resource1.Text" xml:space="preserve">
+    <value>请输入您的销售总额的百分比及从顾客处收款所需的相应天数。例如，如果您有 60%的销售额在 30 天以内完成收款，40%的销售额在 45 天以内完成收款，请在第一行输入 60%和 30 天，在第二行输入 40%和 45 天，以此类推。如果您完成全部收款平均需要35天，只需在第一行输入 100%和 35 天，其余保留空白。</value>
+  </data>
+  <data name="locPara4Resource1.Text" xml:space="preserve">
+    <value>顾客向您付款所需的天数会对您的现金和资本造成影响。这些现金和资本是您营运资本的一部分，为您企业提供有效资金。</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radRfv1Resource1.ErrorMessage" xml:space="preserve">
+    <value>选择其中一项</value>
+  </data>
+  <data name="radRfv1Resource1.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="radRfv1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbl_Q2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDays1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDays1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDays2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDays2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDays3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDays3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDays4Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDays4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDaysResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDaysResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtManufacturingSaleP1PerResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtManufacturingSaleP1PerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtManufacturingSaleP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtManufacturingSaleP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtManufacturingSaleP2PerResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtManufacturingSaleP2PerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtManufacturingSaleResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtManufacturingSaleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSales1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSales1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSales2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSales2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSales3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSales3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSales4Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSales4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtServicesP1PerResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtServicesP1PerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtServicesP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtServicesP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtServicesP2PerResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtServicesP2PerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtServicesResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtServicesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTradingOfGoodsP1PerResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTradingOfGoodsP1PerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTradingOfGoodsP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTradingOfGoodsP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTradingOfGoodsP2PerResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTradingOfGoodsP2PerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTradingOfGoodsResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTradingOfGoodsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLastYearResource1.Text" xml:space="preserve">
+    <value>去年，您从顾客处收款所需的平均天数大约为</value>
+  </data>
+  <data name="lblLastYearResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDaysLastResource1.Text" xml:space="preserve">
+    <value>天。</value>
+  </data>
+  <data name="lblDaysLastResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

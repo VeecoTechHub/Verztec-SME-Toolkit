@@ -1,0 +1,224 @@
+﻿body 
+{
+	font-size:8.5pt;
+	font-family:Arial,Sans-Serif;
+}
+
+td
+{
+	font-size:8.5pt;
+	font-family:Arial,Sans-Serif;
+	
+	
+	
+	}
+
+
+
+.warnings 
+{
+	FONT-FAMILY: Verdana, Arial, haettenschweiler;
+	font-size:xx-small;
+	color:Red;	
+}
+
+
+.blue
+{
+	font-size:10pt;
+	color: #01319d;
+}
+
+
+.btn
+{
+	background-color: #FF6600;
+	border: 1px solid #78B3F7;
+	font-family: Tahoma, Arial, Verdana;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+	padding: 2px;
+}
+
+.formlabel 
+{
+	
+
+	FONT-FAMILY: Verdana, Arial, haettenschweiler;
+	font-size: 8.5pt;
+	color: #37414A;
+	
+	
+	
+}
+
+
+.tableHeading {
+	color: black;
+	background-color: #E4E4E4;  
+	font-weight:bold;
+	font-size: 12px;
+}
+
+.tableHeading td {
+	color: black;
+	
+	font-size: 12px;
+}
+
+
+.tableHeading a{
+	color: black;
+	background-color: #E4E4E4;  
+	font-weight:bold;
+	font-size: 12px;
+}
+
+
+A.menu_admin
+{
+    COLOR: #000000;
+    FONT-FAMILY: Verdana, Arialhaettenschweiler;
+    FONT-SIZE: 11px;
+    TEXT-DECORATION: underline;
+}
+
+
+/*  New  23  April 2009 */
+
+body
+{
+}
+
+.accordionHeader
+{
+	border: 1px solid #2F4F4F;
+	color: white;
+	background-color: #2E4d7B;
+	font-family: Arial, Sans-Serif;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 3px;
+	cursor: pointer;
+}
+
+
+.accordionHeader a
+{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-family: Arial,Sans-Serif;
+	font-size: 10pt;
+}
+
+
+.accordionHeaderSelected a
+{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-family: Arial,Sans-Serif;
+	font-size: 10pt;
+	text-decoration: underline;
+}
+
+
+.accordionHeader a:hover
+{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-family: Arial,Sans-Serif;
+	font-size: 10pt;
+}
+
+
+.accordionHeaderSelected a:hover
+{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-family: Arial,Sans-Serif;
+	font-size: 10pt;
+	text-decoration: underline;
+}
+
+.accordionHeaderSelected
+{
+	border: 1px solid #2F4F4F;
+	color: white;
+	background-color: #5078B3;
+	font-family: Arial, Sans-Serif;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 3px;
+	cursor: pointer;
+}
+
+.accordionContent
+{
+	background-color: #D3DEEF;
+	border: 1px solid #2F4F4F;
+	border-top: none;
+	padding: 3px;
+	padding-top: 5px;
+}
+
+
+.Submenu
+{
+}
+
+
+.Submenu li
+{
+	
+	list-style-image:url(../images/dot.gif);
+	
+	
+	
+}
+
+.Submenu li a
+{
+	text-decoration: none;
+	color: #37414A;
+	font-weight: bold;
+	font-family: Arial,Sans-Serif;
+	font-size: 8.5pt;
+}
+
+
+.Submenu li a:hover
+{
+	text-decoration: none;
+	color: #FF6600;
+	font-weight: bold;
+	font-family: Arial,Sans-Serif;
+	font-size: 8.5pt;
+}
+/*Style Added By Krishna*/
+
+.btnBack
+{
+	color: #FFFFFF;
+	font-family: Tahoma, Arial;
+	font-size: 11px;
+	font-weight: bold;
+	background-color: #FF6600;
+	border: 1px solid #c05005;
+	height: 25px;
+	width: 60px;
+	padding-left: 20px;
+	background-image: url(../images/backarrow1.gif);
+	background-repeat: no-repeat;
+	background-position: 4px center;
+	text-align: left;
+	display: block;
+	padding-bottom: 5px;
+	padding-top: 4px;
+	margin: 0px;
+	cursor: pointer;
+}

@@ -1,0 +1,1267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnBackResource1.Text" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="btnBackResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnClearResource1.Text" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="btnClearResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSaveNextResource1.Text" xml:space="preserve">
+    <value>Save &amp; Next</value>
+  </data>
+  <data name="btnSaveNextResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Image1Resource1.AlternateText" xml:space="preserve">
+    <value>Processing</value>
+  </data>
+  <data name="Image1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgBtnGenerateReportResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgBtnGenerateReportResource1.ToolTip" xml:space="preserve">
+    <value>Generate Report</value>
+  </data>
+  <data name="imgBtnHelpResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgBtnHelpResource1.ToolTip" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="imgbtnHomeResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgbtnHomeResource1.ToolTip" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="imgbtnStatementsResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgbtnStatementsResource1.ToolTip" xml:space="preserve">
+    <value>Statements</value>
+  </data>
+  <data name="lbl10EstimatesResource1.Text" xml:space="preserve">
+    <value>Estimates</value>
+  </data>
+  <data name="lbl10EstimatesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl10YearsResource1.Text" xml:space="preserve">
+    <value>Year(s)</value>
+  </data>
+  <data name="lbl10YearsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl11EstimatesResource1.Text" xml:space="preserve">
+    <value>Estimates</value>
+  </data>
+  <data name="lbl11EstimatesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl11YearsResource1.Text" xml:space="preserve">
+    <value>Year(s)</value>
+  </data>
+  <data name="lbl11YearsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl12EstimatesResource1.Text" xml:space="preserve">
+    <value>Estimates</value>
+  </data>
+  <data name="lbl12EstimatesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl12YearsResource1.Text" xml:space="preserve">
+    <value>Year(s)</value>
+  </data>
+  <data name="lbl12YearsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl13YearsResource1.Text" xml:space="preserve">
+    <value>Year(s)</value>
+  </data>
+  <data name="lbl13YearsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl14YearsResource1.Text" xml:space="preserve">
+    <value>Year(s)</value>
+  </data>
+  <data name="lbl14YearsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl1CapitalResource1.Text" xml:space="preserve">
+    <value>Capital Expenditure</value>
+  </data>
+  <data name="lbl1CapitalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl1EstimatesResource1.Text" xml:space="preserve">
+    <value>Estimates</value>
+  </data>
+  <data name="lbl1EstimatesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl1LoanResource1.Text" xml:space="preserve">
+    <value>Loan Interest Rate (%)</value>
+  </data>
+  <data name="lbl1LoanResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl1MonthsResource1.Text" xml:space="preserve">
+    <value>Month(s)</value>
+  </data>
+  <data name="lbl1MonthsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl1QuantumResource1.Text" xml:space="preserve">
+    <value>Loan Quantum (%)</value>
+  </data>
+  <data name="lbl1QuantumResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl1TenureResource1.Text" xml:space="preserve">
+    <value>Loan Tenure (Year(s))</value>
+  </data>
+  <data name="lbl1TenureResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl1YearsResource1.Text" xml:space="preserve">
+    <value>Year(s)</value>
+  </data>
+  <data name="lbl1YearsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl2CapitalResource1.Text" xml:space="preserve">
+    <value>Capital Expenditure</value>
+  </data>
+  <data name="lbl2CapitalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl2EnterTheResource1.Text" xml:space="preserve">
+    <value>Enter the estimated useful life (years)</value>
+  </data>
+  <data name="lbl2EnterTheResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl2EstimatesResource1.Text" xml:space="preserve">
+    <value>Estimates</value>
+  </data>
+  <data name="lbl2EstimatesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl2IfFinResource1.Text" xml:space="preserve">
+    <value>If financing is required on the capital expenditure, enter the following</value>
+  </data>
+  <data name="lbl2IfFinResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl2LoadInterestResource1.Text" xml:space="preserve">
+    <value>Loan Interest Rate (%)</value>
+  </data>
+  <data name="lbl2LoadInterestResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl2LoanQuantumResource1.Text" xml:space="preserve">
+    <value>Loan Quantum (%)</value>
+  </data>
+  <data name="lbl2LoanQuantumResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl2LoanTenureResource1.Text" xml:space="preserve">
+    <value>Loan Tenure (Year(s))</value>
+  </data>
+  <data name="lbl2LoanTenureResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl2MonthsResource1.Text" xml:space="preserve">
+    <value>Month(s)</value>
+  </data>
+  <data name="lbl2MonthsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl3CapitalResource1.Text" xml:space="preserve">
+    <value>Capital Expenditure</value>
+  </data>
+  <data name="lbl3CapitalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl3EnterTheResource1.Text" xml:space="preserve">
+    <value>Enter the estimated useful life (years)</value>
+  </data>
+  <data name="lbl3EnterTheResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl3EstimatesResource1.Text" xml:space="preserve">
+    <value>Estimates</value>
+  </data>
+  <data name="lbl3EstimatesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl3IfFinResource1.Text" xml:space="preserve">
+    <value>If financing is required on the capital expenditure, enter the following</value>
+  </data>
+  <data name="lbl3IfFinResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl3LoanInterestResource1.Text" xml:space="preserve">
+    <value>Loan Interest Rate (%)</value>
+  </data>
+  <data name="lbl3LoanInterestResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl3LoanQuantumResource1.Text" xml:space="preserve">
+    <value>Loan Quantum (%)</value>
+  </data>
+  <data name="lbl3LoanQuantumResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl3LoanTenureResource1.Text" xml:space="preserve">
+    <value>Loan Tenure (Year(s))</value>
+  </data>
+  <data name="lbl3LoanTenureResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl3MonthsResource1.Text" xml:space="preserve">
+    <value>Month(s)</value>
+  </data>
+  <data name="lbl3MonthsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl3NumberOfResource1.Text" xml:space="preserve">
+    <value>Number of months in use of the assets in the year of addition</value>
+  </data>
+  <data name="lbl3NumberOfResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl4EstimatesResource1.Text" xml:space="preserve">
+    <value>Estimates</value>
+  </data>
+  <data name="lbl4EstimatesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl4MonthsResource1.Text" xml:space="preserve">
+    <value>Month(s)</value>
+  </data>
+  <data name="lbl4MonthsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl4YearsResource1.Text" xml:space="preserve">
+    <value>Year(s)</value>
+  </data>
+  <data name="lbl4YearsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl5AOtherAssetsResource1.Text" xml:space="preserve">
+    <value>5A. Other Assets &amp; Liabilities</value>
+  </data>
+  <data name="lbl5AOtherAssetsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl5BCapitalResource1.Text" xml:space="preserve">
+    <value>5B. Capital Expenditure</value>
+  </data>
+  <data name="lbl5BCapitalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl5EstimatesResource1.Text" xml:space="preserve">
+    <value>Estimates</value>
+  </data>
+  <data name="lbl5EstimatesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl5MonthsResource1.Text" xml:space="preserve">
+    <value>Month(s)</value>
+  </data>
+  <data name="lbl5MonthsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl5YearsResource1.Text" xml:space="preserve">
+    <value>Year(s)</value>
+  </data>
+  <data name="lbl5YearsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl6EstimatesResource1.Text" xml:space="preserve">
+    <value>Estimates</value>
+  </data>
+  <data name="lbl6EstimatesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl6MonthsResource1.Text" xml:space="preserve">
+    <value>Month(s)</value>
+  </data>
+  <data name="lbl6MonthsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl6YearsResource1.Text" xml:space="preserve">
+    <value>Year(s)</value>
+  </data>
+  <data name="lbl6YearsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl7EstimatesResource1.Text" xml:space="preserve">
+    <value>Estimates</value>
+  </data>
+  <data name="lbl7EstimatesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl7MonthsResource1.Text" xml:space="preserve">
+    <value>Month(s)</value>
+  </data>
+  <data name="lbl7MonthsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl7YearsResource1.Text" xml:space="preserve">
+    <value>Year(s)</value>
+  </data>
+  <data name="lbl7YearsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl8EstimatesResource1.Text" xml:space="preserve">
+    <value>Estimates</value>
+  </data>
+  <data name="lbl8EstimatesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl8MonthsResource1.Text" xml:space="preserve">
+    <value>Month(s)</value>
+  </data>
+  <data name="lbl8MonthsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl8YearsResource1.Text" xml:space="preserve">
+    <value>Year(s)</value>
+  </data>
+  <data name="lbl8YearsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl9EstimatesResource1.Text" xml:space="preserve">
+    <value>Estimates</value>
+  </data>
+  <data name="lbl9EstimatesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl9MonthsResource1.Text" xml:space="preserve">
+    <value>Month(s)</value>
+  </data>
+  <data name="lbl9MonthsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl9YearsResource1.Text" xml:space="preserve">
+    <value>Year(s)</value>
+  </data>
+  <data name="lbl9YearsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAreYouResource1.Text" xml:space="preserve">
+    <value>Are you sure, you want to save the data.</value>
+  </data>
+  <data name="lblAreYouResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCapex1ProjYear1Resource1.Text" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="lblCapex1ProjYear1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCapex1ProjYear2Resource1.Text" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="lblCapex1ProjYear2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCapex1ProjYear3Resource1.Text" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="lblCapex1ProjYear3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCapex2ProjYear1Resource1.Text" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="lblCapex2ProjYear1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCapex2ProjYear2Resource1.Text" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="lblCapex2ProjYear2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCapex2ProjYear3Resource1.Text" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="lblCapex2ProjYear3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCapex3ProjYear1Resource1.Text" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="lblCapex3ProjYear1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCapex3ProjYear2Resource1.Text" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="lblCapex3ProjYear2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCapex3ProjYear3Resource1.Text" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="lblCapex3ProjYear3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCapitalResource1.Text" xml:space="preserve">
+    <value>5. Capital Expenditure &amp; Other Assets &amp; Liabilities</value>
+  </data>
+  <data name="lblCapitalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDoYouChangesResource1.Text" xml:space="preserve">
+    <value>Do you want to save the changes you made?</value>
+  </data>
+  <data name="lblDoYouChangesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDoYouResource1.Text" xml:space="preserve">
+    <value>Do you want to save the data before naviagtion? then click OK, otherwise, click Cancel.</value>
+  </data>
+  <data name="lblDoYouResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEnterTheResource1.Text" xml:space="preserve">
+    <value>Enter the estimated useful life (years)</value>
+  </data>
+  <data name="lblEnterTheResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblGivenResource1.Text" xml:space="preserve">
+    <value>Given value is not in a correct format</value>
+  </data>
+  <data name="lblGivenResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHeadingResource1.Text" xml:space="preserve">
+    <value>FINANCIAL MANAGEMENT TOOLKIT</value>
+  </data>
+  <data name="lblHeadingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHelpResource1.Text" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="lblHelpResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHomeResource1.Text" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="lblHomeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIfFinResource1.Text" xml:space="preserve">
+    <value>If financing is required on the capital expenditure, enter the following</value>
+  </data>
+  <data name="lblIfFinResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNumberResource1.Text" xml:space="preserve">
+    <value>Number of months in use of the assets in the year of addition</value>
+  </data>
+  <data name="lblNumberResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNumbersResource1.Text" xml:space="preserve">
+    <value>Number of months in use of the assets in the year of addition</value>
+  </data>
+  <data name="lblNumbersResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOtherAssetsResource1.Text" xml:space="preserve">
+    <value>Increase/(Decrease) in Other Assets for the Period</value>
+  </data>
+  <data name="lblOtherAssetsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOtherLiabilitiesResource1.Text" xml:space="preserve">
+    <value>Increase/(Decrease) in Other Liabilities for the Period</value>
+  </data>
+  <data name="lblOtherLiabilitiesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProjYear1Resource1.Text" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="lblProjYear1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProjYear2Resource1.Text" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="lblProjYear2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProjYear3Resource1.Text" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="lblProjYear3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReportResource1.Text" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="lblReportResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStatementsResource1.Text" xml:space="preserve">
+    <value>Statements</value>
+  </data>
+  <data name="lblStatementsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="locPara1Resource1.Text" xml:space="preserve">
+    <value>
+                                    Other than the usual fixed assets and current assets like stocks, your business
+                                    may also have other forms of assets (e.g. rental deposits) and liabilities (e.g.
+                                    other creditors, accrual). If these exist in your business, enter the relevant information
+                                    below; otherwise you may skip this section.</value>
+  </data>
+  <data name="locPara2Resource1.Text" xml:space="preserve">
+    <value>
+                                                Estimate and enter the incremental other assets and other liabilities as at the
+                                                end of each period</value>
+  </data>
+  <data name="locPara5Resource1.Text" xml:space="preserve">
+    <value>
+                                    To grow the business, very often, you have to increase your capacity by moving to
+                                    larger premises and incur renovation costs, or purchase of motor vehicles, equipment,
+                                    etc; these are also known as Capital Expenditure. This section seeks to understand
+                                    your planned capital expenditure and how you intend to fund these capital expenditure.</value>
+  </data>
+  <data name="locPara6Resource1.Text" xml:space="preserve">
+    <value>
+                                    You may like to provide the estimated capital expenditure and any accompanying loan
+                                    details below. You can specify up to 3 types of capital expenditure if these differ
+                                    in loan/funding requirements.</value>
+  </data>
+  <data name="locPara7Resource1.Text" xml:space="preserve">
+    <value>
+                                                    Enter the assets class that you are planning to purchase&lt;br /&gt;
+                                                    (E.g. Motor Vehicles)</value>
+  </data>
+  <data name="locPara8Resource1.Text" xml:space="preserve">
+    <value>
+                                                    Enter the assets class that you are planning to purchase&lt;br /&gt;
+                                                    (E.g. Motor Vehicles)</value>
+  </data>
+  <data name="locPara9Resource1.Text" xml:space="preserve">
+    <value>
+                                                    Enter the assets class that you are planning to purchase&lt;br /&gt;
+                                                    (E.g. Motor Vehicles)</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RangeValidator10Resource1.ErrorMessage" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="RangeValidator10Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RangeValidator10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RangeValidator11Resource1.ErrorMessage" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="RangeValidator11Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RangeValidator11Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RangeValidator12Resource1.ErrorMessage" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="RangeValidator12Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RangeValidator12Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RangeValidator13Resource1.ErrorMessage" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="RangeValidator13Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RangeValidator13Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RangeValidator14Resource1.ErrorMessage" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="RangeValidator14Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RangeValidator14Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RangeValidator15Resource1.ErrorMessage" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="RangeValidator15Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RangeValidator15Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RangeValidator16Resource1.ErrorMessage" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="RangeValidator16Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RangeValidator16Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RangeValidator17Resource1.ErrorMessage" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="RangeValidator17Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RangeValidator17Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RangeValidator18Resource1.ErrorMessage" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="RangeValidator18Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RangeValidator18Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RangeValidator19Resource1.ErrorMessage" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="RangeValidator19Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RangeValidator19Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RangeValidator1Resource1.ErrorMessage" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="RangeValidator1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RangeValidator1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RangeValidator20Resource1.ErrorMessage" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="RangeValidator20Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RangeValidator20Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RangeValidator21Resource1.ErrorMessage" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="RangeValidator21Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RangeValidator21Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RangeValidator22Resource1.ErrorMessage" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="RangeValidator22Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RangeValidator22Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RangeValidator23Resource1.ErrorMessage" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="RangeValidator23Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RangeValidator23Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RangeValidator24Resource1.ErrorMessage" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="RangeValidator24Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RangeValidator24Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RangeValidator25Resource1.ErrorMessage" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="RangeValidator25Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RangeValidator25Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RangeValidator26Resource1.ErrorMessage" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="RangeValidator26Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RangeValidator26Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RangeValidator27Resource1.ErrorMessage" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="RangeValidator27Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RangeValidator27Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RangeValidator28Resource1.ErrorMessage" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="RangeValidator28Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RangeValidator28Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RangeValidator29Resource1.ErrorMessage" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="RangeValidator29Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RangeValidator29Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RangeValidator2Resource1.ErrorMessage" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="RangeValidator2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RangeValidator2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RangeValidator30Resource1.ErrorMessage" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="RangeValidator30Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RangeValidator30Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RangeValidator3Resource1.ErrorMessage" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="RangeValidator3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RangeValidator3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RangeValidator4Resource1.ErrorMessage" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="RangeValidator4Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RangeValidator4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RangeValidator5Resource1.ErrorMessage" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="RangeValidator5Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RangeValidator5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RangeValidator6Resource1.ErrorMessage" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="RangeValidator6Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RangeValidator6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RangeValidator7Resource1.ErrorMessage" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="RangeValidator7Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RangeValidator7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RangeValidator8Resource1.ErrorMessage" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="RangeValidator8Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RangeValidator8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RangeValidator9Resource1.ErrorMessage" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="RangeValidator9Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RangeValidator9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex1InterestRateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex1InterestRateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex1MonthsP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex1MonthsP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex1MonthsP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex1MonthsP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex1MonthsP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex1MonthsP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex1P1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex1P1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex1P2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex1P2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex1P3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex1P3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex1QuantumP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex1QuantumP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex1QuantumP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex1QuantumP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex1QuantumP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex1QuantumP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex1TenureP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex1TenureP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex1TenureP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex1TenureP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex1TenureP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex1TenureP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex1YearsResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex1YearsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex2InterestRateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex2InterestRateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex2MonthsP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex2MonthsP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex2MonthsP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex2MonthsP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex2MonthsP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex2MonthsP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex2P1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex2P1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex2P2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex2P2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex2P3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex2P3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex2QuantumP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex2QuantumP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex2QuantumP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex2QuantumP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex2QuantumP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex2QuantumP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex2TenureP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex2TenureP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex2TenureP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex2TenureP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex2TenureP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex2TenureP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex2YearsResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex2YearsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex3InterestRateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex3InterestRateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex3MonthsP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex3MonthsP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex3MonthsP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex3MonthsP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex3MonthsP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex3MonthsP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex3P1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex3P1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex3P2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex3P2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex3P3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex3P3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex3QuantumP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex3QuantumP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex3QuantumP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex3QuantumP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex3QuantumP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex3QuantumP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex3TenureP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex3TenureP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex3TenureP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex3TenureP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex3TenureP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex3TenureP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex3YearsResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCapex3YearsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtExpenditure1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtExpenditure1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtExpenditure2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtExpenditure2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtExpenditure3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtExpenditure3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOtherAssetsP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOtherAssetsP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOtherAssetsP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOtherAssetsP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOtherAssetsP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOtherAssetsP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOtherLiabilitiesP1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOtherLiabilitiesP1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOtherLiabilitiesP2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOtherLiabilitiesP2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOtherLiabilitiesP3Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOtherLiabilitiesP3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

@@ -1,0 +1,153 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Admin.master.cs" Inherits="Masterpages_Admin" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajaxToolkit" %>
+<%@ Register Src="~/UserControls/Admin_MenuControl.ascx" TagName="Public_MenuControl" TagPrefix="uc2" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=8"> 
+
+   <%-- <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />--%>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    
+    <title>
+        <%=Convert.ToString(ConfigurationSettings.AppSettings["WindowTitle"]) %>
+    </title>
+    
+    <link href="../css/style.css" rel="stylesheet" type="text/css" />
+    <link href="../Administration/Admin2.css" rel="stylesheet" type="text/css" />
+    
+       <link href="<%= Page.ResolveUrl("~/css/mainstyles.css") %>" rel="stylesheet" type="text/css" />
+  
+    
+    <style type="text/css">
+    
+        body
+        {
+            background-image: url(../images/sub_pagebackground.jpg);
+            background-repeat: repeat-x;
+        }
+      </style>
+
+    <script type="text/javascript">
+    var submenu=new Array()
+    
+    </script>
+
+</head>
+<body>
+    <div style="position: absolute; height: 0px">
+        <form name="frm2" method="post">
+        <input type="hidden" value='<%=Request["IDforEdit"]%>' name="IDforEdit" />
+        <input type="hidden" value='<%=Request["token"]%>' name="token" />
+     <%--   <input type="hidden" value="a" name="str" />--%>
+        </form>
+    </div>
+    <form runat="server" id="Form1">
+    <table width="90%" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+            <td width="1000" height="600" align="left" valign="top">
+                <ajaxToolkit:ToolkitScriptManager ID="script" runat="server">
+                </ajaxToolkit:ToolkitScriptManager>
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td style="height: 25px">
+                            &nbsp;
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="height: 65px">
+                            <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                <tr>
+                                    <td style="background-image:url(../images/top-banner.JPG) x-repeat;">
+                                       <%-- <img src="../images/logo_imagesub.jpg" width="141" height="49" alt="" />--%>
+                                        <img  src="../images/logo2.png" width="411" height="99" alt="" />
+                                    </td>
+                                    <%--<td style="width: 613px">
+                                        <div style="float: right">
+                                            <i><font color="#00000" face="Verdana, Arial, Helvetica, sans-serif" size="1">User:
+                                                <b>
+                                                    <%if (Session["GROUP_ID"] == null) Response.Redirect("~/Default.aspx"); %>
+                                                    <%=Session["GROUP_ID"].ToString()%>
+                                                </b><b>/
+                                                    <%=Session["USER_NM"].ToString()%>
+                                                    .</b></font></i>
+                                        </div>
+                                    </td>--%>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="11">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="29">
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <%Public_MenuControl1.mainMenu(); %>
+                                    <uc2:Public_MenuControl ID="Public_MenuControl1" runat="server" />
+                                </tr>
+                                <tr>
+                                    <td height="525" bgcolor="#FFFFFF" valign="top">
+                                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                        </asp:ContentPlaceHolder>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <%--<tr>
+                            <td height="525" bgcolor="#FFFFFF" valign="top">
+                                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                </asp:ContentPlaceHolder>
+                            </td>
+                        </tr>--%>
+                    <%--<tr>
+                            <td height="29" class="buttonmenubg">
+                                &nbsp;</td>
+                        </tr>--%>
+                </table>
+            </td>
+        </tr>
+    </table>
+    </form>
+       <script language="javascript" type="text/javascript">
+
+           function postForEdit1(url, rowid, token) {
+               document.frm2.action = url;
+               document.frm2.IDforEdit.value = rowid;
+               document.frm2.token.value = token;
+               document.frm2.submit();
+           }
+        
+    </script>
+    <script language="javascript" type="text/javascript">
+        function postForEdit(url, rowid) {
+					document.frm2.action=url;
+					document.frm2.IDforEdit.value = rowid;
+					document.frm2.submit();
+			}
+        
+    </script>
+    <script language="javascript" type="text/javascript">
+        function SelectAllCheckBoxes_New(spanChk) {
+            var oItem = spanChk.children;
+            var theBox = (spanChk.type == "checkbox") ?
+         spanChk : spanChk.children.item[0];
+            xState = theBox.checked;
+            elm = theBox.form.elements;
+            for (i = 0; i < elm.length; i++)
+            //if(elm[i].type=="checkbox" && elm[i].id!=theBox.id)
+                if (elm[i].type == "checkbox" && elm[i].name.lastIndexOf("Cbx_uid") != -1) {
+                    if (elm[i].checked != xState)
+                        elm[i].click();
+                }
+        }
+    
+
+    </script>
+</body>
+</html>

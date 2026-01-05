@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnBackResource1.Text" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="btnBackResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnClearResource1.Text" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="btnClearResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSaveNextResource1.Text" xml:space="preserve">
+    <value>Save &amp; Next</value>
+  </data>
+  <data name="btnSaveNextResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Image1Resource1.AlternateText" xml:space="preserve">
+    <value>Processing</value>
+  </data>
+  <data name="Image1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgBtnGenerateReportResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgBtnGenerateReportResource1.ToolTip" xml:space="preserve">
+    <value>Generate Report</value>
+  </data>
+  <data name="imgBtnHelpResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgBtnHelpResource1.ToolTip" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="imgbtnHomeResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgbtnHomeResource1.ToolTip" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="imgbtnStatementsResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgbtnStatementsResource1.ToolTip" xml:space="preserve">
+    <value>Statements</value>
+  </data>
+  <data name="lblA1Resource1.Text" xml:space="preserve">
+    <value>Are you required to keep stocks for your business?</value>
+  </data>
+  <data name="lblA1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblA2Resource1.Text" xml:space="preserve">
+    <value>Do you have manufacturing activities?</value>
+  </data>
+  <data name="lblA2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblA4Resource1.Text" xml:space="preserve">
+    <value>Do you have existing term loan or hire purchase loan?</value>
+  </data>
+  <data name="lblA4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblA6Resource1.Text" xml:space="preserve">
+    <value>For the planned capital expenditure, do you need to obtain bank loan?</value>
+  </data>
+  <data name="lblA6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblConfirmResource1.Text" xml:space="preserve">
+    <value>Do you want to save the changes you made?</value>
+  </data>
+  <data name="lblConfirmResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblErrorResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblErrorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFinRouResource1.Text" xml:space="preserve">
+    <value>(1) Please enter all financials rounded to the nearest dollar.</value>
+  </data>
+  <data name="lblFinRouResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHeadingResource1.Text" xml:space="preserve">
+    <value>FINANCIAL MANAGEMENT TOOLKIT</value>
+  </data>
+  <data name="lblHeadingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHelpResource1.Text" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="lblHelpResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHomeResource1.Text" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="lblHomeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblImpToNoteResource1.Text" xml:space="preserve">
+    <value>Important To Note :</value>
+  </data>
+  <data name="lblImpToNoteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMoreDetBusyResource1.Text" xml:space="preserve">
+    <value>(2) If you want to have a more detailed business plan, you may like to prepare the
+                            following information before you start:</value>
+  </data>
+  <data name="lblMoreDetBusyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblQ1Resource1.Text" xml:space="preserve">
+    <value>Q1</value>
+  </data>
+  <data name="lblQ1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblQ2Resource1.Text" xml:space="preserve">
+    <value>Q2</value>
+  </data>
+  <data name="lblQ2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblQ3Resource1.Text" xml:space="preserve">
+    <value>Q3</value>
+  </data>
+  <data name="lblQ3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblQ4Resource1.Text" xml:space="preserve">
+    <value>Q4</value>
+  </data>
+  <data name="lblQ4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblQ5Resource1.Text" xml:space="preserve">
+    <value>Q5</value>
+  </data>
+  <data name="lblQ5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblQ6Resource1.Text" xml:space="preserve">
+    <value>Q6</value>
+  </data>
+  <data name="lblQ6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRecordsResource1.Text" xml:space="preserve">
+    <value>(a) Records of your sales, cost of sales and operating expenses for your easy reference,
+                            if available.</value>
+  </data>
+  <data name="lblRecordsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReportResource1.Text" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="lblReportResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStatementsResource1.Text" xml:space="preserve">
+    <value>Statements</value>
+  </data>
+  <data name="lblStatementsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTheFinResource1.Text" xml:space="preserve">
+    <value>(b) The financial statements of your business for the most recent past financial
+                            year.</value>
+  </data>
+  <data name="lblTheFinResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTheReportResource1.Text" xml:space="preserve">
+    <value>(3) The report is generated based on your input and the comments are for reference
+                            only.</value>
+  </data>
+  <data name="lblTheReportResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWarrantyStatementResource1.Text" xml:space="preserve">
+    <value>Do you plan to incur capital expenditure for the next 3 years ?&lt;br /&gt;
+                                        (E.g. purchase of new equipment , renovation expenses, etc)</value>
+  </data>
+  <data name="lblWeDoNotResource1.Text" xml:space="preserve">
+    <value>(4) We do not warrant the accuracy of the analysis.</value>
+  </data>
+  <data name="lblWeDoNotResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ListItemResource10.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="ListItemResource10.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ListItemResource11.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="ListItemResource11.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ListItemResource12.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="ListItemResource12.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="ListItemResource2.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ListItemResource3.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="ListItemResource3.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ListItemResource4.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="ListItemResource4.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ListItemResource5.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="ListItemResource5.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ListItemResource6.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="ListItemResource6.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ListItemResource7.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="ListItemResource7.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ListItemResource8.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="ListItemResource8.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ListItemResource9.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="ListItemResource9.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="locA3Resource1.Text" xml:space="preserve">
+    <value>Do you have existing working capital loan?&lt;br /&gt;
+                                        (E.g. bank overdraft, trust receipt lines)</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rblQ1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rblQ2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rblQ3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rblQ4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rblQ5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rblQ6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

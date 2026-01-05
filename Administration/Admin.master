@@ -1,0 +1,201 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Admin.master.cs" Inherits="Admin" %>
+<%@ Register Assembly="System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+    Namespace="System.Web.UI" TagPrefix="asp" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajaxToolkit" %>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>CMSPortal</title>
+    <link href="../Administration/StyleSheet.css" rel="stylesheet" type="text/css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+
+    <script type="text/javascript" language="javascript">
+       
+function Changebkcolor(a,col)
+{
+    document.getElementById(a).style.borderColor=col;
+}
+
+// the below function is for GridTestpage for search
+// Function to highlight typed text in auto suggest results
+function ClientPopulated(source, eventArgs)
+{
+    if (source._currentPrefix != null)
+    {
+        var list = source.get_completionList();
+        var search = source._currentPrefix.toLowerCase();
+        for (var i = 0; i < list.childNodes.length; i++)
+        {
+            var text = list.childNodes[i].innerHTML; 
+            var index = text.toLowerCase().indexOf(search);
+            if (index != -1)
+            {
+                var value = text.substring(0, index);
+                value += '<span class="AutoComplete_ListItemHiliteText">';
+                value += text.substr(index, search.length);
+                value += '</span>';
+                value += text.substring(index + search.length);
+                list.childNodes[i].innerHTML = value;
+            }
+        }
+    }
+}
+
+
+// Function to remove highlight span once selected
+function ClientItemSelected(source, e)
+{
+    source.get_element().value = (document.all) ? e._item.innerText : e._item.textContent;
+}
+
+
+    </script>
+
+</head>
+<body style="margin: 0;">
+    <div style="visibility: hidden; position: absolute; height: 0px">
+        <form name="frm2" method="post">
+            <input type="hidden" value='<%=Request["IDforEdit"]%>' name="IDforEdit" style="z-index: 100;
+                left: 0px; position: absolute; top: 0px" />
+        </form>
+    </div>
+    <form id="Form1" runat="server">
+        <table cellpadding="0" cellspacing="0" width="100%" border="0" height="100%">
+            <tr>
+                <td width="100%" height="50px" style="background-color:#2E4d7B;vertical-align:middle;">
+                    <ajaxToolkit:ToolkitScriptManager ID="script" runat="server">
+                    
+                    </ajaxToolkit:ToolkitScriptManager>
+                    
+                    
+                    <table style="float:right;">
+                   
+                    <tr>
+                    <td><span style="color:White;font-weight:bold;margin:5px;">User:<%=Session["GROUP_ID"].ToString()%> / <%=Session["USER_NM"].ToString()%></span></td>
+                    </tr>
+                    
+                     <tr>
+                    <td><a href="../Administration/logout.aspx" style="color:White;font-weight:bold;margin:5px;">Log Out</a></td>
+                    </tr>
+                    </table>
+
+                    
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table cellpadding="0" cellspacing="0" width="100%" height="100%">
+                        <tr>
+                            <td width="22%" valign="top">
+                                <div>
+                                    <table width="95%" cellpadding="2" cellspacing="2" height="100%">
+                                        <tr>
+                                            <td height="100%" style="background-color:#F3F1E9;" valign="top" align="center"> 
+                                                <asp:Panel ID="pnlAccordion" runat="server">
+                                                <div style="text-align:left;display:inline;width:250">
+                                                    <ajaxToolkit:Accordion ID="Accordion1" runat="Server" Width="250" SuppressHeaderPostbacks="true"
+                                                        RequireOpenedPane="true" FramesPerSecond="40" TransitionDuration="250" FadeTransitions="true"
+                                                        AutoSize="None" ContentCssClass="accordionContent" HeaderSelectedCssClass="accordionHeaderSelected"
+                                                        HeaderCssClass="accordionHeader" OnItemDataBound="Accordion1_ItemDataBound">
+                                                        <HeaderTemplate>
+                                                        
+                                                            <a  href='javascript:void(0)'>
+                                                                <%#Eval("status_descr") %>
+                                                            </a>
+                                                            <asp:Label ID="lbl" runat="server" Visible="false" Text='<%#Eval("status_descr") %>'></asp:Label>
+                                                        </HeaderTemplate>
+                                                        <ContentTemplate>
+                                                        
+                                                        
+                                                            <ul class="Submenu">
+                                                                <asp:Repeater ID="rptSubMenus" runat="server">
+                                                                    <ItemTemplate>
+                                                                    <asp:Label id="lblDefLnk" runat="server" Text='<%#Eval("def_link")%>' Visible="false"></asp:Label>
+                                                                    <asp:Label id="lblFuncId" runat="server" Text='<%#Eval("func_id")%>' Visible="false"></asp:Label>
+                                                                    <asp:Label id="lblShrtDesc" runat="server" Text='<%#Eval("shrt_descr")%>' Visible="false"></asp:Label>
+                                                                        <li><asp:Label ID="lblLnk" CssClass="SubmenuItem" runat="server"></asp:Label></li>
+                                                                    </ItemTemplate>
+                                                                </asp:Repeater>
+                                                            </ul>
+                                                        </ContentTemplate>
+                                                    </ajaxToolkit:Accordion>
+                                                    </div>
+                                                </asp:Panel>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </td>
+                            <td width="78%" valign="top">
+                                <table cellpadding="0" cellspacing="0" width="100%">
+                                
+                                    <tr>
+                                        <td>
+                                            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                            </asp:ContentPlaceHolder>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <%Session["page_no"] = null;%>
+    </form>
+
+    <script language="javascript" type="text/javascript">
+			function postForEdit(url,rowid){
+					document.frm2.action=url;
+					document.frm2.IDforEdit.value=rowid;
+					document.frm2.submit();
+			}
+			function toggleAllCheckboexs(toggle){
+				n = document.aspnetForm.elements.length;
+				
+				for(i=0;i<n;i++)
+					if(document.aspnetForm.elements[i].type=="checkbox")
+						if (document.aspnetForm.elements[i].name.indexOf('Cbx')==0)
+							document.aspnetForm.elements[i].checked=toggle;
+			}
+			function tooLong(strTest,maxLength)
+            {
+                if(strTest.value.length > maxLength)
+                {
+                    strTest.value = strTest.value.substr(0,maxLength);
+                    alert("Maximum length is 64 characters");
+                    strTest.focus();
+                }
+            }
+            function display()
+            {
+        
+            var s;
+            document.getElementById('ctl00_ContentPlaceHolder1_upload').focus();
+            s= document.getElementById('ctl00_ContentPlaceHolder1_upload').value; 
+            document.getElementById('ctl00_ContentPlaceHolder1_previewIMG').src=s; 
+            return true;
+            }
+
+         function preview(what) 
+         {  document.getElementById('picField').focus();
+           var field = document.getElementById('picField').value;
+            alert(field);
+            img= new Image();
+            
+            img = document.getElementById('previewIMG');
+ 
+            alert(img);
+            img.src = field;
+
+            alert(img.src+"\n"+field);
+            img.style.display = 'block';
+            img.style.width = "200px";
+            img.style.height = "150px";
+            return true;
+        }
+    </script>
+
+</body>
+</html>

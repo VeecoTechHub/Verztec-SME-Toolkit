@@ -1,0 +1,406 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnCancelResource1.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="btnCancelResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnResetResource1.Text" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="btnResetResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSubmitResource1.Text" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="btnSubmitResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ccCorporateCaptchaResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCompanyResource1.Text" xml:space="preserve">
+    <value>Company</value>
+  </data>
+  <data name="lblCompanyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDes1Resource1.Text" xml:space="preserve">
+    <value>Invalid Captcha characters entered.</value>
+  </data>
+  <data name="lblDes1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDes2Resource1.Text" xml:space="preserve">
+    <value>Registration Successfully Completed.</value>
+  </data>
+  <data name="lblDes2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDes3Resource1.Text" xml:space="preserve">
+    <value>Registration Failed.</value>
+  </data>
+  <data name="lblDes3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDes4Resource1.Text" xml:space="preserve">
+    <value>Welcome to ABS</value>
+  </data>
+  <data name="lblDes4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDesignationResource1.Text" xml:space="preserve">
+    <value>Designation</value>
+  </data>
+  <data name="lblDesignationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEmailResource1.Text" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="lblEmailResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHeadingResource1.Text" xml:space="preserve">
+    <value>Registration for Financial Management Workshop for Business Owners</value>
+  </data>
+  <data name="lblHeadingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIndicateResource1.Text" xml:space="preserve">
+    <value>Indicate Preferred Date&lt;br/&gt;
+and time of meeting</value>
+  </data>
+  <data name="lblIndicateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNotcaseResource1.Text" xml:space="preserve">
+    <value>(Not case sensitive)</value>
+  </data>
+  <data name="lblNotcaseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblParticipantResource1.Text" xml:space="preserve">
+    <value>Participant</value>
+  </data>
+  <data name="lblParticipantResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPleaseResource1.Text" xml:space="preserve">
+    <value>Please indicate 3 dates by order of&lt;br/&gt; preference and the dates should be&lt;br/&gt; at least 7 working days from now</value>
+  </data>
+  <data name="lblPleaseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRequiredResource1.Text" xml:space="preserve">
+    <value>Required fields</value>
+  </data>
+  <data name="lblRequiredResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRErrorResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRErrorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblspecificResource1.Text" xml:space="preserve">
+    <value>Indicate any specific topics &lt;br/&gt;that you wish to consult</value>
+  </data>
+  <data name="lblspecificResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTelephoneResource1.Text" xml:space="preserve">
+    <value>Telephone</value>
+  </data>
+  <data name="lblTelephoneResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTitleResource1.Text" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="lblTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblwordsshownbelowResource1.Text" xml:space="preserve">
+    <value>Please enter the words shown below</value>
+  </data>
+  <data name="lblwordsshownbelowResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>Mr</value>
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value>Mr</value>
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>Mrs</value>
+  </data>
+  <data name="ListItemResource2.Value" xml:space="preserve">
+    <value>Mrs</value>
+  </data>
+  <data name="ListItemResource3.Text" xml:space="preserve">
+    <value>Ms</value>
+  </data>
+  <data name="ListItemResource3.Value" xml:space="preserve">
+    <value>Ms</value>
+  </data>
+  <data name="ListItemResource4.Text" xml:space="preserve">
+    <value>Mdm</value>
+  </data>
+  <data name="ListItemResource4.Value" xml:space="preserve">
+    <value>Mdm</value>
+  </data>
+  <data name="ListItemResource5.Text" xml:space="preserve">
+    <value>Doctor</value>
+  </data>
+  <data name="ListItemResource5.Value" xml:space="preserve">
+    <value>Doctor</value>
+  </data>
+  <data name="locPara1Resource1.Text" xml:space="preserve">
+    <value>
+
+
+
+
+
+
+Businesses with strong financial management capabilities are better able to overcome obstacles that may surface in the pursuit of growth. To grow, it is imperative that entrepreneurs and SMEs develop such capabilities and continuously enhance them so that they are well-positioned to weather storms and capitalise on opportunities. &lt;/br&gt;&lt;/br&gt;
+
+If you are keen to enhance your financial management capabilities, you may like to indicate your interest to attend the financial management workshop.</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rfvEmailResource1.ErrorMessage" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="rfvEmailResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rfvEmailResource1.ToolTip" xml:space="preserve">
+    <value>You must enter a Email</value>
+  </data>
+  <data name="rfvTelephoneResource1.ErrorMessage" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="rfvTelephoneResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rfvTelephoneResource1.ToolTip" xml:space="preserve">
+    <value>You must enter a Telephone</value>
+  </data>
+  <data name="txtCaptchaResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCaptchaResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCompanyResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCompanyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDesignationResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDesignationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEmailResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEmailResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPreferredDatesResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPreferredDatesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTelephoneResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTelephoneResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTopicsResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTopicsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="valCompanyResource1.ErrorMessage" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="valCompanyResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="valCompanyResource1.ToolTip" xml:space="preserve">
+    <value>You must enter a Company</value>
+  </data>
+  <data name="valDesignationResource1.ErrorMessage" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="valDesignationResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="valDesignationResource1.ToolTip" xml:space="preserve">
+    <value>You must enter a Designation</value>
+  </data>
+  <data name="valEmailValidationResource1.ErrorMessage" xml:space="preserve">
+    <value>Please enter valid Email</value>
+  </data>
+  <data name="valEmailValidationResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="valEmailValidationResource1.ToolTip" xml:space="preserve">
+    <value>You must enter a valid e-mail address</value>
+  </data>
+  <data name="valNameResource1.ErrorMessage" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="valNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="valNameResource1.ToolTip" xml:space="preserve">
+    <value>You must enter a Name</value>
+  </data>
+</root>
